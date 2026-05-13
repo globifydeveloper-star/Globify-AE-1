@@ -13,16 +13,16 @@ import judithLeiberLogo from "@/assets/clients/judith-leiber.png";
 import Image from "next/image";
 
 const clients = [
-  { name: "Salomon", logo: salomonLogo.src },
-  { name: "Wilson", logo: wilsonLogo.src },
-  { name: "InstaRunway", logo: instarunwayLogo.src },
-  { name: "ISRO", logo: isroLogo.src },
-  { name: "Moher", logo: moherLogo.src },
-  { name: "Moto Avenue", logo: motoavenueLogo.src },
-  { name: "MR START", logo: mrStartLogo.src },
-  { name: "Telnys", logo: telnysLogo.src },
-  { name: "Ri-Ad", logo: riadLogo.src },
-  { name: "Judith Leiber", logo: judithLeiberLogo.src },
+  { name: "Salomon", logo: salomonLogo },
+  { name: "Wilson", logo: wilsonLogo },
+  { name: "InstaRunway", logo: instarunwayLogo },
+  { name: "ISRO", logo: isroLogo },
+  { name: "Moher", logo: moherLogo },
+  { name: "Moto Avenue", logo: motoavenueLogo },
+  { name: "MR START", logo: mrStartLogo },
+  { name: "Telnys", logo: telnysLogo },
+  { name: "Ri-Ad", logo: riadLogo },
+  { name: "Judith Leiber", logo: judithLeiberLogo },
 ];
 
 const WebDevClients = () => {
@@ -66,3 +66,4 @@ const WebDevClients = () => {
 };
 
 export default WebDevClients;
+

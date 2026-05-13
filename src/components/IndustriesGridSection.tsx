@@ -14,7 +14,7 @@ const industries = [
   {
     icon: Heart,
     title: "Healthcare",
-    image: healthcareImg.src,
+    image: healthcareImg,
     description: "Empowering healthcare providers with HIPAA-compliant digital platforms, telemedicine solutions, and AI-driven diagnostics that improve patient outcomes.",
     services: [
       "Telemedicine & Remote Patient Monitoring",
@@ -29,7 +29,7 @@ const industries = [
   {
     icon: DollarSign,
     title: "Insurance & FinTech",
-    image: fintechImg.src,
+    image: fintechImg,
     description: "Modernizing financial services with secure, regulation-compliant platforms that automate underwriting, claims processing, and customer onboarding.",
     services: [
       "Automated Claims & Underwriting Platforms",
@@ -43,7 +43,7 @@ const industries = [
   {
     icon: ShoppingCart,
     title: "Retail & eCommerce",
-    image: retailImg.src,
+    image: retailImg,
     description: "Building conversion-optimized storefronts and omnichannel retail experiences powered by real-time inventory, personalization engines, and smart search.",
     services: [
       "Headless Commerce Architecture",
@@ -57,7 +57,7 @@ const industries = [
   {
     icon: Settings,
     title: "Supply Chain & ERP",
-    image: supplychainImg.src,
+    image: supplychainImg,
     description: "Digitizing complex supply chains with end-to-end visibility, predictive demand planning, and integrated ERP systems that reduce costs and accelerate delivery.",
     services: [
       "Real-Time Shipment Tracking & Visibility",
@@ -145,9 +145,10 @@ const IndustriesGridSection = () => {
               <div className="relative h-[160px] overflow-hidden">
                 <Image src={current.image}
                   alt={current.title}
+                  fill
                   loading="lazy"
                   decoding="async"
-                  className="w-full h-full object-cover"
+                  className="object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a1a] via-[#0a0a1a]/30 to-transparent" />
                 <div className="absolute bottom-4 left-6 flex items-center gap-2.5">
@@ -203,3 +204,4 @@ const IndustriesGridSection = () => {
 };
 
 export default IndustriesGridSection;
+

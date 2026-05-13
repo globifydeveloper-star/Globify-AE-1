@@ -116,19 +116,21 @@ const DraggableMoon = ({ isMobile }: { isMobile: boolean }) => {
       }}
       onPointerDown={onPointerDown}
     >
-      <Image src="/textures/moon-clean.png"
-        alt=""
-        draggable={false}
-        className="w-full h-full object-cover"
-        style={{
-          borderRadius: "50%",
-          filter: "brightness(1.2) contrast(1.1)",
-          boxShadow:
-            "0 0 20px 5px rgba(200,210,230,0.15), 0 0 40px 12px rgba(180,200,220,0.06)",
-          clipPath: "circle(47%)",
-          pointerEvents: "none",
-        }}
-      />
+     <Image
+    src="/textures/moon-clean.png"
+    alt="Moon"
+    fill
+    draggable={false}
+    className="object-cover"
+    style={{
+      borderRadius: "50%",
+      filter: "brightness(1.2) contrast(1.1)",
+      boxShadow:
+        "0 0 20px 5px rgba(200,210,230,0.15), 0 0 40px 12px rgba(180,200,220,0.06)",
+      clipPath: "circle(47%)",
+      pointerEvents: "none",
+    }}
+  />
     </div>
   );
 };
@@ -418,3 +420,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+

@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useRef, useEffect, ImgHTMLAttributes } from "react";
-import Image from "next/image";
+import Image, { ImageProps } from "next/image";
 
-interface LazyImageProps extends ImgHTMLAttributes<HTMLImageElement> {
+interface LazyImageProps extends Omit<ImageProps, "src" | "alt" | "placeholder"> {
   src: string;
   alt: string;
   placeholderColor?: string;
@@ -33,12 +33,13 @@ const LazyImage = ({ src, alt, className, placeholderColor = "bg-muted", ...prop
     <div ref={imgRef} className={`relative overflow-hidden ${className || ""}`}>
       {!isLoaded && <div className={`absolute inset-0 ${placeholderColor} animate-pulse`} />}
       {isInView && (
-        // @ts-ignore
-        <Image src={src}
+        <Image
+          src={src}
           alt={alt}
+          fill
           loading="lazy"
           decoding="async"
-          onLoad={() => setIsLoaded(true)}
+          onLoadingComplete={() => setIsLoaded(true)}
           className={`w-full h-full object-cover transition-opacity duration-500 ${isLoaded ? "opacity-100" : "opacity-0"}`}
           {...props}
         />
@@ -48,3 +49,4 @@ const LazyImage = ({ src, alt, className, placeholderColor = "bg-muted", ...prop
 };
 
 export default LazyImage;
+

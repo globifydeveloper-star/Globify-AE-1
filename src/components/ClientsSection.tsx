@@ -13,16 +13,16 @@ import judithLeiberLogo from "@/assets/clients/judith-leiber.png";
 import Image from "next/image";
 
 const clients = [
-  { name: "Salomon", logo: salomonLogo.src },
-  { name: "Wilson", logo: wilsonLogo.src },
-  { name: "InstaRunway", logo: instarunwayLogo.src },
-  { name: "ISRO", logo: isroLogo.src },
-  { name: "Moher", logo: moherLogo.src },
-  { name: "Moto Avenue", logo: motoavenueLogo.src },
-  { name: "MR START", logo: mrStartLogo.src },
-  { name: "Telnys", logo: telnysLogo.src },
-  { name: "Ri-Ad", logo: riadLogo.src },
-  { name: "Judith Leiber", logo: judithLeiberLogo.src },
+  { name: "Salomon", logo: salomonLogo },
+  { name: "Wilson", logo: wilsonLogo },
+  { name: "InstaRunway", logo: instarunwayLogo },
+  { name: "ISRO", logo: isroLogo },
+  { name: "Moher", logo: moherLogo },
+  { name: "Moto Avenue", logo: motoavenueLogo },
+  { name: "MR START", logo: mrStartLogo },
+  { name: "Telnys", logo: telnysLogo },
+  { name: "Ri-Ad", logo: riadLogo },
+  { name: "Judith Leiber", logo: judithLeiberLogo },
 ];
 
 const ClientsSection = () => {
@@ -39,6 +39,8 @@ const ClientsSection = () => {
           <Image key={client.name}
             src={client.logo}
             alt={client.name}
+            width={120}
+            height={48}
             loading="lazy"
             decoding="async"
             className="h-12 w-auto object-contain grayscale opacity-70"
@@ -56,6 +58,8 @@ const ClientsSection = () => {
               <Image key={client.name}
                 src={client.logo}
                 alt={client.name}
+                width={160}
+                height={80}
                 loading="lazy"
                 decoding="async"
                 className="h-20 w-auto object-contain shrink-0"
@@ -68,6 +72,8 @@ const ClientsSection = () => {
               <Image key={`${client.name}-dup`}
                 src={client.logo}
                 alt={client.name}
+                width={160}
+                height={80}
                 loading="lazy"
                 decoding="async"
                 className="h-20 w-auto object-contain shrink-0"
@@ -82,3 +88,4 @@ const ClientsSection = () => {
 };
 
 export default ClientsSection;
+

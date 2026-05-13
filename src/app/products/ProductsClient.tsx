@@ -25,7 +25,7 @@ const products = [
     tagline: "Hospital Management System",
     description:
       "A comprehensive healthcare management platform designed to digitize every aspect of hospital operations, from patient registration to diagnostics, billing, pharmacy, and beyond.",
-    image: portfolioHealthcare.src,
+    image: portfolioHealthcare,
     features: [
       { icon: Activity, title: "Patient Lifecycle Management", desc: "End-to-end tracking from admission to discharge with real-time status updates." },
       { icon: Users, title: "OPD & IPD Modules", desc: "Streamlined outpatient and inpatient workflows with appointment scheduling and bed management." },
@@ -57,7 +57,7 @@ const products = [
     tagline: "Enterprise Resource Planning",
     description:
       "A modular ERP platform built for modern enterprises, unifying inventory, manufacturing, finance, HR, and supply chain into a single intelligent system.",
-    image: portfolioErp.src,
+    image: portfolioErp,
     features: [
       { icon: Package, title: "Inventory & Warehouse", desc: "Real-time stock visibility, multi-warehouse management, and automated reorder points." },
       { icon: TrendingUp, title: "Finance & Accounting", desc: "Comprehensive ledger management, GST compliance, and automated financial reporting." },
@@ -356,3 +356,4 @@ const ProductsPage = () => {
 };
 
 export default ProductsPage;
+

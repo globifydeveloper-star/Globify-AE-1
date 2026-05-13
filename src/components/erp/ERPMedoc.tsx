@@ -49,7 +49,7 @@ const ERPMedoc = () => {
           </motion.div>
 
           <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="relative rounded-2xl overflow-hidden">
-            <Image src={portfolioHealthcare} alt="MEDOC Hospital Management System" className="w-full h-[380px] object-cover rounded-2xl" />
+            <Image src={portfolioHealthcare} alt="MEDOC Hospital Management System" width={1200} height={380} className="w-full h-[380px] object-cover rounded-2xl" />
             <div className="absolute inset-0 bg-gradient-to-t from-hero/40 to-transparent rounded-2xl" />
           </motion.div>
         </div>
@@ -92,3 +92,4 @@ const ERPMedoc = () => {
 };
 
 export default ERPMedoc;
+

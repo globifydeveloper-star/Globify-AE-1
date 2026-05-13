@@ -31,7 +31,7 @@ const projects = [
     slug: "wilson",
     category: "E-Commerce",
     description: "A century of innovation meets modern technology — UI/UX design, web development, e-commerce, and SEO for a global sports brand.",
-    image: portfolioWilson.src,
+    image: portfolioWilson,
     stats: { metric: "500K+", label: "Monthly Users" },
     tags: ["UI/UX", "Web Dev", "E-Commerce", "SEO"],
     year: "2024",
@@ -41,7 +41,7 @@ const projects = [
     slug: "salomon",
     category: "E-Commerce",
     description: "GCC distributor store for a world-leading outdoor sports brand — custom Shopify theme with Arabic RTL, multi-language, and multi-country localization.",
-    image: portfolioSalomon.src,
+    image: portfolioSalomon,
     stats: { metric: "320%", label: "Revenue Growth" },
     tags: ["Shopify", "GCC", "E-Commerce", "Performance"],
     year: "2024",
@@ -50,7 +50,7 @@ const projects = [
     title: "American Koil",
     category: "E-Commerce",
     description: "Premium sleep brand transformed with a compelling digital storefront, immersive product pages, and seamless checkout.",
-    image: portfolioAmericanKoil.src,
+    image: portfolioAmericanKoil,
     stats: { metric: "180%", label: "Revenue Growth" },
     tags: ["UI/UX", "Web Dev", "E-Commerce"],
     year: "2024",
@@ -60,7 +60,7 @@ const projects = [
     slug: "moher",
     category: "E-Commerce",
     description: "Multi-brand fashion retailer's complete digital overhaul — UI/UX, web development, e-commerce, branding, and performance marketing.",
-    image: portfolioMoher.src,
+    image: portfolioMoher,
     stats: { metric: "45%", label: "Bounce Rate Drop" },
     tags: ["UI/UX", "E-Commerce", "Branding", "Marketing"],
     year: "2023",
@@ -70,7 +70,7 @@ const projects = [
     slug: "instarunway",
     category: "E-Commerce",
     description: "Luxury fashion and lifestyle marketplace with stunning UI/UX design, web development, and e-commerce integration.",
-    image: portfolioInstaRunway.src,
+    image: portfolioInstaRunway,
     stats: { metric: "3.2x", label: "Conversion Lift" },
     tags: ["UI/UX", "Web Dev", "E-Commerce"],
     year: "2024",
@@ -80,7 +80,7 @@ const projects = [
     slug: "judith-leiber",
     category: "E-Commerce",
     description: "Iconic luxury brand's digital presence reimagined with elegant UI/UX, web development, and e-commerce solutions.",
-    image: portfolioJudithLeiber.src,
+    image: portfolioJudithLeiber,
     stats: { metric: "220%", label: "Online Sales Growth" },
     tags: ["UI/UX", "Web Dev", "E-Commerce"],
     year: "2024",
@@ -90,7 +90,7 @@ const projects = [
     slug: "kat-maconie",
     category: "E-Commerce",
     description: "Bold luxury footwear brand elevated with striking UI/UX, web development, e-commerce, and SEO strategy.",
-    image: portfolioKatMaconie.src,
+    image: portfolioKatMaconie,
     stats: { metric: "85%", label: "Organic Traffic Up" },
     tags: ["UI/UX", "Web Dev", "E-Commerce", "SEO"],
     year: "2023",
@@ -99,7 +99,7 @@ const projects = [
     title: "Beflare",
     category: "Web App",
     description: "Modern wedding photography and event management web platform with elegant UI/UX and seamless web development.",
-    image: portfolioBeflare.src,
+    image: portfolioBeflare,
     stats: { metric: "150%", label: "Lead Generation" },
     tags: ["UI/UX", "Web Dev"],
     year: "2024",
@@ -109,7 +109,7 @@ const projects = [
     slug: "ekasys-erp",
     category: "ERP",
     description: "Enterprise retail and distribution management system with comprehensive UI/UX design and app development.",
-    image: portfolioEkasysRetail.src,
+    image: portfolioEkasysRetail,
     stats: { metric: "40%", label: "Efficiency Gain" },
     tags: ["UI/UX", "App Dev"],
     year: "2024",
@@ -119,7 +119,7 @@ const projects = [
     slug: "ekasys-erp",
     category: "App Development",
     description: "Complete real estate management application with property tracking, tenant management, and financial analytics.",
-    image: portfolioEkasysRE.src,
+    image: portfolioEkasysRE,
     stats: { metric: "300+", label: "Properties Managed" },
     tags: ["UI/UX", "App Dev"],
     year: "2023",
@@ -129,7 +129,7 @@ const projects = [
     slug: "medoc-hms",
     category: "Healthcare",
     description: "Comprehensive hospital management system for clinical chains with patient records, scheduling, and real-time analytics.",
-    image: portfolioMedoc.src,
+    image: portfolioMedoc,
     stats: { metric: "2,000+", label: "Clinics Onboarded" },
     tags: ["UI/UX", "App Dev"],
     year: "2024",
@@ -218,7 +218,7 @@ const ProjectsPage = () => {
                   className="group relative rounded-2xl overflow-hidden cursor-pointer border border-border hover:border-primary/20 transition-all duration-500 bg-card"
                 >
                   <div className="relative aspect-[3/2] md:aspect-auto md:h-[380px] bg-[#0a0a1a] overflow-hidden">
-                    <Image src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" draggable={false} />
+                    <Image src={project.image} alt={project.title} fill className="object-cover transition-transform duration-700 group-hover:scale-105" draggable={false} />
                     <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a1a]/80 via-transparent to-[#0a0a1a]/90" />
                     <div className="absolute top-2 left-5 right-4 md:top-5 md:left-7 md:right-5 flex items-start justify-between gap-3">
                       <div>
@@ -295,3 +295,4 @@ const ProjectsPage = () => {
 };
 
 export default ProjectsPage;
+

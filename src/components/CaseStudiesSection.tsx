@@ -23,7 +23,7 @@ const projects = [
     title: "Wilson",
     category: "Sports E-commerce & Retail",
     description: "A century of innovation meets modern technology — UI/UX design, web development, e-commerce, and SEO for a global sports brand.",
-    image: portfolioWilson.src,
+    image: portfolioWilson,
     stats: { metric: "500K+", label: "Monthly Users" },
     tags: ["UI/UX", "Web Dev", "E-Commerce", "SEO"],
     slug: "wilson",
@@ -32,7 +32,7 @@ const projects = [
     title: "American Koil",
     category: "Sleep & Mattress Solutions",
     description: "Premium sleep brand transformed with a compelling digital storefront, immersive product pages, and seamless checkout.",
-    image: portfolioAmericanKoil.src,
+    image: portfolioAmericanKoil,
     stats: { metric: "180%", label: "Revenue Growth" },
     tags: ["UI/UX", "Web Dev", "E-Commerce"],
   },
@@ -40,7 +40,7 @@ const projects = [
     title: "Moher",
     category: "Fashion E-Commerce",
     description: "Multi-brand fashion retailer's complete digital overhaul — UI/UX, web development, e-commerce, branding, and performance marketing.",
-    image: portfolioMoher.src,
+    image: portfolioMoher,
     stats: { metric: "45%", label: "Bounce Rate Drop" },
     tags: ["UI/UX", "E-Commerce", "Branding", "Marketing"],
     slug: "moher",
@@ -49,7 +49,7 @@ const projects = [
     title: "InstaRunway",
     category: "Fashion & Lifestyle Marketplace",
     description: "Luxury fashion and lifestyle marketplace with stunning UI/UX design, web development, and e-commerce integration.",
-    image: portfolioInstaRunway.src,
+    image: portfolioInstaRunway,
     stats: { metric: "3.2x", label: "Conversion Lift" },
     tags: ["UI/UX", "Web Dev", "E-Commerce"],
     slug: "instarunway",
@@ -58,7 +58,7 @@ const projects = [
     title: "Judith Leiber",
     category: "Luxury Fashion & Accessories",
     description: "Iconic luxury brand's digital presence reimagined with elegant UI/UX, web development, and e-commerce solutions.",
-    image: portfolioJudithLeiber.src,
+    image: portfolioJudithLeiber,
     stats: { metric: "220%", label: "Online Sales Growth" },
     tags: ["UI/UX", "Web Dev", "E-Commerce"],
     slug: "judith-leiber",
@@ -67,7 +67,7 @@ const projects = [
     title: "Kat Maconie",
     category: "Luxury E-commerce & Retail",
     description: "Bold luxury footwear brand elevated with striking UI/UX, web development, e-commerce, and SEO strategy.",
-    image: portfolioKatMaconie.src,
+    image: portfolioKatMaconie,
     stats: { metric: "85%", label: "Organic Traffic Up" },
     tags: ["UI/UX", "Web Dev", "E-Commerce", "SEO"],
     slug: "kat-maconie",
@@ -76,7 +76,7 @@ const projects = [
     title: "Beflare",
     category: "Event Management Platform",
     description: "Modern wedding photography and event management web platform with elegant UI/UX and seamless web development.",
-    image: portfolioBeflare.src,
+    image: portfolioBeflare,
     stats: { metric: "150%", label: "Lead Generation" },
     tags: ["UI/UX", "Web Dev"],
   },
@@ -84,7 +84,7 @@ const projects = [
     title: "Ekasys ERP",
     category: "Retail & Distribution Management",
     description: "Enterprise retail and distribution management system with comprehensive UI/UX design and app development.",
-    image: portfolioEkasysRetail.src,
+    image: portfolioEkasysRetail,
     stats: { metric: "40%", label: "Efficiency Gain" },
     tags: ["UI/UX", "App Dev"],
     slug: "ekasys-erp",
@@ -93,7 +93,7 @@ const projects = [
     title: "Ekasys Real Estate",
     category: "Real Estate Management System",
     description: "Complete real estate management application with property tracking, tenant management, and financial analytics.",
-    image: portfolioEkasysRE.src,
+    image: portfolioEkasysRE,
     stats: { metric: "300+", label: "Properties Managed" },
     tags: ["UI/UX", "App Dev"],
   },
@@ -101,7 +101,7 @@ const projects = [
     title: "Medoc HMS",
     category: "Clinical Chains & Hospitals",
     description: "Comprehensive hospital management system for clinical chains with patient records, scheduling, and real-time analytics.",
-    image: portfolioMedoc.src,
+    image: portfolioMedoc,
     stats: { metric: "200+", label: "Hospitals Onboarded" },
     tags: ["UI/UX", "App Dev"],
     slug: "medoc-hms",
@@ -255,9 +255,10 @@ const CaseStudiesSection = () => {
                 <div className="relative h-[400px] md:h-[450px] overflow-hidden">
                   <Image src={project.image}
                     alt={project.title}
+                    fill
                     loading="lazy"
                     decoding="async"
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 pointer-events-none"
+                    className="object-cover transition-transform duration-700 group-hover:scale-105 pointer-events-none"
                     draggable={false}
                   />
                   {/* Strong gradient overlay for text readability */}
@@ -346,3 +347,4 @@ const CaseStudiesSection = () => {
 };
 
 export default CaseStudiesSection;
+

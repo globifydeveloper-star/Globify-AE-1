@@ -47,7 +47,7 @@ const CaseStudySalomon = () => {
               </div>
             </motion.div>
             <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.2 }} className="rounded-2xl overflow-hidden">
-              <Image src={clientSalomon} alt="Salomon brand" className="w-full h-[350px] object-cover rounded-2xl" />
+              <Image src={clientSalomon} alt="Salomon brand" width={1200} height={350} className="w-full h-[350px] object-cover rounded-2xl" />
             </motion.div>
           </div>
         </div>
@@ -141,3 +141,4 @@ const CaseStudySalomon = () => {
 };
 
 export default CaseStudySalomon;
+

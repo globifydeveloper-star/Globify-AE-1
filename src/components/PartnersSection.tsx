@@ -14,22 +14,22 @@ import stripeLogo from "@/assets/partners/stripe.svg";
 import Image from "next/image";
 
 type Partner = 
-  | { type: "image"; name: string; logo: string }
+  | { type: "image"; name: string; logo: any }
   | { type: "text"; name: string; style: string; suffix?: string; suffixStyle?: string };
 
 const partners: Partner[] = [
-  { type: "image", name: "Shopify", logo: shopifyLogo.src },
+  { type: "image", name: "Shopify", logo: shopifyLogo },
   { type: "text", name: "klaviyo", style: "font-bold text-2xl md:text-3xl" },
-  { type: "image", name: "Meta", logo: metaLogo.src },
+  { type: "image", name: "Meta", logo: metaLogo },
   { type: "text", name: "CloudQ", style: "font-extrabold text-2xl md:text-3xl tracking-wide" },
-  { type: "image", name: "Mailchimp", logo: mailchimpLogo.src },
-  { type: "image", name: "AWS", logo: awsLogo.src },
-  { type: "image", name: "Google", logo: googleLogo.src },
-  { type: "image", name: "HubSpot", logo: hubspotLogo.src },
+  { type: "image", name: "Mailchimp", logo: mailchimpLogo },
+  { type: "image", name: "AWS", logo: awsLogo },
+  { type: "image", name: "Google", logo: googleLogo },
+  { type: "image", name: "HubSpot", logo: hubspotLogo },
   { type: "text", name: "make.", style: "font-extrabold text-2xl md:text-3xl" },
-  { type: "image", name: "Microsoft", logo: microsoftLogo.src },
-  { type: "image", name: "Cloudflare", logo: cloudflareLogo.src },
-  { type: "image", name: "Stripe", logo: stripeLogo.src },
+  { type: "image", name: "Microsoft", logo: microsoftLogo },
+  { type: "image", name: "Cloudflare", logo: cloudflareLogo },
+  { type: "image", name: "Stripe", logo: stripeLogo },
 ];
 
 const PartnersSection = () => {
@@ -67,6 +67,8 @@ const PartnersSection = () => {
                 <div className="flex items-center gap-2 sm:gap-3 min-w-0">
                   <Image src={partner.logo}
                     alt={partner.name}
+                    width={100}
+                    height={40}
                     loading="lazy"
                     decoding="async"
                     className="h-7 sm:h-8 md:h-10 w-auto max-w-[80px] sm:max-w-[100px] md:max-w-none object-contain flex-shrink-0"
@@ -94,3 +96,4 @@ const PartnersSection = () => {
 };
 
 export default PartnersSection;
+
