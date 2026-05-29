@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, Calendar, Clock, ArrowRight, User } from "lucide-react";
@@ -13,29 +12,6 @@ import React from "react";
 type Props = {
   params: { slug: string };
 };
-
-export function generateMetadata({ params }: Props): Metadata {
-  const post = blogPosts.find((p) => p.slug === params.slug);
-  if (!post) {
-    const cleanSlug = params.slug.replace(/-/g, ' ');
-    const titleStr = cleanSlug.split(' ').map(p => p.charAt(0).toUpperCase() + p.slice(1)).join(' ');
-    return {
-      title: "${titleStr}",
-      description: `Explore our ${titleStr} services and solutions at Globify.`,
-      alternates: {
-        canonical: `/blog/${params.slug}`,
-      },
-    };
-  }
-  
-  return {
-    title: "${post.metaTitle}",
-    description: post.metaDescription,
-    alternates: {
-      canonical: `/blog/${params.slug}`,
-    },
-  };
-}
 
 export default function Page({ params }: Props) {
   const post = blogPosts.find((p) => p.slug === params.slug);
