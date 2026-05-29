@@ -11,7 +11,7 @@ export const magentoBlogPosts: BlogPost[] = [
     metaTitle: "Magento vs Shopify for Enterprise E-Commerce",
     metaDescription: "Magento vs Shopify Plus for enterprise. Compare scalability, B2B features, total cost, and flexibility to choose the right platform.",
     excerpt: "Enterprise e-commerce demands more than a basic platform. Compare Magento and Shopify Plus across scalability, cost, B2B features, and customisation.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-08",
     readTime: "9 min read",
     featured: true,
@@ -157,7 +157,7 @@ Less common but happens when businesses need deeper customisation, multi-store a
     metaTitle: "Adobe Commerce vs Magento Open Source",
     metaDescription: "Adobe Commerce or Magento Open Source? Compare licensing, features, hosting, and support to pick the right Magento version for your store.",
     excerpt: "Same core, different packages. Understand the key differences between Adobe Commerce and Magento Open Source to make the right investment decision.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-14",
     readTime: "7 min read",
     internalLinks: [
@@ -287,7 +287,7 @@ For many enterprises, the math favours Adobe Commerce when B2B features and mana
     metaTitle: "Magento Development & Maintenance Cost 2026",
     metaDescription: "Transparent Magento cost breakdown. Development, hosting, extensions, and ongoing maintenance budgets for Open Source and Adobe Commerce.",
     excerpt: "Magento is powerful but not cheap. Get a realistic breakdown of development, hosting, extension, and maintenance costs before you commit.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-22",
     readTime: "8 min read",
     internalLinks: [
@@ -444,7 +444,7 @@ Add Adobe Commerce licensing ($22,000–$125,000/year) if using the paid version
     metaTitle: "When to Migrate from Magento to Shopify",
     metaDescription: "Signs it's time to leave Magento for Shopify. Migration triggers, process, timeline, and SEO preservation strategies explained.",
     excerpt: "Magento served you well, but is it still the right fit? Identify the signals that it's time to migrate to Shopify and how to do it without losing momentum.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-28",
     readTime: "7 min read",
     internalLinks: [
@@ -586,7 +586,7 @@ Factor in Shopify Plus subscription ($2,000/month+) and app costs when calculati
     metaTitle: "Magento B2B & Wholesale: Complete Guide",
     metaDescription: "Magento's B2B capabilities explained. Company accounts, shared catalogues, quote workflows, and purchase order management for wholesale commerce.",
     excerpt: "Magento is the gold standard for B2B e-commerce. Learn how to leverage company accounts, shared catalogues, and quote workflows for wholesale success.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-03",
     readTime: "10 min read",
     internalLinks: [
@@ -758,7 +758,7 @@ ERP integration is the most complex and time-consuming aspect. Start integration
     metaTitle: "Headless Magento: Benefits & Use Cases",
     metaDescription: "Go headless with Magento. Architecture patterns, performance benefits, PWA options, and when headless Magento makes business sense.",
     excerpt: "Headless Magento decouples the frontend for speed and flexibility. Learn the architecture, benefits, and when headless is worth the investment.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-08",
     readTime: "8 min read",
     internalLinks: [
@@ -932,7 +932,7 @@ This is in addition to Magento backend costs. Headless is an investment that pay
     metaTitle: "Scale Global E-Commerce with Adobe Commerce",
     metaDescription: "Scale globally with Adobe Commerce. Multi-store, multi-language, multi-currency architecture for international e-commerce expansion.",
     excerpt: "Adobe Commerce's multi-store architecture powers global brands. Learn how to architect international e-commerce for multiple markets from a single platform.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-14",
     readTime: "9 min read",
     internalLinks: [
@@ -1129,7 +1129,7 @@ Track per-market KPIs:
     metaTitle: "Magento Performance Optimisation Strategies",
     metaDescription: "Speed up your Magento store. Varnish caching, Elasticsearch tuning, Redis config, CDN setup, and database optimisation strategies.",
     excerpt: "Magento performance requires active management. Learn the server, caching, and frontend strategies that keep enterprise stores fast under load.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-20",
     readTime: "9 min read",
     internalLinks: [
@@ -1307,7 +1307,7 @@ Before major sales events, load test your store:
     metaTitle: "Common Magento Challenges & Solutions 2026",
     metaDescription: "Overcome Magento's biggest challenges. Performance, security, upgrades, developer scarcity, and cost management solutions from experts.",
     excerpt: "Magento is powerful but challenging. From performance issues to developer scarcity, here's how to solve the most common Magento pain points.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-28",
     readTime: "8 min read",
     internalLinks: [
@@ -1459,7 +1459,7 @@ The decision isn't about Magento being "bad"—it's about alignment between plat
     metaTitle: "Magento Migration to Modern Platforms Guide",
     metaDescription: "Complete Magento migration guide. Shopify, headless, BigCommerce options. Data transfer, SEO, timeline, and cost planning for replatforming.",
     excerpt: "Ready to leave Magento? This comprehensive guide covers migration options, data transfer, SEO preservation, and realistic timelines for replatforming.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-03-05",
     readTime: "10 min read",
     internalLinks: [

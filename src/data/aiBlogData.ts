@@ -12,7 +12,7 @@ export const aiBlogPosts: BlogPost[] = [
     metaTitle: "AI Agents in 2026: Autonomous Systems for Business",
     metaDescription: "Discover how AI agents are automating complex business workflows in 2026. Learn how UAE and India enterprises cut costs by 40% with autonomous AI systems.",
     excerpt: "Agentic AI is the biggest shift since cloud computing. Learn how autonomous AI systems are handling multi-step business workflows, and how UAE and India enterprises are leading adoption.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-15",
     readTime: "10 min read",
     featured: true,
@@ -176,7 +176,7 @@ Globify's AI & Automation practice helps businesses in the UAE and India identif
     metaTitle: "Generative AI for E-Commerce: Personalization & Pricing",
     metaDescription: "How generative AI is revolutionizing e-commerce with hyper-personalization, dynamic pricing, and demand forecasting. Real strategies for UAE and India retailers.",
     excerpt: "Generative AI is rewriting the rules of e-commerce. From AI-generated product descriptions to real-time dynamic pricing, discover how retailers in UAE and India are gaining a 25% revenue edge.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-10",
     readTime: "9 min read",
     internalLinks: [
@@ -332,7 +332,7 @@ Globify combines deep e-commerce expertise with cutting-edge AI capabilities to 
     metaTitle: "AI + ERP: Intelligent Enterprise Platforms 2026",
     metaDescription: "How AI is transforming ERP systems into intelligent enterprise platforms. Real-world examples of AI-powered ERP driving 40% efficiency gains in UAE and India.",
     excerpt: "The convergence of AI and ERP is creating a new category: intelligent enterprise platforms. Learn how businesses in UAE and India are using AI-powered ERP to gain unprecedented operational intelligence.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-08",
     readTime: "9 min read",
     internalLinks: [
@@ -487,7 +487,7 @@ Our proprietary ERP products, **Ekasys** for enterprise management and **Medoc**
     metaTitle: "AI Workflow Automation: 40% Cost Reduction Guide",
     metaDescription: "Real-world examples of how AI workflow automation reduces costs by 40%. Step-by-step implementation guide for UAE and India businesses in 2026.",
     excerpt: "Companies deploying AI-powered workflow automation are seeing 40% cost reductions across operations. Here's how businesses in UAE and India are implementing it, with real numbers and frameworks.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-05",
     readTime: "8 min read",
     internalLinks: [
@@ -668,7 +668,7 @@ Globify helps businesses in the UAE and India design, implement, and optimize AI
     metaTitle: "AI Customer Experience: Conversational Commerce 2026",
     metaDescription: "How AI chatbots and conversational commerce are transforming customer experience in UAE and India. WhatsApp AI, voice commerce, and CX automation strategies.",
     excerpt: "Conversational commerce is the fastest-growing channel in Middle East and India. Learn how AI-powered chatbots on WhatsApp, Instagram, and voice platforms are driving 3x higher conversions.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-28",
     readTime: "9 min read",
     internalLinks: [
@@ -853,7 +853,7 @@ Globify designs and builds AI-powered conversational commerce solutions that dri
     metaTitle: "Predictive AI for Supply Chain & Inventory 2026",
     metaDescription: "How predictive AI is optimizing supply chains and inventory for UAE and India businesses. Reduce stockouts by 45%, cut carrying costs by 30%. Implementation guide.",
     excerpt: "Supply chain disruptions cost businesses $4 trillion globally in 2025. Predictive AI is the answer, reducing stockouts by 45% and inventory costs by 30%. Here's your implementation roadmap.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-20",
     readTime: "10 min read",
     internalLinks: [

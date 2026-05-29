@@ -27,7 +27,7 @@ export async function POST(request: Request) {
     } = data;
 
     // A fallback subject line if not provided
-    const subjectLine = "New Lead Submission - Globify.in";
+    const subjectLine = "New Lead Submission - Globify.ae";
 
     const emailHtml = `
       <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 600px; margin: 0 auto; color: #171717; background-color: #FFFFFF; border: 1px solid #E5E5E5; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">

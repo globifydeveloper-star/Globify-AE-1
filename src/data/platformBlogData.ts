@@ -11,7 +11,7 @@ export const platformBlogPosts: BlogPost[] = [
     metaTitle: "WooCommerce vs Shopware for German E-Commerce 2026",
     metaDescription: "Compare WooCommerce and Shopware for German businesses. Features, pricing, B2B capabilities, and DACH market fit. Expert analysis from Globify.",
     excerpt: "Germany's e-commerce market demands platforms that understand local payments, tax compliance, and B2B workflows. Here's how WooCommerce and Shopware compare for DACH businesses in 2026.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-03-01",
     readTime: "9 min read",
     featured: true,
@@ -35,7 +35,7 @@ export const platformBlogPosts: BlogPost[] = [
     metaTitle: "PrestaShop in France: Why It Still Dominates 2026",
     metaDescription: "PrestaShop holds 30%+ market share in France. Discover why French businesses choose PrestaShop and how to leverage it for European growth.",
     excerpt: "PrestaShop remains the dominant e-commerce platform in France with over 30% market share. Here's why French businesses continue to choose it over Shopify and WooCommerce.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-28",
     readTime: "8 min read",
     internalLinks: [
@@ -58,7 +58,7 @@ export const platformBlogPosts: BlogPost[] = [
     metaTitle: "Headless Commerce Trends Europe: Shopware & Beyond",
     metaDescription: "Explore headless commerce adoption in Europe. Compare Shopware, commercetools, and BigCommerce for API-first architecture. 2026 trends and strategies.",
     excerpt: "European businesses are rapidly adopting headless commerce for faster, more flexible shopping experiences. Here's what's driving the trend and which platforms lead.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-25",
     readTime: "10 min read",
     internalLinks: [
@@ -81,7 +81,7 @@ export const platformBlogPosts: BlogPost[] = [
     metaTitle: "Best Platforms for Cross-Border EU E-Commerce 2026",
     metaDescription: "Compare e-commerce platforms for cross-border selling in the EU. VAT compliance, multi-currency, local payments, and logistics. Expert guide from Globify.",
     excerpt: "Selling across EU borders requires platforms that handle VAT OSS, multi-currency, local payments, and cross-border logistics natively. Here's the definitive platform comparison.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-20",
     readTime: "9 min read",
     internalLinks: [
@@ -103,7 +103,7 @@ export const platformBlogPosts: BlogPost[] = [
     metaTitle: "GDPR-Compliant E-Commerce Platform Comparison",
     metaDescription: "Which e-commerce platforms are truly GDPR compliant? Compare PrestaShop, Shopware, Shopify, and WooCommerce for European data privacy requirements.",
     excerpt: "GDPR compliance isn't optional for European e-commerce. Here's how major platforms compare on consent management, data processing, and privacy by design.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-18",
     readTime: "7 min read",
     internalLinks: [
@@ -125,7 +125,7 @@ export const platformBlogPosts: BlogPost[] = [
     metaTitle: "Localization vs Translation for European E-Commerce",
     metaDescription: "Translation isn't localization. Learn what European shoppers actually expect from localized e-commerce experiences and how to implement it on any platform.",
     excerpt: "75% of consumers prefer buying in their native language, but translation alone isn't enough. European shoppers expect fully localized experiences — from currency to customer service.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-15",
     readTime: "8 min read",
     internalLinks: [
@@ -147,7 +147,7 @@ export const platformBlogPosts: BlogPost[] = [
     metaTitle: "Wix vs Shopify for D2C Brands in UAE & GCC",
     metaDescription: "Comparing Wix and Shopify for D2C brands in the UAE and GCC. Cost, features, Arabic support, and payment integrations. Which platform wins?",
     excerpt: "Launching a D2C brand in the UAE? Here's an honest comparison of Wix and Shopify for GCC-based businesses — from Arabic support to local payment integration.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-28",
     readTime: "7 min read",
     internalLinks: [
@@ -169,7 +169,7 @@ export const platformBlogPosts: BlogPost[] = [
     metaTitle: "Best E-Commerce Platform for Indian Business 2026",
     metaDescription: "Compare Shopify, WooCommerce, and Wix for Indian businesses. UPI integration, pricing in INR, and local logistics. Expert guide from Globify.",
     excerpt: "India's e-commerce market is projected to reach $200 billion by 2026. Here's how to choose the right platform based on your business size, budget, and growth plans.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-25",
     readTime: "8 min read",
     internalLinks: [
@@ -191,7 +191,7 @@ export const platformBlogPosts: BlogPost[] = [
     metaTitle: "When to Migrate from Wix: 7 Warning Signs",
     metaDescription: "Is your Wix store holding you back? 7 signs it's time to migrate to Shopify or WooCommerce. Migration guide with SEO preservation tips.",
     excerpt: "Wix is great for launching, but many businesses outgrow it. Here are 7 clear signs it's time to migrate — and how to do it without losing SEO or sales.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-22",
     readTime: "7 min read",
     internalLinks: [
@@ -213,7 +213,7 @@ export const platformBlogPosts: BlogPost[] = [
     metaTitle: "WooCommerce to Shopify Migration: SEO Checklist",
     metaDescription: "Complete guide to migrating from WooCommerce to Shopify without losing SEO rankings. Step-by-step checklist, timeline, and cost breakdown.",
     excerpt: "Migrating from WooCommerce to Shopify? Follow this complete guide with our SEO preservation checklist to ensure zero traffic loss during your platform switch.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-18",
     readTime: "10 min read",
     internalLinks: [
@@ -235,7 +235,7 @@ export const platformBlogPosts: BlogPost[] = [
     metaTitle: "Magento 1 End-of-Life: Migration Options 2026",
     metaDescription: "Still on Magento 1? Your store is at risk. Compare migration options to Magento 2, Shopify Plus, and Shopware. Timeline and cost guide.",
     excerpt: "Magento 1 reached end-of-life in 2020. If you're still running M1, your store faces security risks, performance degradation, and compliance issues. Here are your migration options.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-15",
     readTime: "8 min read",
     internalLinks: [
@@ -257,7 +257,7 @@ export const platformBlogPosts: BlogPost[] = [
     metaTitle: "Scaling Global E-Commerce: Multi-Region Strategy",
     metaDescription: "How to architect your e-commerce platform for multi-region global growth. Multi-storefront, headless, and localisation strategies from Globify.",
     excerpt: "Scaling e-commerce globally requires more than translation. Here's how to architect your platform for multi-region success — from infrastructure to localisation.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-12",
     readTime: "9 min read",
     internalLinks: [
@@ -279,7 +279,7 @@ export const platformBlogPosts: BlogPost[] = [
     metaTitle: "CRO Strategies for European E-Commerce by Country",
     metaDescription: "Conversion strategies differ across European markets. Country-by-country CRO breakdown for Germany, France, Spain, Italy, and Netherlands.",
     excerpt: "What converts in Germany doesn't convert in Spain. Here's a country-by-country CRO breakdown for European e-commerce — backed by data and local consumer insights.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-10",
     readTime: "9 min read",
     internalLinks: [
@@ -301,7 +301,7 @@ export const platformBlogPosts: BlogPost[] = [
     metaTitle: "Payment Gateway Strategy for Global E-Commerce",
     metaDescription: "Match local payment methods to your global e-commerce platform. iDEAL, Bizum, UPI, Mada, and more. Complete payment integration guide.",
     excerpt: "Payment method preferences vary wildly by market. Here's how to build a global payment strategy that maximises conversion in every market you serve.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-08",
     readTime: "8 min read",
     internalLinks: [
@@ -323,7 +323,7 @@ export const platformBlogPosts: BlogPost[] = [
     metaTitle: "Shipping & Logistics Integration: Platform Guide",
     metaDescription: "Compare e-commerce platforms for shipping and logistics integration. Carrier support, fulfillment options, and cross-border logistics strategies.",
     excerpt: "Shipping is the hidden conversion killer. Here's how major e-commerce platforms compare for logistics integration — from local carriers to cross-border fulfilment.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-05",
     readTime: "7 min read",
     internalLinks: [

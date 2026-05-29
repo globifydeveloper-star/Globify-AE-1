@@ -21,7 +21,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               "Read the Wilson case study to see how Globify delivered transformative digital solutions and custom development.",
             author: {
               "@type": "Person",
-              name: "Sreekanth",
+              name: "Maya",
               jobTitle: "Lead Digital Architect",
               url: "https://www.globify.ae/about",
             },

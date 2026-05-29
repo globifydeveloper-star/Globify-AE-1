@@ -12,7 +12,7 @@ export const shopifyGlobalBlogPosts: BlogPost[] = [
     metaTitle: "Shopify Growth in Europe & Emerging Markets 2026",
     metaDescription: "Explore how Shopify is expanding across Western Europe and emerging markets in 2026. Country insights, growth data, and expert strategies from Globify.",
     excerpt: "Shopify is growing fast across Western Europe and emerging markets. Here is what businesses need to know about expanding globally with Shopify in 2026.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-20",
     readTime: "12 min read",
     featured: true,
@@ -211,7 +211,7 @@ Success in global ecommerce requires more than just setting up a store. It requi
     metaTitle: "Top Countries Where Shopify Is Growing in 2026",
     metaDescription: "Discover the top countries where Shopify ecommerce is booming in 2026. Country-by-country data on Europe, Middle East, Asia, and Latin America.",
     excerpt: "Shopify is expanding rapidly in new markets. Here is a country-by-country breakdown of where Shopify ecommerce is growing fastest in 2026.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-22",
     readTime: "11 min read",
     internalLinks: [
@@ -391,7 +391,7 @@ Our team has direct experience in Western Europe, the Middle East, and Asia, giv
     metaTitle: "Expand Globally Using Shopify in 2026 Guide",
     metaDescription: "A practical guide for brands expanding globally with Shopify in 2026. Cross-border selling, localization, payments, and logistics strategies from Globify.",
     excerpt: "Ready to take your brand global? This practical guide covers everything you need to know about expanding internationally with Shopify in 2026.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-25",
     readTime: "13 min read",
     internalLinks: [
@@ -615,7 +615,7 @@ Global expansion with Shopify in 2026 is more accessible than ever, but it still
     metaTitle: "Shopify Migration & Localization Global Guide",
     metaDescription: "Complete guide to migrating to Shopify and localizing for global markets. Country-specific playbooks for Germany, France, UAE, India, Brazil, and Japan.",
     excerpt: "Planning to migrate to Shopify and expand globally? This guide covers migration steps and country-specific localization for Germany, France, UAE, India, and more.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-28",
     readTime: "14 min read",
     internalLinks: [

@@ -11,7 +11,7 @@ export const prestashopBlogPosts: BlogPost[] = [
     metaTitle: "PrestaShop vs Shopify: Best for Europe?",
     metaDescription: "PrestaShop vs Shopify for European e-commerce. Compare cost, localisation, compliance, and scalability to choose the right platform.",
     excerpt: "PrestaShop dominates Southern Europe while Shopify leads globally. Compare both platforms for European businesses considering cost, compliance, and growth.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-06",
     readTime: "8 min read",
     featured: true,
@@ -171,7 +171,7 @@ For European SMEs in France, Spain, and Italy with technical resources, PrestaSh
     metaTitle: "Why PrestaShop Dominates France & S. Europe",
     metaDescription: "PrestaShop's European dominance explained. French roots, EU compliance, open-source model, and community strength drive adoption.",
     excerpt: "PrestaShop commands 40%+ market share among French SME e-commerce stores. Here's why it dominates Southern Europe and what it means for your business.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-12",
     readTime: "7 min read",
     internalLinks: [
@@ -303,7 +303,7 @@ Consider alternatives if:
     metaTitle: "PrestaShop Store Cost: Full Breakdown 2026",
     metaDescription: "PrestaShop store cost guide. Hosting, themes, modules, development, and maintenance budgets for European online stores.",
     excerpt: "PrestaShop is free to download, but building a professional store requires investment. Get a transparent cost breakdown for European businesses.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-18",
     readTime: "7 min read",
     internalLinks: [
@@ -446,7 +446,7 @@ PrestaShop's cost advantage compounds over time due to zero platform fees.
     metaTitle: "Best PrestaShop Themes & Modules 2026",
     metaDescription: "Curated PrestaShop themes and modules for SEO, speed, marketing, and conversion. Expert-tested recommendations for European stores.",
     excerpt: "The right modules transform PrestaShop from basic to brilliant. Here are the must-have themes and modules for growth-focused European stores.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-24",
     readTime: "8 min read",
     internalLinks: [
@@ -600,7 +600,7 @@ For a growth-focused European PrestaShop store:
     metaTitle: "PrestaShop Multilingual & Multi-Currency Setup",
     metaDescription: "Build multilingual, multi-currency PrestaShop stores. Translation workflow, currency management, and SEO strategies for European markets.",
     excerpt: "PrestaShop's native multilingual capabilities make it ideal for European stores selling across borders. Learn how to set up languages, currencies, and SEO.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-02",
     readTime: "8 min read",
     internalLinks: [
@@ -804,7 +804,7 @@ Mitigate with:
     metaTitle: "Scale PrestaShop for International Markets",
     metaDescription: "Scale your PrestaShop store internationally. Multi-store setup, performance optimisation, and market expansion strategies for European brands.",
     excerpt: "Growing beyond your home market? Learn how to scale PrestaShop for international selling with multi-store architecture, performance tuning, and market-specific localisation.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-08",
     readTime: "8 min read",
     internalLinks: [
@@ -958,7 +958,7 @@ Use Google Analytics 4 with custom dimensions for country and language to segmen
     metaTitle: "PrestaShop vs WooCommerce: Full Comparison",
     metaDescription: "PrestaShop vs WooCommerce for open-source e-commerce. Compare features, cost, performance, and ecosystem to choose the right platform.",
     excerpt: "Two open-source e-commerce giants with different strengths. Compare PrestaShop and WooCommerce across features, cost, and ecosystem for your business.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-15",
     readTime: "7 min read",
     internalLinks: [
@@ -1099,7 +1099,7 @@ For multistore setups, PrestaShop's native multistore is simpler than WordPress 
     metaTitle: "PrestaShop SEO & Performance Optimisation",
     metaDescription: "Optimise PrestaShop for search engines and speed. Technical SEO, page speed, Core Web Vitals, and content strategies for higher rankings.",
     excerpt: "Rank higher and load faster. A complete SEO and performance optimisation guide for PrestaShop stores targeting European markets.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-22",
     readTime: "9 min read",
     internalLinks: [
@@ -1315,7 +1315,7 @@ Blog content builds topical authority and attracts top-of-funnel traffic that co
     metaTitle: "Migrate PrestaShop to Shopify: Full Guide",
     metaDescription: "Step-by-step PrestaShop to Shopify migration. Data transfer, SEO preservation, feature mapping, and timeline planning for a smooth transition.",
     excerpt: "Moving from PrestaShop to Shopify? Follow this complete migration guide to transfer your data, preserve SEO rankings, and avoid common pitfalls.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-03-01",
     readTime: "8 min read",
     internalLinks: [
@@ -1496,7 +1496,7 @@ Plus ongoing Shopify subscription (€39–€399/month) and app costs.
     metaTitle: "PrestaShop Cross-Border Selling in Europe",
     metaDescription: "Sell across European borders with PrestaShop. VAT compliance, multilingual setup, shipping, and payment strategies for cross-border success.",
     excerpt: "PrestaShop is built for European cross-border commerce. Learn how to configure VAT, shipping, payments, and localisation for multi-country EU selling.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-03-08",
     readTime: "8 min read",
     internalLinks: [

@@ -11,7 +11,7 @@ export const bigcommerceBlogPosts: BlogPost[] = [
     metaTitle: "BigCommerce vs Shopify Plus 2026",
     metaDescription: "Enterprise comparison of BigCommerce and Shopify Plus covering pricing, scalability, customisation and multi-channel selling for 2026.",
     excerpt: "A detailed enterprise comparison of BigCommerce and Shopify Plus on pricing, scalability, customisation flexibility and multi-channel selling capabilities.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-20",
     readTime: "10 min read",
     featured: true,
@@ -105,7 +105,7 @@ Contact Globify for a personalised platform assessment that considers your catal
     metaTitle: "BigCommerce Headless Commerce Guide",
     metaDescription: "Complete guide to building headless commerce on BigCommerce with Next.js, performance benchmarks and real architecture patterns.",
     excerpt: "Learn how to architect headless commerce solutions on BigCommerce using modern frontend frameworks, GraphQL APIs and composable commerce patterns.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-25",
     readTime: "11 min read",
     internalLinks: [
@@ -223,7 +223,7 @@ Partner with Globify's BigCommerce headless specialists to design an architectur
     metaTitle: "BigCommerce B2B Wholesale Guide",
     metaDescription: "Set up B2B wholesale on BigCommerce with customer groups, tiered pricing, purchase orders and custom catalogues for 2026.",
     excerpt: "Step-by-step guide to configuring BigCommerce for B2B and wholesale commerce, including customer groups, tiered pricing and purchase order workflows.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-01",
     readTime: "9 min read",
     internalLinks: [
@@ -355,7 +355,7 @@ Globify specialises in BigCommerce B2B implementations that integrate seamlessly
     metaTitle: "BigCommerce Multi-Storefront Guide",
     metaDescription: "Learn how to manage multiple brands and regions from a single BigCommerce dashboard with multi-storefront capabilities.",
     excerpt: "Guide to managing multiple brands, regions and storefronts from a single BigCommerce backend using the multi-storefront feature.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-05",
     readTime: "8 min read",
     internalLinks: [
@@ -485,7 +485,7 @@ Globify helps enterprise brands architect and launch multi-storefront solutions 
     metaTitle: "BigCommerce SEO Optimisation Guide",
     metaDescription: "Advanced BigCommerce SEO strategies covering technical setup, product page optimisation, schema markup and content strategy for 2026.",
     excerpt: "Advanced SEO strategies for BigCommerce stores including technical optimisation, product page best practices and structured data implementation.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-10",
     readTime: "10 min read",
     internalLinks: [
@@ -648,7 +648,7 @@ Globify provides comprehensive BigCommerce SEO audits and implementation service
     metaTitle: "Migrate to BigCommerce: Full Guide",
     metaDescription: "Step-by-step BigCommerce migration guide covering data transfer, SEO preservation, testing and launch from any e-commerce platform.",
     excerpt: "Complete migration guide for moving to BigCommerce from Shopify, WooCommerce, Magento or any other platform while preserving SEO rankings and customer data.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-15",
     readTime: "11 min read",
     internalLinks: [
@@ -838,7 +838,7 @@ Globify manages end-to-end BigCommerce migrations with dedicated project managem
     metaTitle: "Top BigCommerce Apps 2026",
     metaDescription: "Curated list of the best BigCommerce apps and integrations for marketing, analytics, shipping and customer experience in 2026.",
     excerpt: "Curated guide to the best BigCommerce apps and integrations for marketing automation, analytics, shipping, customer experience and operational efficiency.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-20",
     readTime: "9 min read",
     internalLinks: [
@@ -995,7 +995,7 @@ Globify helps BigCommerce merchants build optimised tech stacks that drive growt
     metaTitle: "BigCommerce Checkout Optimisation",
     metaDescription: "Proven strategies to optimise BigCommerce checkout, reduce cart abandonment by up to 30% and increase conversion rates.",
     excerpt: "Proven strategies for optimising BigCommerce checkout flow to reduce cart abandonment, increase conversion rates and maximise revenue per visitor.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-25",
     readTime: "8 min read",
     internalLinks: [
@@ -1142,7 +1142,7 @@ Globify specialises in BigCommerce checkout optimisation using data-driven A/B t
     metaTitle: "BigCommerce International Selling",
     metaDescription: "Complete guide to selling internationally on BigCommerce covering multi-currency, tax compliance, localisation and cross-border logistics.",
     excerpt: "Everything you need to sell internationally on BigCommerce, from multi-currency setup and tax compliance to content localisation and cross-border shipping strategies.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-03-01",
     readTime: "10 min read",
     internalLinks: [
@@ -1312,7 +1312,7 @@ Globify helps BigCommerce merchants expand internationally with localised storef
     metaTitle: "BigCommerce Speed Optimisation",
     metaDescription: "Actionable guide to making your BigCommerce store load in under 2 seconds with image, script and rendering optimisation techniques.",
     excerpt: "Actionable techniques to optimise BigCommerce store performance, achieve sub-2-second load times and pass Core Web Vitals for better rankings and conversions.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-03-02",
     readTime: "9 min read",
     internalLinks: [

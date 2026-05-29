@@ -11,7 +11,7 @@ export const migrationBlogPosts: BlogPost[] = [
     metaTitle: "Magento to Shopify Migration Guide 2026",
     metaDescription: "Migrate from Magento to Shopify without losing SEO or data. Step-by-step playbook for a seamless transition.",
     excerpt: "A complete migration playbook for moving your Magento store to Shopify, covering data transfer, SEO preservation, and go-live strategy.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-20",
     readTime: "10 min read",
     featured: true,
@@ -114,7 +114,7 @@ A typical Magento to Shopify migration takes 6-12 weeks depending on catalogue s
     metaTitle: "WooCommerce to Shopify Migration 2026",
     metaDescription: "Move from WooCommerce to Shopify smoothly. Data migration, SEO preservation, and cost comparison covered.",
     excerpt: "How to migrate from WooCommerce to Shopify and eliminate plugin management headaches while improving store performance.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-26",
     readTime: "9 min read",
     content: `## Why WooCommerce Merchants Move to Shopify
@@ -222,7 +222,7 @@ Many merchants find their total cost decreases after migration. Eliminating host
     metaTitle: "E-Commerce Replatforming Checklist 2026",
     metaDescription: "50-step replatforming checklist for safe e-commerce migration. Covers data, SEO, testing, and go-live.",
     excerpt: "The definitive checklist for e-commerce platform migration covering every critical step from planning through post-launch monitoring.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-01",
     readTime: "10 min read",
     content: `## Why Replatforming Fails
@@ -327,7 +327,7 @@ Keep your old platform running in parallel for at least two weeks after launch. 
     metaTitle: "PrestaShop to Shopify Migration Guide",
     metaDescription: "Migrate your PrestaShop store to Shopify. EU compliance, multilingual, and multi-currency handled.",
     excerpt: "A migration guide specifically for European PrestaShop merchants moving to Shopify, covering EU compliance, multilingual setups, and VAT handling.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-06",
     readTime: "8 min read",
     content: `## Why European Merchants Outgrow PrestaShop
@@ -414,7 +414,7 @@ European merchants moving to Shopify typically see 15-25% improvement in checkou
     metaTitle: "BigCommerce to Shopify Migration 2026",
     metaDescription: "Migrate from BigCommerce to Shopify Plus. Feature comparison, data transfer, and B2B considerations.",
     excerpt: "When and how to migrate from BigCommerce to Shopify, with special attention to enterprise features, B2B functionality, and multi-storefront setups.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-11",
     readTime: "8 min read",
     content: `## BigCommerce vs Shopify: Why Merchants Switch
@@ -498,7 +498,7 @@ Budget $10,000-$50,000 for professional migration depending on complexity.`,
     metaTitle: "Preserve SEO During E-Commerce Migration",
     metaDescription: "Protect your organic rankings during platform migration. Redirect strategy, metadata, and monitoring guide.",
     excerpt: "The definitive guide to preserving your search engine rankings and organic traffic during an e-commerce platform migration.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-16",
     readTime: "9 min read",
     content: `## Why SEO Fails During Migrations
@@ -602,7 +602,7 @@ If organic traffic drops more than expected, take immediate action.
     metaTitle: "Shopware to Shopify Migration Guide",
     metaDescription: "Migrate from Shopware to Shopify for the German and EU market. Data, compliance, and SEO covered.",
     excerpt: "A targeted guide for German and European merchants migrating from Shopware to Shopify, addressing regional compliance and market requirements.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-21",
     readTime: "8 min read",
     content: `## Why German Merchants Consider Shopify
@@ -690,7 +690,7 @@ Plan 8-14 weeks for a German Shopware to Shopify migration. The additional time 
     metaTitle: "Consolidate E-Commerce Platforms Guide",
     metaDescription: "Merge multiple e-commerce platforms into one unified system. Reduce costs and simplify operations.",
     excerpt: "How to merge multiple e-commerce platforms into a single unified system, reducing operational costs and improving customer experience.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-26",
     readTime: "9 min read",
     content: `## The Multi-Platform Problem
@@ -792,7 +792,7 @@ Send platform-specific communications. Customers on each platform need instructi
     metaTitle: "Headless Commerce Migration Guide 2026",
     metaDescription: "Evaluate headless commerce readiness. Migration path, architecture decisions, and ROI analysis covered.",
     excerpt: "Assess whether your e-commerce business is ready for headless commerce and understand the migration path from monolithic to composable architecture.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-03-03",
     readTime: "9 min read",
     content: `## What Is Headless Commerce?
@@ -904,7 +904,7 @@ The ROI comes from improved conversion rates, faster feature development after i
     metaTitle: "E-Commerce Migration Cost Guide 2026",
     metaDescription: "Realistic migration budgets by store size. Development, data transfer, SEO, and ongoing costs detailed.",
     excerpt: "Understand the true cost of e-commerce platform migration in 2026, from small stores to enterprise operations.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-03-08",
     readTime: "8 min read",
     content: `## Why Migration Cost Estimates Vary Wildly

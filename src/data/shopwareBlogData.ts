@@ -11,7 +11,7 @@ export const shopwareBlogPosts: BlogPost[] = [
     metaTitle: "Why Shopware Is Growing Fast in Europe",
     metaDescription: "Shopware's rapid European growth explained. German engineering, open commerce approach, and enterprise capabilities driving adoption.",
     excerpt: "Shopware is one of Europe's fastest-growing e-commerce platforms. Learn why German engineering and an open commerce philosophy are winning brands across Europe.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-07",
     readTime: "8 min read",
     featured: true,
@@ -144,7 +144,7 @@ Shopware's enterprise editions (Evolve, Beyond) compete with Adobe Commerce and 
     metaTitle: "Shopware vs Shopify for D2C Brands",
     metaDescription: "Shopware vs Shopify for direct-to-consumer brands. Compare customisation, CMS, performance, and European market fit.",
     excerpt: "Two strong platforms, different philosophies. Compare Shopware and Shopify for D2C brands considering flexibility, CMS capabilities, and European market fit.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-16",
     readTime: "8 min read",
     internalLinks: [
@@ -316,7 +316,7 @@ Common for brands wanting simplified operations and global reach. Migration invo
     metaTitle: "Shopware for Enterprise & Mid-Size Brands",
     metaDescription: "Shopware for enterprise and mid-size brands. Editions, B2B features, scalability, and integration capabilities for growing businesses.",
     excerpt: "Shopware serves the gap between SME platforms and complex enterprise solutions. Explore how its editions and features support mid-market and enterprise brands.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-23",
     readTime: "9 min read",
     internalLinks: [
@@ -533,7 +533,7 @@ Significantly lower than Adobe Commerce, competitive with Shopify Plus for Europ
     metaTitle: "Headless Commerce with Shopware Explained",
     metaDescription: "Build headless commerce on Shopware. API architecture, frontend options, performance benefits, and implementation strategies.",
     excerpt: "Shopware's API-first architecture makes it ideal for headless commerce. Learn the architecture, frontend options, and when headless Shopware delivers value.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-01",
     readTime: "8 min read",
     internalLinks: [
@@ -720,7 +720,7 @@ The investment pays back through higher conversion rates (10-30% improvement) an
     metaTitle: "Shopware Development Cost Breakdown 2026",
     metaDescription: "Transparent Shopware development cost guide. Design, development, hosting, plugins, and maintenance budgets for European brands.",
     excerpt: "Planning a Shopware project? Get a realistic cost breakdown covering editions, development, hosting, plugins, and ongoing maintenance.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-06",
     readTime: "7 min read",
     internalLinks: [
@@ -891,7 +891,7 @@ Budget EUR 500-3,000 for plugins depending on feature requirements.
     metaTitle: "Shopware vs Magento: Full Comparison",
     metaDescription: "Shopware vs Magento for enterprise e-commerce. Compare architecture, B2B features, cost, and developer ecosystem to choose wisely.",
     excerpt: "Two open-source enterprise platforms with different philosophies. Compare Shopware and Magento across architecture, B2B features, cost, and future outlook.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-12",
     readTime: "8 min read",
     internalLinks: [
@@ -1083,7 +1083,7 @@ Timeline: 10-20 weeks depending on complexity.
     metaTitle: "Shopware B2B & D2C Hybrid Commerce",
     metaDescription: "Run B2B and D2C from one Shopware installation. Sales channels, pricing strategies, and customer management for hybrid commerce.",
     excerpt: "Many brands sell both wholesale and direct-to-consumer. Learn how Shopware's sales channel architecture enables efficient B2B and D2C hybrid commerce.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-18",
     readTime: "8 min read",
     internalLinks: [
@@ -1308,7 +1308,7 @@ Connect both channels to your ERP:
     metaTitle: "Scale Global Commerce with Shopware",
     metaDescription: "Expand globally with Shopware. Multi-language, multi-currency, international shipping, and market-specific strategies for global growth.",
     excerpt: "Take your Shopware store global. Multi-language setup, international payments, cross-border logistics, and market entry strategies for European brands.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-25",
     readTime: "8 min read",
     internalLinks: [
@@ -1516,7 +1516,7 @@ Track per-market performance:
     metaTitle: "Shopware Migration: Complete Strategy Guide",
     metaDescription: "Migrate to Shopware from Magento, Shopify, or custom platforms. Data transfer, SEO preservation, and timeline planning for smooth transitions.",
     excerpt: "Considering Shopware? Learn how to migrate from Magento, Shopify, or custom platforms with proper data transfer, SEO preservation, and minimal disruption.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-03-03",
     readTime: "8 min read",
     internalLinks: [
@@ -1708,7 +1708,7 @@ This significantly reduces migration effort and risk compared to manual CSV expo
     metaTitle: "Shopware Localisation & EU Compliance",
     metaDescription: "Ensure Shopware compliance for European markets. GDPR, VAT, consumer rights, cookie consent, and market-specific localisation strategies.",
     excerpt: "Selling in Europe means complying with complex regulations. Learn how Shopware handles GDPR, VAT, consumer protection, and market-specific requirements.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-03-10",
     readTime: "8 min read",
     internalLinks: [

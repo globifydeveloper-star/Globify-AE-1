@@ -11,7 +11,7 @@ export const wixBlogPosts: BlogPost[] = [
     metaTitle: "Wix vs Shopify 2026: Best for Small Biz?",
     metaDescription: "Compare Wix and Shopify for small business e-commerce in 2026. Pricing, features, SEO and scalability reviewed.",
     excerpt: "A head-to-head comparison of Wix and Shopify for small business owners launching or scaling an online store in 2026.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-22",
     readTime: "8 min read",
     featured: true,
@@ -85,7 +85,7 @@ There is no universal winner. Choose Wix for website-first businesses with moder
     metaTitle: "Wix E-Commerce Setup Guide 2026",
     metaDescription: "Step-by-step guide to launching a Wix e-commerce store in 2026. From plan selection to first sale.",
     excerpt: "Everything you need to launch a professional Wix e-commerce store, from choosing your plan to configuring payments and shipping.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-28",
     readTime: "9 min read",
     content: `## Why Wix for E-Commerce?
@@ -163,7 +163,7 @@ Post-launch, leverage Wix's built-in marketing tools including email campaigns, 
     metaTitle: "Wix SEO for E-Commerce Stores 2026",
     metaDescription: "Master Wix SEO for your e-commerce store. Proven techniques to rank product pages and drive organic traffic.",
     excerpt: "Learn how to optimise your Wix e-commerce store for search engines with actionable SEO strategies that drive organic traffic and sales.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-03",
     readTime: "8 min read",
     content: `## Can Wix Stores Rank Well on Google?
@@ -233,7 +233,7 @@ Track organic traffic, keyword rankings, and conversion rates monthly. Wix Analy
     metaTitle: "Wix to Shopify Migration Guide 2026",
     metaDescription: "Complete guide to migrating your store from Wix to Shopify. Preserve SEO, data, and customer relationships.",
     excerpt: "When your Wix store outgrows the platform, migrating to Shopify is the logical next step. Here is how to do it without losing traffic or data.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-08",
     readTime: "9 min read",
     content: `## When Should You Migrate from Wix to Shopify?
@@ -320,7 +320,7 @@ Track conversion rates on the new platform. Shopify's optimised checkout typical
     metaTitle: "Wix E-Commerce Pricing Guide 2026",
     metaDescription: "Full breakdown of Wix e-commerce costs in 2026. Plans, apps, design, and hidden fees explained.",
     excerpt: "Understanding the true cost of running a Wix e-commerce store beyond the advertised plan price.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-13",
     readTime: "7 min read",
     content: `## Wix E-Commerce Plan Pricing
@@ -401,7 +401,7 @@ Focus spending on elements that directly drive revenue. Product photography, SEO
     metaTitle: "Wix Dropshipping Guide 2026",
     metaDescription: "Launch a Wix dropshipping store in 2026. Setup, supplier integration, and growth strategies covered.",
     excerpt: "How to build and grow a profitable dropshipping business on Wix with the right apps, suppliers, and marketing strategies.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-18",
     readTime: "8 min read",
     content: `## Why Wix for Dropshipping?
@@ -491,7 +491,7 @@ Capture emails from day one. Build automated sequences for abandoned carts, post
     metaTitle: "Wix vs Squarespace E-Commerce 2026",
     metaDescription: "Wix vs Squarespace for online selling. Compare e-commerce features, pricing, and design capabilities.",
     excerpt: "Both Wix and Squarespace offer e-commerce capabilities, but they excel in different areas. Here is which one suits your business.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-23",
     readTime: "8 min read",
     content: `## Two Approaches to Website Commerce
@@ -565,7 +565,7 @@ Choose Squarespace if you want effortless design elegance and sell fewer than 20
     metaTitle: "Boost Wix Store Conversions: 10 Tips",
     metaDescription: "Proven conversion optimisation strategies for Wix e-commerce stores. Increase sales without more traffic.",
     excerpt: "Practical CRO techniques specifically designed for Wix e-commerce stores to turn more visitors into paying customers.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-28",
     readTime: "9 min read",
     content: `## Why Conversion Rate Matters More Than Traffic
@@ -645,7 +645,7 @@ Test one change at a time and give each change at least two weeks of data before
     metaTitle: "Wix Multilingual Store Setup Guide",
     metaDescription: "Set up a multilingual Wix store to sell internationally. Translation, currency, and localisation covered.",
     excerpt: "How to configure Wix Multilingual for international e-commerce, including translation workflows, currency handling, and cultural localisation.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-03-05",
     readTime: "8 min read",
     content: `## The Opportunity in Multilingual Commerce
@@ -726,7 +726,7 @@ Track key metrics by language and market. Compare conversion rates, average orde
     metaTitle: "Wix vs WordPress E-Commerce 2026",
     metaDescription: "Compare Wix and WordPress for online stores. Hosted simplicity vs self-hosted flexibility explained.",
     excerpt: "Choosing between Wix's hosted simplicity and WordPress's self-hosted flexibility for your e-commerce store in 2026.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-03-10",
     readTime: "9 min read",
     content: `## Two Fundamentally Different Approaches

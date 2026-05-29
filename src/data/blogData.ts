@@ -63,7 +63,7 @@ const _baseBlogPosts: BlogPost[] = [
     metaTitle: "Shopify vs Custom E-Commerce for UAE & India 2025",
     metaDescription: "Choosing between Shopify and custom e-commerce? Compare costs, scalability, and ROI for UAE and India businesses. Expert analysis from Globify.",
     excerpt: "Choosing the right e-commerce platform can make or break your online business. Here's a data-driven comparison of Shopify vs custom development for businesses in the UAE and India.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2025-01-15",
     readTime: "8 min read",
     featured: true,
@@ -183,7 +183,7 @@ For the 20% with truly unique requirements, custom development delivers long-ter
     metaTitle: "How Shopify Helps Brands Scale in Middle East",
     metaDescription: "Discover how Shopify empowers brands to scale across the Middle East. Growth strategies, local payment integrations, and success stories from UAE businesses.",
     excerpt: "The Middle East e-commerce market is booming. Learn how Shopify's ecosystem and localization features help brands capture this growth effectively.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2025-01-28",
     readTime: "7 min read",
     internalLinks: [
@@ -299,7 +299,7 @@ Our clients in the UAE have achieved an average 3x revenue growth within 12 mont
     metaTitle: "Why WordPress Is Still Powerful for Business 2025",
     metaDescription: "WordPress powers 43% of the web. Discover why it remains the best CMS for businesses in UAE and India, flexibility, SEO, and enterprise capabilities.",
     excerpt: "WordPress powers 43% of all websites globally. Here's why it remains the smartest choice for businesses seeking flexibility, SEO performance, and scalability.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2025-02-05",
     readTime: "7 min read",
     internalLinks: [
@@ -413,7 +413,7 @@ Whether you're a startup in Bangalore or an enterprise in Dubai, our WordPress s
     metaTitle: "WordPress vs Webflow: Best Platform for 2025",
     metaDescription: "WordPress vs Webflow, an in-depth comparison for modern businesses. Compare costs, flexibility, SEO, and scalability to make the right CMS choice.",
     excerpt: "WordPress and Webflow represent two different philosophies in web development. Here's a comprehensive comparison to help you choose the right platform for your business.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2025-02-12",
     readTime: "8 min read",
     internalLinks: [
@@ -546,7 +546,7 @@ At Globify, we build on both platforms and recommend based on your specific need
     metaTitle: "When Your Business Should Build a Mobile App",
     metaDescription: "Not every business needs a mobile app. Discover 7 clear signals that indicate it's time to invest in mobile app development for your UAE or India business.",
     excerpt: "A mobile app is a significant investment. Here are 7 data-backed signals that tell you it's the right time to build one, and when a responsive website is enough.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2025-02-18",
     readTime: "9 min read",
     internalLinks: [
@@ -664,7 +664,7 @@ Globify's mobile app development team specializes in building scalable, performa
     metaTitle: "Mobile App Development Cost & ROI: UAE & India",
     metaDescription: "How much does mobile app development cost in UAE and India? Get real pricing data, ROI benchmarks, and cost optimization strategies for 2025.",
     excerpt: "Get real-world pricing data for mobile app development in the UAE and India, plus ROI benchmarks and strategies to maximize your investment.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2025-03-01",
     readTime: "8 min read",
     internalLinks: [
@@ -799,7 +799,7 @@ Every project starts with a detailed discovery phase that defines scope, elimina
     metaTitle: "Digital Commerce Trends UAE & India 2025",
     metaDescription: "Discover the top digital commerce trends shaping UAE and India markets in 2025. From social commerce to AI personalization, strategies for business leaders.",
     excerpt: "From social commerce to AI-driven personalization, these are the digital commerce trends that will define success in the UAE and India markets this year.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2025-03-10",
     readTime: "9 min read",
     featured: true,
@@ -921,7 +921,7 @@ Navigating the rapidly evolving digital commerce landscape requires expertise, t
     metaTitle: "Build a Scalable E-Commerce Ecosystem Guide",
     metaDescription: "Learn how to build an e-commerce ecosystem that scales. Architecture decisions, technology choices, and growth strategies for UAE and India businesses.",
     excerpt: "Most e-commerce platforms break at scale. Here's how to architect an ecosystem that handles growth gracefully, from technology choices to operational strategies.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2025-03-18",
     readTime: "10 min read",
     internalLinks: [
@@ -1066,7 +1066,7 @@ Whether you're launching your first online store or scaling an existing operatio
     metaTitle: "Marketplace Strategy: Amazon, Noon in Middle East",
     metaDescription: "Master marketplace selling in the Middle East. Strategies for Amazon UAE, Noon, and regional platforms. Win the buy box and scale your brand profitably.",
     excerpt: "Marketplaces account for 60% of e-commerce sales in the Middle East. Here's your strategic playbook for winning on Amazon, Noon, and regional platforms.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2025-03-25",
     readTime: "9 min read",
     internalLinks: [
@@ -1208,7 +1208,7 @@ Globify helps brands develop and execute winning marketplace strategies across t
     metaTitle: "Selling on Amazon, Noon & Regional Platforms",
     metaDescription: "Complete guide to selling on Amazon, Noon, Flipkart, and regional marketplaces. Registration, optimization, and growth strategies for UAE and India sellers.",
     excerpt: "A step-by-step guide to launching and growing your brand on the most important marketplaces in the UAE and India, Amazon, Noon, Flipkart, and beyond.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2025-04-02",
     readTime: "10 min read",
     internalLinks: [
@@ -1388,7 +1388,7 @@ Globify helps brands navigate the complexities of multi-marketplace selling acro
     metaTitle: "How AI Transforms Digital Commerce in 2025",
     metaDescription: "Discover practical AI applications for digital commerce. From personalization to inventory forecasting, real strategies for UAE and India businesses.",
     excerpt: "AI isn't just hype, it's driving real revenue for e-commerce businesses. Here are the practical AI applications delivering measurable results in UAE and India markets.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2025-04-10",
     readTime: "9 min read",
     featured: true,
@@ -1553,7 +1553,7 @@ Our AI and automation practice has delivered an average 25% revenue increase for
     metaTitle: "Automation Strategies: Cut Costs by 40% in 2025",
     metaDescription: "Practical automation strategies that reduce operational costs by 40%. Workflow automation, RPA, and AI-driven efficiency for UAE and India businesses.",
     excerpt: "Automation isn't about replacing people, it's about eliminating waste. Here are proven automation strategies that reduce costs by 40% while improving quality and speed.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2025-04-18",
     readTime: "8 min read",
     internalLinks: [

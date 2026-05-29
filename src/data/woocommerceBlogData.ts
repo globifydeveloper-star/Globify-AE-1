@@ -11,7 +11,7 @@ export const woocommerceBlogPosts: BlogPost[] = [
     metaTitle: "WooCommerce vs Shopify for Scaling in 2026",
     metaDescription: "WooCommerce vs Shopify head-to-head. Compare costs, flexibility, and scalability to pick the right platform for growth in 2026.",
     excerpt: "Shopify and WooCommerce dominate e-commerce. We break down which platform scales better for businesses targeting Europe, the Middle East, and India.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-05",
     readTime: "9 min read",
     featured: true,
@@ -130,7 +130,7 @@ For brands in Europe and the Middle East scaling past $1M, WooCommerce often del
     metaTitle: "WooCommerce Development Cost: Europe & UAE",
     metaDescription: "Detailed WooCommerce development cost breakdown for Europe and UAE. Hosting, plugins, design, and maintenance budgets explained.",
     excerpt: "Planning a WooCommerce project? Get a transparent cost breakdown covering design, development, hosting, and ongoing maintenance for European and UAE markets.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-10",
     readTime: "8 min read",
     internalLinks: [
@@ -231,7 +231,7 @@ DIY WooCommerce stores frequently suffer from poor performance, security vulnera
     metaTitle: "When to Choose WooCommerce Over Shopify",
     metaDescription: "Not every store belongs on Shopify. Learn the 7 scenarios where WooCommerce is the smarter choice for your e-commerce business.",
     excerpt: "Shopify isn't always the answer. Discover the specific scenarios where WooCommerce delivers better ROI, more flexibility, and stronger growth potential.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-15",
     readTime: "7 min read",
     internalLinks: [
@@ -304,7 +304,7 @@ Evaluate your business against these criteria: content strategy, product complex
     metaTitle: "WooCommerce for B2B & Wholesale: Full Guide",
     metaDescription: "Build a powerful B2B wholesale store with WooCommerce. Tiered pricing, quote workflows, role-based catalogues, and ERP integration explained.",
     excerpt: "WooCommerce is one of the strongest platforms for B2B and wholesale e-commerce. Learn how to set up tiered pricing, quote workflows, and ERP integration.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-20",
     readTime: "10 min read",
     internalLinks: [
@@ -431,7 +431,7 @@ Ensure sales and operations teams understand the platform, from processing quote
     metaTitle: "Build a High-Converting WooCommerce Store",
     metaDescription: "Proven tactics to boost WooCommerce conversion rates. Speed, UX, checkout, trust signals, and mobile optimisation strategies.",
     excerpt: "Most WooCommerce stores convert at 1–2%. Learn the design, UX, and technical strategies that push conversion rates to 3–5% and beyond.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-01-25",
     readTime: "8 min read",
     internalLinks: [
@@ -566,7 +566,7 @@ Focus on these in order for maximum impact:
     metaTitle: "WooCommerce Performance & Speed Tips 2026",
     metaDescription: "Fix slow WooCommerce stores. Server tuning, caching, image optimisation, database cleanup, and CDN strategies for faster load times.",
     excerpt: "A slow WooCommerce store kills sales. Here's a technical guide to achieving sub-2-second load times and keeping your store fast as it grows.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-01",
     readTime: "9 min read",
     internalLinks: [
@@ -738,7 +738,7 @@ Performance isn't a one-time fix. Set up ongoing monitoring:
     metaTitle: "WooCommerce vs Magento: Full Comparison",
     metaDescription: "WooCommerce vs Magento for open-source e-commerce. Compare cost, scalability, B2B features, and developer resources to choose the right platform.",
     excerpt: "Both are open-source. Both are powerful. But WooCommerce and Magento serve very different business profiles. Here's how to choose between them.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-05",
     readTime: "8 min read",
     internalLinks: [
@@ -837,7 +837,7 @@ If you're considering migrating between platforms:
     metaTitle: "Best WooCommerce Plugins for Growth 2026",
     metaDescription: "Curated list of WooCommerce plugins for SEO, speed, marketing, automation, and conversion optimisation. Tested recommendations from experts.",
     excerpt: "The right plugins transform WooCommerce from a basic store into a revenue-generating machine. Here are the must-have plugins for growth in 2026.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-10",
     readTime: "9 min read",
     internalLinks: [
@@ -980,7 +980,7 @@ Total annual plugin cost: approximately €500–€1,000. A worthwhile investme
     metaTitle: "Migrate WooCommerce to Shopify or Headless",
     metaDescription: "Step-by-step guide to migrating from WooCommerce to Shopify or headless commerce. Preserve SEO, transfer data, and avoid common pitfalls.",
     excerpt: "Outgrowing WooCommerce? Learn how to migrate to Shopify or headless commerce without losing SEO rankings, customer data, or sales momentum.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-15",
     readTime: "8 min read",
     internalLinks: [
@@ -1121,7 +1121,7 @@ Headless architecture decouples your frontend (website) from your backend (comme
     metaTitle: "WooCommerce for Global Cross-Border Selling",
     metaDescription: "Sell globally with WooCommerce. Multi-currency, multilingual, international shipping, tax compliance, and localisation strategies explained.",
     excerpt: "Expand your WooCommerce store internationally. This guide covers multi-currency, multilingual setup, tax compliance, and cross-border logistics.",
-    author: "Sreekanth",
+    author: "Maya",
     date: "2026-02-20",
     readTime: "9 min read",
     internalLinks: [
