@@ -4,9 +4,10 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: '*',
-      allow: ['/', '/_next/static/css/', '/_next/static/js/'],
-      disallow: '/private/',
+      allow: '/',
+      disallow: ['/api/', '/thank-you', '/sitemap'],
     },
     sitemap: 'https://www.globify.ae/sitemap.xml',
+    host: 'https://www.globify.ae',
   };
 }
