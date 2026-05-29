@@ -93,10 +93,10 @@ const Footer = () => {
             </p>
             <div className="space-y-3">
               <button
-                onClick={() => window.location.href = ['ma','ilto:','sa','les@','glo','bify','.in'].join('')}
+                onClick={() => window.location.href = ['ma','ilto:','sa','les@','glo','bify','.ae'].join('')}
                 className="flex items-center gap-2 text-sm text-section-dark-foreground/50 hover:text-primary transition-colors cursor-pointer"
               >
-                <Mail className="w-4 h-4" /> <span>sales<span className="hidden">nospam</span>@globify.in</span>
+                <Mail className="w-4 h-4" /> <span>sales<span className="hidden">nospam</span>@globify.ae</span>
               </button>
             </div>
 
