@@ -1,13 +1,4 @@
-import type { Metadata } from "next";
 import EcommerceClient from "./EcommerceClient";
-
-export const metadata: Metadata = {
-  title: "E-Commerce & Headless Commerce Development UAE",
-  description: "Build high-converting Shopify Plus stores, headless e-commerce platforms, and scalable B2B/B2C marketplaces with Globify UAE.",
-  alternates: {
-    canonical: "/ecommerce",
-  },
-};
 
 export default function Page() {
   return (
