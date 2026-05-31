@@ -1,7 +1,7 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Web Development Agency â€” Custom Websites, Web Apps & Enterprise CMS",
+  title: "Web Development Agency — Custom Websites, Web Apps & Enterprise CMS",
   description: "Custom web development for brands in UAE, Saudi Arabia, India, UK, Netherlands, Australia, and South Africa. Next.js, React, headless CMS, enterprise web apps, and SEO-optimized websites engineered for speed and conversions. ISO 27001 certified.",
   alternates: { canonical: "/web-development" },
   keywords: [
@@ -50,7 +50,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
+              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png"
             },

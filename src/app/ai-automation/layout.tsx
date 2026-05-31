@@ -1,7 +1,7 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "AI & Automation Agency â€” Chatbots, RPA & Workflow Automation",
+  title: "AI & Automation Agency — Chatbots, RPA & Workflow Automation",
   description: "AI-powered automation for enterprises in UAE, Saudi Arabia, India, UK, Netherlands, Australia, and South Africa. Conversational AI and chatbots, RPA, workflow automation, predictive analytics, and machine learning. Reduce operational costs by 40-60%. ISO 27001 certified.",
   keywords: [
     "AI automation agency UAE",
@@ -52,7 +52,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
+              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png"
             },

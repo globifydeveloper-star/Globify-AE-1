@@ -1,7 +1,7 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shopify Development Agency Saudi Arabia â€” Mada, Tabby, Tamara, SMSA, ZATCA & Arabic Storefronts",
+  title: "Shopify Development Agency Saudi Arabia — Mada, Tabby, Tamara, SMSA, ZATCA & Arabic Storefronts",
   description: "Shopify and Shopify Plus development for Saudi brands in Riyadh, Jeddah, Dammam, Khobar, and Mecca. Native integrations with Mada, Tabby, Tamara, STC Pay, HyperPay, PayTabs, SMSA, Aramex KSA, J&T Saudi, Saudi Post (SPL), SAR currency handling, bilingual Arabic/English RTL storefronts, full 15% VAT compliance, and ZATCA e-invoicing (Fatoora Phase 2) integration. Shopify Partner, ISO 27001 certified.",
   alternates: { canonical: "/shopify-ksa" },
   keywords: [
@@ -52,7 +52,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
+              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png"
             },

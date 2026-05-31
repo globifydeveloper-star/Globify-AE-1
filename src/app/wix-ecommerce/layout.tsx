@@ -1,7 +1,7 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Wix E-Commerce Development Agency â€” UAE, India & Global D2C Stores",
+  title: "Wix E-Commerce Development Agency — UAE, India & Global D2C Stores",
   description: "Launch your D2C store fast with Wix and Wix Studio. Professional Wix e-commerce development for brands in UAE, Saudi Arabia, India, UK, Netherlands, Australia, and South Africa. Drag-and-drop design, built-in marketing, multi-currency checkout. Stores from AED 3,000.",
   keywords: [
     "wix ecommerce development",
@@ -50,7 +50,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
+              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png"
             },

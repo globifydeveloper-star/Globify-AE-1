@@ -1,8 +1,8 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shopware Development Agency â€” German-Engineered Commerce for EU & Global Brands",
-  description: "Shopware 6 development for brands in Germany, Netherlands, UAE, Saudi Arabia, India, UK, Australia, and South Africa. B2B/B2C storefronts, headless commerce, Rule Builder automations, Flow Builder workflows, ERP integrations (SAP, Microsoft Dynamics), and migrations from Magento. EU office in GieÃŸen, ISO 27001 certified.",
+  title: "Shopware Development Agency — German-Engineered Commerce for EU & Global Brands",
+  description: "Shopware 6 development for brands in Germany, Netherlands, UAE, Saudi Arabia, India, UK, Australia, and South Africa. B2B/B2C storefronts, headless commerce, Rule Builder automations, Flow Builder workflows, ERP integrations (SAP, Microsoft Dynamics), and migrations from Magento. EU office in Gießen, ISO 27001 certified.",
   alternates: { canonical: "/shopware-development" },
   keywords: [
     "Shopware development agency",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Shopware Development Agency | Germany, EU, UAE, India & Global",
-    description: "Shopware 6 B2B/B2C storefronts, headless commerce, Rule Builder & Flow Builder automations, ERP integrations, and Magento migrations. EU office in GieÃŸen, Germany.",
+    description: "Shopware 6 B2B/B2C storefronts, headless commerce, Rule Builder & Flow Builder automations, ERP integrations, and Magento migrations. EU office in Gießen, Germany.",
     url: "https://www.globify.ae/shopware-development",
     locale: "en_AE",
     alternateLocale: ["de_DE", "en_GB", "en_IN", "nl_NL", "en_AU", "en_ZA"],
@@ -50,7 +50,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
+              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png"
             },

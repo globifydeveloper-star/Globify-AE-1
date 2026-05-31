@@ -1,7 +1,7 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shopify Development Agency Oman â€” OmanNet, ThawaniPay, Aramex, Arabic Storefronts & VAT",
+  title: "Shopify Development Agency Oman — OmanNet, ThawaniPay, Aramex, Arabic Storefronts & VAT",
   description: "Shopify and Shopify Plus development for Omani brands in Muscat, Salalah, Sohar, and Sur. Native integrations with OmanNet, ThawaniPay, Tap Payments, PayTabs, Aramex Oman, Oman Post, Asyad Express, OMR currency handling, bilingual Arabic/English RTL storefronts, and full 5% VAT compliance (Oman Tax Authority). Shopify Partner, ISO 27001 certified.",
   alternates: { canonical: "/shopify-oman" },
   keywords: [
@@ -50,7 +50,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
+              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png"
             },

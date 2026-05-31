@@ -1,7 +1,7 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Shopify Development Agency Netherlands â€” Shopify Plus Partner",
+  title: "Shopify Development Agency Netherlands — Shopify Plus Partner",
   description: "Shopify and Shopify Plus development for brands in the Netherlands. iDEAL and Klarna checkout, PostNL and DHL integration, GDPR-compliant, EU office in Germany. 300+ stores launched, ISO 27001 certified Shopify Partner.",
   keywords: [
     "shopify development Netherlands",
@@ -50,13 +50,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
+              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "101, Eichendorffring",
-                "addressLocality": "GieÃŸen",
+                "addressLocality": "Gießen",
                 "postalCode": "35394",
                 "addressCountry": "DE"
               },
