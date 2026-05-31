@@ -68,8 +68,8 @@ export default async function Layout({
                 "@type": "Organization",
                 name: "Globify",
                 sameAs: [
-                  "https://www.linkedin.com/company/globify",
-                  "https://www.instagram.com/globify",
+                  "https://www.linkedin.com/company/globify-software-solutions-pvt-ltd",
+                  "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital",
                 ],
                 logo: {
                   "@type": "ImageObject",
