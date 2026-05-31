@@ -51,7 +51,7 @@ const ecommercePlatforms = [
 const marketingServices = [
   { icon: Megaphone, title: "SEO, AEO & Content Strategy", desc: "Data-driven SEO, AEO & organic growth", href: "/seo-content-strategy" },
   { icon: Megaphone, title: "Paid Advertising & PPC", desc: "Google Ads, Meta & LinkedIn", href: "/paid-advertising" },
-  { icon: Megaphone, title: "Social Media & Branding", desc: "Audience growth & brand storytelling", href: "/social-media-brand" },
+  { icon: Megaphone, title: "Social Media & Branding", desc: "Audience growth & brand storytelling", href: "/social-media-marketing" },
 ];
 
 const industriesMenu = [
