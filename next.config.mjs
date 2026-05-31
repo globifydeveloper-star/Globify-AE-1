@@ -32,6 +32,11 @@ const nextConfig = {
         source: '/faq',
         destination: '/',
         permanent: true,
+      },
+      {
+        source: '/social-media-brand',
+        destination: '/social-media-marketing',
+        permanent: true,
       }
     ];
   },
