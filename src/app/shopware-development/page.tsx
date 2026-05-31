@@ -1,5 +1,5 @@
-import WebDevelopmentClient from "./WebDevelopmentClient";
+import ShopwareDevelopmentClient from "./ShopwareDevelopmentClient";
 
 export default function Page() {
-  return <WebDevelopmentClient />;
+  return <ShopwareDevelopmentClient />;
 }
