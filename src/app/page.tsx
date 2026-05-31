@@ -60,7 +60,7 @@ export default function Page() {
             name: "Globify",
             image: "https://www.globify.ae/logo.png",
             url: "https://www.globify.ae",
-            telephone: "+971501234567",
+            telephone: "+971547308673",
             address: {
               "@type": "PostalAddress",
               streetAddress: "Dubai Silicon Oasis",
