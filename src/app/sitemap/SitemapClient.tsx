@@ -97,7 +97,7 @@ const sections: SitemapSection[] = [
     links: [
       { label: "SEO, AEO & Content Strategy", href: "/seo-content-strategy" },
       { label: "Paid Advertising", href: "/paid-advertising" },
-      { label: "Social Media & Branding", href: "/social-media-brand" },
+      { label: "Social Media & Branding", href: "/social-media-marketing" },
       { label: "Performance Marketing", href: "/performance-marketing" },
       { label: "Social Media Marketing", href: "/social-media-marketing" },
       { label: "SEO & AEO", href: "/seo-aeo" },
