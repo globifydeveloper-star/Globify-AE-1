@@ -37,8 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Marketing services
     { path: '/performance-marketing', priority: 0.8, changeFrequency: 'monthly' },
     { path: '/paid-advertising', priority: 0.8, changeFrequency: 'monthly' },
-    { path: '/social-media-marketing', priority: 0.8, changeFrequency: 'monthly' },
-    { path: '/social-media-brand', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/social-media-marketing', priority: 0.9, changeFrequency: 'monthly' },
     { path: '/seo-content-strategy', priority: 0.8, changeFrequency: 'monthly' },
     { path: '/seo-aeo', priority: 0.8, changeFrequency: 'monthly' },
     { path: '/cro-revenue-engineering', priority: 0.7, changeFrequency: 'monthly' },

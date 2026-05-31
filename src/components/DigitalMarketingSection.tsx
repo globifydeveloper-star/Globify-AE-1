@@ -19,7 +19,7 @@ const services = [
   {
     title: "Social Media & Brand Growth",
     desc: "Build a loyal audience with strategic social media management, influencer partnerships, and engaging brand storytelling.",
-    link: "/social-media-brand",
+    link: "/social-media-marketing",
   },
 ];
 

@@ -43,7 +43,7 @@ const allLinks: Record<string, CrossLinkItem> = {
   "predictive-analytics": { icon: BarChart3, title: "Predictive Analytics", desc: "ML-powered forecasting for demand, inventory, and business intelligence.", href: "/predictive-analytics", metric: "85% Accuracy" },
   "seo": { icon: Search, title: "SEO, AEO & Content Strategy", desc: "Data-driven SEO, AEO, content marketing, and organic growth strategies for UAE and India.", href: "/seo-content-strategy", metric: "3x Organic Traffic" },
   "paid-ads": { icon: Target, title: "Paid Advertising", desc: "Google Ads, Meta, and LinkedIn campaigns optimized for ROAS and lead generation.", href: "/paid-advertising", metric: "4x ROAS Avg" },
-  "social-media": { icon: Globe, title: "Social Media & Branding", desc: "Brand strategy, social media management, and influencer marketing for growth.", href: "/social-media-brand", metric: "200% Engagement" },
+  "social-media": { icon: Globe, title: "Social Media & Branding", desc: "Brand strategy, social media management, and influencer marketing for growth.", href: "/social-media-marketing", metric: "200% Engagement" },
 };
 
 interface CrossLinkSectionProps {
