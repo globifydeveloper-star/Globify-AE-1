@@ -1,5 +1,5 @@
-import ShopifyNetherlands from "./ShopifyNetherlandsClient";
+import WoocommerceDevelopmentClient from "./WoocommerceDevelopmentClient";
 
 export default function Page() {
-  return <ShopifyNetherlands />;
+  return <WoocommerceDevelopmentClient />;
 }
