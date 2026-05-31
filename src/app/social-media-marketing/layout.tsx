@@ -1,7 +1,7 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency — UAE, India & Global Brand Growth",
+  title: "Social Media Marketing Agency â€” UAE, India & Global Brand Growth",
   description: "Full-service social media marketing for brands in UAE, Saudi Arabia, India, UK, Netherlands, Australia, and South Africa. Content creation, community management, influencer partnerships, and paid social campaigns on Instagram, TikTok, LinkedIn, X, and Meta. ROI-driven strategy, ISO 27001 certified.",
   keywords: [
     "social media marketing agency UAE",
@@ -52,7 +52,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
+              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png"
             },

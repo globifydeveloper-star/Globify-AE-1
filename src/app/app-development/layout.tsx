@@ -1,7 +1,7 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Mobile App Development Agency — iOS, Android, React Native & Flutter",
+  title: "Mobile App Development Agency â€” iOS, Android, React Native & Flutter",
   description: "Custom mobile app development for brands in UAE, Saudi Arabia, India, UK, Netherlands, Australia, and South Africa. Native iOS and Android, cross-platform React Native and Flutter, enterprise mobility, and MVP-to-scale builds. 300+ apps launched, ISO 27001 certified.",
   keywords: [
     "mobile app development agency UAE",
@@ -52,7 +52,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
+              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png"
             },

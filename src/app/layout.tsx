@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import { ClientProviders } from "@/components/ClientProviders";
@@ -17,10 +17,10 @@ const robotoMono = Roboto_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.globify.ae'),
   title: {
-    default: "Globify — Design · Build · Scale",
+    default: "Globify â€” Design Â· Build Â· Scale",
     template: "%s | Globify"
   },
-  description: "Globify is a 360° digital commerce and technology partner delivering web development, ERP solutions, and performance-driven digital growth.",
+  description: "Globify is a 360Â° digital commerce and technology partner delivering web development, ERP solutions, and performance-driven digital growth.",
   keywords: [
     "web development UAE",
     "ERP solutions",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "performance marketing",
   ],
   openGraph: {
-    title: "Globify — Design · Build · Scale",
+    title: "Globify â€” Design Â· Build Â· Scale",
     description: "End-to-end web, ERP, and digital commerce solutions for scalable business growth.",
     siteName: "Globify",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Globify — Design · Build · Scale",
+    title: "Globify â€” Design Â· Build Â· Scale",
     description: "Web, ERP & digital commerce solutions built for growth.",
     images: ["/og-image.jpg"],
   },
@@ -90,8 +90,8 @@ export default function RootLayout({
               url: "https://www.globify.ae",
               logo: "https://www.globify.ae/logo.png",
               sameAs: [
-                "https://www.linkedin.com/company/globify",
-                "https://www.instagram.com/globify",
+                "https://www.linkedin.com/company/globify-software-solutions-pvt-ltd",
+                "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital",
               ],
             }),
           }}

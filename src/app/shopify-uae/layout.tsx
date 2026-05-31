@@ -1,7 +1,7 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Shopify Development Agency UAE — Dubai-Based Shopify Plus Partner",
+  title: "Shopify Development Agency UAE â€” Dubai-Based Shopify Plus Partner",
   description: "Shopify and Shopify Plus development for UAE brands. Dubai office, Arabic and English support, VAT-compliant checkout, Aramex and PayTabs integration. 300+ stores launched, ISO 27001 certified Shopify Partner.",
   keywords: [
     "shopify development UAE",
@@ -49,7 +49,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
+              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png",
               "address": {

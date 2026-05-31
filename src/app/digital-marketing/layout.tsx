@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing Agency — SEO, PPC, Social Media & Performance Marketing",
-  description: "Full-service digital marketing for brands in UAE, Saudi Arabia, India, UK, Netherlands, Australia, and South Africa. SEO, Google Ads, Meta Ads, LinkedIn, TikTok, conversion rate optimization, and analytics — built around revenue, not vanity metrics. Google Partner, ISO 27001 certified.",
+  title: "Digital Marketing Agency â€” SEO, PPC, Social Media & Performance Marketing",
+  description: "Full-service digital marketing for brands in UAE, Saudi Arabia, India, UK, Netherlands, Australia, and South Africa. SEO, Google Ads, Meta Ads, LinkedIn, TikTok, conversion rate optimization, and analytics â€” built around revenue, not vanity metrics. Google Partner, ISO 27001 certified.",
   alternates: { canonical: "/digital-marketing" },
   keywords: [
     "digital marketing agency UAE",
@@ -50,7 +50,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
+              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png"
             },

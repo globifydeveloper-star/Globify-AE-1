@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shopify Development Agency Bahrain — BenefitPay, Aramex, Arabic Storefronts & VAT",
+  title: "Shopify Development Agency Bahrain â€” BenefitPay, Aramex, Arabic Storefronts & VAT",
   description: "Shopify and Shopify Plus development for Bahraini brands in Manama, Muharraq, Riffa, and Hamad Town. Native integrations with BenefitPay, Benefit Network, Tap Payments, Aramex Bahrain, BPost, DHL Bahrain, BHD currency handling, bilingual Arabic/English RTL storefronts, and full 10% VAT compliance (NBR). Shopify Partner, ISO 27001 certified.",
   alternates: { canonical: "/shopify-bahrain" },
   keywords: [
@@ -50,7 +50,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
+              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png"
             },

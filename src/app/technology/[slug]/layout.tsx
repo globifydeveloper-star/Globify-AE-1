@@ -48,7 +48,7 @@ export default function Layout({ children, params }: { children: React.ReactNode
               "provider": {
                 "@type": "Organization",
                 "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
+              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
                 "url": "https://www.globify.ae"
               },
               "areaServed": ["United Arab Emirates", "India", "Global"]

@@ -1,15 +1,15 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shopify Development Agency Spain — Bizum, Correos, IVA & GDPR Compliant",
-  description: "Shopify and Shopify Plus development for Spanish brands and EU-targeting D2C stores. Native integrations with Bizum, Bizum Pay, Correos, SEUR, MRW, IVA handling, multi-language Spanish/Catalan/Galician/Basque storefronts, and full GDPR/LOPDGDD compliance. EU office in Gießen, Germany. Shopify Partner, ISO 27001 certified.",
+  title: "Shopify Development Agency Spain â€” Bizum, Correos, IVA & GDPR Compliant",
+  description: "Shopify and Shopify Plus development for Spanish brands and EU-targeting D2C stores. Native integrations with Bizum, Bizum Pay, Correos, SEUR, MRW, IVA handling, multi-language Spanish/Catalan/Galician/Basque storefronts, and full GDPR/LOPDGDD compliance. EU office in GieÃŸen, Germany. Shopify Partner, ISO 27001 certified.",
   alternates: { canonical: "/shopify-spain" },
   keywords: [
     "Shopify agency Spain",
-    "Shopify desarrollo España",
+    "Shopify desarrollo EspaÃ±a",
     "Shopify Madrid agency",
     "Shopify Barcelona agency",
-    "agencia Shopify España",
+    "agencia Shopify EspaÃ±a",
     "Shopify Plus Spain",
     "Bizum Shopify integration",
     "Correos Shopify integration",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "Shopify LOPDGDD compliance",
     "D2C ecommerce Spain",
     "Magento to Shopify Spain",
-    "Shopify partner España",
+    "Shopify partner EspaÃ±a",
   ],
   openGraph: {
     title: "Shopify Development Agency Spain | Bizum, Correos & GDPR",
@@ -50,7 +50,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
+              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png"
             },

@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shopify App Development Agency — Custom Apps, App Bridge, Functions & Public App Store Builds",
+  title: "Shopify App Development Agency â€” Custom Apps, App Bridge, Functions & Public App Store Builds",
   description: "Custom Shopify and Shopify Plus app development for merchants and app founders in UAE, Saudi Arabia, India, UK, Netherlands, Australia, and South Africa. App Bridge, Polaris UI, Shopify Functions, Admin extensions, Checkout extensions, Theme app extensions, GraphQL Admin API integrations, and full Shopify App Store submission and launch support. Shopify Partner, ISO 27001 certified.",
   alternates: { canonical: "/shopify-app-development" },
   keywords: [
@@ -50,7 +50,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
+              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png"
             },

@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shopify Development Agency South Africa — PayFast, Yoco, Courier Guy & POPIA",
+  title: "Shopify Development Agency South Africa â€” PayFast, Yoco, Courier Guy & POPIA",
   description: "Shopify and Shopify Plus development for South African brands in Johannesburg, Cape Town, Durban, and Pretoria. Native integrations with PayFast, Yoco, Peach Payments, Ozow, The Courier Guy, Aramex SA, Pargo, ZAR currency handling, multi-language English/Afrikaans storefronts, and full POPIA compliance. Shopify Partner, ISO 27001 certified.",
   alternates: { canonical: "/shopify-south-africa" },
   keywords: [
@@ -50,7 +50,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
+              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png"
             },

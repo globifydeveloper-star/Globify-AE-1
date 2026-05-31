@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shopify Plus Enterprise Agency — Headless, B2B, Wholesale & Multi-Region",
+  title: "Shopify Plus Enterprise Agency â€” Headless, B2B, Wholesale & Multi-Region",
   description: "Shopify Plus enterprise development for brands in UAE, Saudi Arabia, India, UK, Netherlands, Australia, and South Africa. Headless commerce with Hydrogen, B2B/wholesale channels, custom checkout (Shopify Functions), Flow automation, multi-region storefronts, and migrations from Magento, Demandware, SAP Commerce, and BigCommerce Enterprise. Shopify Partner, ISO 27001 certified.",
   alternates: { canonical: "/shopify-plus" },
   keywords: [
@@ -50,7 +50,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
+              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png"
             },

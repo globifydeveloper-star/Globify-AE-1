@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shopify Development Agency Qatar — QPAY, Aramex, Arabic Storefronts & VAT-Ready",
+  title: "Shopify Development Agency Qatar â€” QPAY, Aramex, Arabic Storefronts & VAT-Ready",
   description: "Shopify and Shopify Plus development for Qatari brands in Doha, Lusail, Al Rayyan, and Al Wakrah. Native integrations with QPAY, NAPS, CB-QNB, Skip Cash, Aramex Qatar, QPost, AlMana Logistics, QAR currency handling, bilingual Arabic/English RTL storefronts, and VAT-ready architecture for the expected 2026 rollout. Shopify Partner, ISO 27001 certified.",
   alternates: { canonical: "/shopify-qatar" },
   keywords: [
@@ -50,7 +50,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "provider": {
               "@type": "Organization",
               "name": "Globify",
-              "sameAs": ["https://www.linkedin.com/company/globify", "https://www.instagram.com/globify"],
+              "sameAs": ["https://www.linkedin.com/company/globify-software-solutions-pvt-ltd", "https://www.instagram.com/globify_software_solutions", "https://www.youtube.com/@GlobifyCorp", "https://www.facebook.com/globifydigital"],
               "url": "https://www.globify.ae",
               "logo": "https://www.globify.ae/logo.png"
             },
