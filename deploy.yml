@@ -1,18 +1,18 @@
 name: Deploy
 on:
- push:
-   branches:
-     - main
+  push:
+    branches:
+      - main
 jobs:
- deploy:
-   runs-on: ubuntu-latest
-   steps:
-     - name: SSH Deploy
-       uses: appleboy/ssh-action@v1
-       with:
-         host: 72.62.231.124 
-         username: admin
-         password: Globify2026?
-         script: |
-           cd /home/globify
-           ./deploy.sh
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: SSH Deploy
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          script: |
+            cd /home/globify
+            ./deploy.sh
