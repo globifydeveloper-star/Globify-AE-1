@@ -65,12 +65,9 @@ export async function POST(request: Request) {
       </div>
     `;
 
-    // Note: Sending from globify.in temporarily because globify.ae is not yet
-    // verified on Resend. The "to:" addresses still point to globify.ae so
-    // leads land in the right inbox. Revert from-domain to globify.ae once
-    // the domain is verified at https://resend.com/domains.
+    // Sends from verified globify.ae domain via Resend.
     const adminEmailPromise = resend.emails.send({
-      from: "Globify Leads <noreply@globify.in>",
+      from: "Globify Leads <noreply@globify.ae>",
       to: "sales@globify.ae",
       subject: subjectLine,
       html: emailHtml,
@@ -99,7 +96,7 @@ export async function POST(request: Request) {
       `;
 
       userEmailPromise = resend.emails.send({
-        from: "Globify <noreply@globify.in>",
+        from: "Globify <noreply@globify.ae>",
         to: email,
         subject: "We've received your inquiry - Globify",
         html: userEmailHtml,
