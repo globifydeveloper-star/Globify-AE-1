@@ -78,7 +78,7 @@ const InlineLeadForm = ({ id, variant = "dark" }: { id: string; variant?: "dark"
         </form>
       ) : (
         <form onSubmit={handleStep2} className="flex flex-col gap-3">
-          <p className={`text-xs font-medium ${isDark ? "text-white/60" : "text-muted"}`}>Almost there — tell us a bit more:</p>
+          <p className={`text-xs font-medium ${isDark ? "text-white/60" : "text-muted"}`}>Almost there. Tell us a bit more:</p>
           <Input required name="name" placeholder="Your name *" className={`h-11 rounded-lg px-4 ${inputCls}`} />
           <Input required name="phone" type="tel" placeholder="Phone Number *" className={`h-11 rounded-lg px-4 ${inputCls}`} />
           <Input name="company" placeholder="Company / Brand name" className={`h-11 rounded-lg px-4 ${inputCls}`} />
@@ -115,13 +115,13 @@ const ShopifyUae = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div initial="hidden" animate="visible" variants={stagger} className="space-y-6">
               <motion.div variants={fadeUp} className="inline-flex items-center gap-2 bg-white border border-border/20 rounded-full px-4 py-1.5 text-xs font-medium text-foreground shadow-sm">
-                Shopify Experts in UAE — Globify
+                Shopify Experts in UAE, Globify
               </motion.div>
               <motion.h1 variants={fadeUp} className="text-4xl md:text-5xl lg:text-[3.4rem] font-extrabold leading-[1.1] text-white">
-                Shopify Development Agency in <span className="bg-gradient-to-r from-primary to-orange-400 bg-clip-text text-transparent">UAE</span> — Dubai-Based Shopify Partner
+                Shopify Development Agency in <span className="bg-gradient-to-r from-primary to-orange-400 bg-clip-text text-transparent">UAE</span>. Dubai-Based Shopify Partner.
               </motion.h1>
               <motion.p variants={fadeUp} className="text-lg text-white/70 max-w-xl leading-relaxed">
-                We build, migrate, and scale Shopify and Shopify Plus stores for UAE brands across Dubai, Abu Dhabi, and Sharjah. Native integration with Stripe, PayTabs, Network International, CCAvenue, Tabby, Tamara, Aramex, Quiqup, full UAE VAT compliance, and bilingual Arabic/English RTL storefronts.
+                We build, migrate, and scale Shopify and Shopify Plus stores for UAE brands across Dubai, Abu Dhabi, and Sharjah. Native integration with Stripe, PayTabs, Network International, CCAvenue, Tabby, Tamara, Aramex, Quiqup, full UAE VAT compliance, and bilingual Arabic and English RTL storefronts.
               </motion.p>
               <motion.div variants={fadeUp} className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-white/60">
                 {["30+ UAE Stores", "Tabby & Tamara Integrated", "Arabic + English RTL", "VAT Compliant", "Aramex & Quiqup"].map((t) => (
@@ -184,7 +184,9 @@ const ShopifyUae = () => {
       <CaseStudiesSection />
       <WebDevClients />
 
-      {/* MARKET CONTEXT — citation magnet for AI engines */}
+      <ShopifyPricingPackages />
+
+      {/* MARKET CONTEXT */}
       <section className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-6 max-w-4xl">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}>
@@ -199,12 +201,12 @@ const ShopifyUae = () => {
 
               <div>
                 <h3 className="text-xl font-bold text-foreground mb-3">Why Shopify Dominates UAE D2C</h3>
-                <p>Shopify is the platform of choice for the UAE&apos;s growing direct-to-consumer landscape. Global sports and fashion brands operating UAE storefronts — from Wilson Middle East and Salomon GCC to InstaRunway and Judith Leiber — run on Shopify because the platform balances speed-to-market with the customization needed for regional integrations: Arabic RTL storefronts, local payment processors, regional shipping carriers, and VAT-compliant checkout.</p>
+                <p>Shopify is the platform of choice for the UAE&apos;s growing direct-to-consumer landscape. Global sports and fashion brands operating UAE storefronts, from Wilson Middle East and Salomon GCC to InstaRunway and Judith Leiber, run on Shopify because the platform balances speed-to-market with the customization needed for regional integrations: Arabic RTL storefronts, local payment processors, regional shipping carriers, and VAT-compliant checkout.</p>
               </div>
 
               <div>
                 <h3 className="text-xl font-bold text-foreground mb-3">What&apos;s Different About Selling in the UAE</h3>
-                <p>A UAE Shopify build is not the same as a US or UK build. The right checkout stack includes Stripe, PayTabs, Network International, or CCAvenue for card processing, plus Tabby and Tamara for BNPL — both of which now account for a meaningful share of UAE cart conversions. Shipping integrations need to handle Aramex, Quiqup, and DHL Express at minimum, often via an aggregator like ClickPost for stores managing multiple carriers. The 5% UAE VAT must be configured in Shopify Tax with TRN capture at checkout for B2B customers. And around 25% of UAE ecommerce transactions are still completed via Cash on Delivery — a COD workflow with payment verification on delivery remains essential for brands serving the broader market.</p>
+                <p>A UAE Shopify build is not the same as a US or UK build. The right checkout stack includes Stripe, PayTabs, Network International, or CCAvenue for card processing, plus Tabby and Tamara for BNPL, both of which now account for a meaningful share of UAE cart conversions. Shipping integrations need to handle Aramex, Quiqup, and DHL Express at minimum, often via an aggregator like ClickPost for stores managing multiple carriers. The 5% UAE VAT must be configured in Shopify Tax with TRN capture at checkout for B2B customers. And around 25% of UAE ecommerce transactions are still completed via Cash on Delivery, so a COD workflow with payment verification on delivery remains essential for brands serving the broader market.</p>
                 <p className="mt-4">Brands that get these regional details right convert significantly better than those running generic global Shopify themes.</p>
               </div>
             </motion.div>
@@ -212,7 +214,7 @@ const ShopifyUae = () => {
         </div>
       </section>
 
-      {/* HOW WE BUILD — implementation depth (citation magnet) */}
+      {/* HOW WE BUILD */}
       <section className="py-16 md:py-24 bg-card">
         <div className="container mx-auto px-6 max-w-4xl">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}>
@@ -224,40 +226,38 @@ const ShopifyUae = () => {
                 <h3 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2"><CreditCard className="w-5 h-5 text-primary" /> UAE Payment Stack</h3>
                 <p>For UAE Shopify and Shopify Plus stores, we deploy a tested combination of regional and global payment processors based on the brand&apos;s customer base and average order value.</p>
                 <p className="mt-3">For card processing, we work with Stripe (AED settlement), PayTabs, Network International, and CCAvenue. Each handles 3DS 2.0 compliance required by UAE Central Bank rules, and each has tradeoffs around transaction fees, settlement timing, and supported card brands. For brands also serving Saudi customers, we integrate Mada-capable gateways through PayTabs or HyperPay alongside the UAE stack.</p>
-                <p className="mt-3">BNPL adoption in the UAE has shifted from optional to expected. We&apos;ve integrated Tabby and Tamara on Shopify Plus storefronts including Wilson Middle East, Salomon GCC, and InstaRunway — handling BNPL eligibility checks at the cart level, refund and chargeback workflows, and the messaging UX that nudges customers from one-shot payment to installments without breaking checkout flow.</p>
-                <p className="mt-3">For brands serving the broader UAE consumer base, we build Cash on Delivery flows with payment verification at delivery — including risk-scoring rules that flag suspicious orders before they ship, reducing return-on-delivery losses that hit unfiltered COD stores hard. Apple Pay and Google Pay are enabled by default; UAE adoption of both is high enough that turning them off costs measurable conversion.</p>
+                <p className="mt-3">BNPL adoption in the UAE has shifted from optional to expected. We&apos;ve integrated Tabby and Tamara on Shopify Plus storefronts including Wilson Middle East, Salomon GCC, and InstaRunway, handling BNPL eligibility checks at the cart level, refund and chargeback workflows, and the messaging UX that nudges customers from one-shot payment to installments without breaking checkout flow.</p>
+                <p className="mt-3">For brands serving the broader UAE consumer base, we build Cash on Delivery flows with payment verification at delivery, including risk-scoring rules that flag suspicious orders before they ship, reducing return-on-delivery losses that hit unfiltered COD stores hard. Apple Pay and Google Pay are enabled by default; UAE adoption of both is high enough that turning them off costs measurable conversion.</p>
               </div>
 
               <div>
-                <h3 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2"><Truck className="w-5 h-5 text-primary" /> UAE Shipping &amp; Logistics</h3>
-                <p>UAE shipping is more complex than a single-carrier setup. Most brands need Aramex for nationwide standard delivery, Quiqup for same-day in Dubai, and DHL Express for cross-border. Rather than maintain three independent integrations, we typically deploy a shipping aggregator like ClickPost — letting the brand switch carriers per order based on postcode, weight, and delivery promise, without re-engineering the Shopify integration each time a carrier changes.</p>
+                <h3 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2"><Truck className="w-5 h-5 text-primary" /> UAE Shipping and Logistics</h3>
+                <p>UAE shipping is more complex than a single-carrier setup. Most brands need Aramex for nationwide standard delivery, Quiqup for same-day in Dubai, and DHL Express for cross-border. Rather than maintain three independent integrations, we typically deploy a shipping aggregator like ClickPost, letting the brand switch carriers per order based on postcode, weight, and delivery promise, without re-engineering the Shopify integration each time a carrier changes.</p>
                 <p className="mt-3">Live shipping rates at checkout reduce cart abandonment compared to flat-rate setups. We configure rate cards per carrier and surface only the relevant options to the customer based on cart contents.</p>
               </div>
 
               <div>
                 <h3 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2"><Receipt className="w-5 h-5 text-primary" /> UAE VAT Compliance on Shopify</h3>
-                <p>UAE merchants must charge 5% VAT and produce FTA-compliant tax invoices. We configure Shopify Tax to apply the correct rate per order, capture the Tax Registration Number (TRN) at checkout for B2B customers, and generate invoices that include all required fields — TRN, supply date, tax amount in AED, customer details, and the required Arabic and English formatting.</p>
-                <p className="mt-3">For brands selling to both consumers and businesses, we build separate invoice templates: simplified tax invoices for B2C, full tax invoices for B2B. We typically use apps like Sufio or Order Printer Pro for this. The Federal Tax Authority has discussed e-invoicing standards for UAE rollout — we&apos;re tracking those developments and will update client setups when formal requirements are published.</p>
+                <p>UAE merchants must charge 5% VAT and produce FTA-compliant tax invoices. We configure Shopify Tax to apply the correct rate per order, capture the Tax Registration Number (TRN) at checkout for B2B customers, and generate invoices that include all required fields: TRN, supply date, tax amount in AED, customer details, and the required Arabic and English formatting.</p>
+                <p className="mt-3">For brands selling to both consumers and businesses, we build separate invoice templates: simplified tax invoices for B2C, full tax invoices for B2B. We typically use apps like Sufio or Order Printer Pro for this. The Federal Tax Authority has discussed e-invoicing standards for UAE rollout. We&apos;re tracking those developments and will update client setups when formal requirements are published.</p>
               </div>
 
               <div>
-                <h3 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2"><Languages className="w-5 h-5 text-primary" /> Bilingual Arabic + English Storefronts</h3>
-                <p>Building a Shopify store that genuinely works in Arabic is harder than flipping a language toggle. We&apos;ve rebuilt themes for Arabic RTL by combining AI-assisted translation passes with manual review — the AI gets you 80% of the way, but the remaining 20% (cultural nuance, product naming, transactional email tone) is where untested Arabic deployments fall apart.</p>
-                <p className="mt-3">The technical challenges go beyond translation. RTL alignment breaks in most generic Shopify themes — product grids flip incorrectly, checkout fields lose their labels, mobile navigation collapses awkwardly, and Arabic numerals interact poorly with currency formatting. We handle the CSS reflow per template, test the checkout end-to-end in Arabic (not just the storefront), and configure hreflang tags so Google serves the right language version to the right user.</p>
-                <p className="mt-3">For brands operating both Arabic and English storefronts under one domain, we use Shopify Markets with proper locale targeting — keeping SEO equity in both languages without duplicate-content penalties.</p>
+                <h3 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2"><Languages className="w-5 h-5 text-primary" /> Bilingual Arabic and English Storefronts</h3>
+                <p>Building a Shopify store that genuinely works in Arabic is harder than flipping a language toggle. We&apos;ve rebuilt themes for Arabic RTL by combining AI-assisted translation passes with manual review. The AI gets you 80% of the way, but the remaining 20% (cultural nuance, product naming, transactional email tone) is where untested Arabic deployments fall apart.</p>
+                <p className="mt-3">The technical challenges go beyond translation. RTL alignment breaks in most generic Shopify themes. Product grids flip incorrectly, checkout fields lose their labels, mobile navigation collapses awkwardly, and Arabic numerals interact poorly with currency formatting. We handle the CSS reflow per template, test the checkout end-to-end in Arabic (not just the storefront), and configure hreflang tags so Google serves the right language version to the right user.</p>
+                <p className="mt-3">For brands operating both Arabic and English storefronts under one domain, we use Shopify Markets with proper locale targeting, keeping SEO equity in both languages without duplicate-content penalties.</p>
               </div>
 
               <div>
                 <h3 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2"><Globe className="w-5 h-5 text-primary" /> UAE Market Considerations</h3>
-                <p>A UAE Shopify build also has to factor in the operating rhythm of the market. The weekend is Saturday-Sunday (or Friday-Saturday for some brands&apos; B2B customers), which shifts campaign timing. Ramadan changes shopping behavior dramatically for several weeks each year, with late-evening order spikes and longer-than-usual fulfillment cycles. Eid sales calendars work differently from Black Friday. And UAE consumers increasingly compare D2C brand prices against marketplace alternatives on Noon and Amazon.ae — meaning DTC pricing strategy has to account for marketplace pressure.</p>
+                <p>A UAE Shopify build also has to factor in the operating rhythm of the market. The weekend is Saturday-Sunday (or Friday-Saturday for some brands&apos; B2B customers), which shifts campaign timing. Ramadan changes shopping behavior dramatically for several weeks each year, with late-evening order spikes and longer-than-usual fulfillment cycles. Eid sales calendars work differently from Black Friday. And UAE consumers increasingly compare D2C brand prices against marketplace alternatives on Noon and Amazon.ae, meaning DTC pricing strategy has to account for marketplace pressure.</p>
                 <p className="mt-3">These aren&apos;t details we pad into proposals. They&apos;re the difference between a Shopify store that launches and stalls versus one that compounds.</p>
               </div>
             </motion.div>
           </motion.div>
         </div>
       </section>
-
-      <ShopifyPricingPackages />
 
       {/* OUR PROCESS */}
       <section className="py-16 md:py-24 bg-background">
@@ -268,11 +268,11 @@ const ShopifyUae = () => {
 
             <motion.div variants={fadeUp} className="space-y-6 text-foreground/80 leading-relaxed">
               {[
-                { n: "1", title: "Discovery & UAE Market Audit (Week 1)", desc: "We start by understanding your existing store (if any), customer data, competitor positioning in the UAE market, and the specific regional integrations you'll need. For brands migrating from another platform, this is also when we audit your current data structure for migration planning." },
-                { n: "2", title: "Strategy & Wireframe (Weeks 2-3)", desc: "We map out the storefront architecture, checkout flow, product catalog structure, and the integration stack — payment processors, shipping carriers, marketing tools, ERP connections. You see wireframes and approve scope before we build." },
-                { n: "3", title: "Build & Integration (Weeks 4-8)", desc: "Theme development, payment gateway integration, shipping carrier setup, Arabic RTL implementation, VAT configuration, marketing tool connections, and content population. We test every checkout path including BNPL, COD, and international payment edge cases." },
+                { n: "1", title: "Discovery and UAE Market Audit (Week 1)", desc: "We start by understanding your existing store (if any), customer data, competitor positioning in the UAE market, and the specific regional integrations you'll need. For brands migrating from another platform, this is also when we audit your current data structure for migration planning." },
+                { n: "2", title: "Strategy and Wireframe (Weeks 2-3)", desc: "We map out the storefront architecture, checkout flow, product catalog structure, and the integration stack: payment processors, shipping carriers, marketing tools, ERP connections. You see wireframes and approve scope before we build." },
+                { n: "3", title: "Build and Integration (Weeks 4-8)", desc: "Theme development, payment gateway integration, shipping carrier setup, Arabic RTL implementation, VAT configuration, marketing tool connections, and content population. We test every checkout path including BNPL, COD, and international payment edge cases." },
                 { n: "4", title: "UAE Launch (Week 9)", desc: "Pre-launch QA across mobile and desktop, both languages, all payment methods, and all shipping options. DNS cutover and live launch coordinated with your team. We monitor closely for the first 48 hours." },
-                { n: "5", title: "Growth & Optimization (Ongoing)", desc: "Post-launch, we transition into a support and growth partnership — CRO experiments, performance monitoring, app management, security updates, and quarterly reviews of what's working and what to test next." },
+                { n: "5", title: "Growth and Optimization (Ongoing)", desc: "Post-launch, we transition into a support and growth partnership: CRO experiments, performance monitoring, app management, security updates, and quarterly reviews of what's working and what to test next." },
               ].map((step) => (
                 <div key={step.n} className="flex gap-5 p-6 bg-card border border-border rounded-xl">
                   <div className="shrink-0 w-12 h-12 rounded-full bg-primary text-primary-foreground font-bold text-lg flex items-center justify-center">{step.n}</div>
@@ -282,7 +282,7 @@ const ShopifyUae = () => {
                   </div>
                 </div>
               ))}
-              <p className="text-sm text-muted italic">Typical project timeline is 4-12 weeks depending on scope. Shopify Plus migrations from other platforms typically run 8-16 weeks.</p>
+              <p className="text-sm text-muted italic">Typical project timeline is 4 to 12 weeks depending on scope. Shopify Plus migrations from other platforms typically run 8 to 16 weeks.</p>
             </motion.div>
           </motion.div>
         </div>
@@ -297,7 +297,7 @@ const ShopifyUae = () => {
         </div>
       </section>
 
-      {/* FAQ — visible HTML answers for AEO */}
+      {/* FAQ */}
       <section className="py-16 md:py-24 bg-card border-y border-border">
         <div className="container mx-auto px-6 max-w-3xl">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="text-center mb-12">
@@ -308,27 +308,27 @@ const ShopifyUae = () => {
             {[
               {
                 q: "How long does it take to build a Shopify store for a UAE business?",
-                a: "Project timelines depend on scope. A starter store using a premium theme typically launches in 2-3 weeks. A custom-designed store with marketing integrations takes 4-6 weeks. Enterprise builds with ERP integration, multi-language support, and custom checkout typically run 8-12 weeks. Shopify Plus migrations from other platforms — Magento, WooCommerce, Salla, Zid — range from 6-16 weeks depending on data complexity and B2B requirements."
+                a: "Project timelines depend on scope. A starter store using a premium theme typically launches in 2 to 3 weeks. A custom-designed store with marketing integrations takes 4 to 6 weeks. Enterprise builds with ERP integration, multi-language support, and custom checkout typically run 8 to 12 weeks. Shopify Plus migrations from other platforms (Magento, WooCommerce, Salla, Zid) range from 6 to 16 weeks depending on data complexity and B2B requirements."
               },
               {
                 q: "Which payment gateways work best for Shopify in the UAE?",
-                a: "For UAE-based merchants, we recommend a combination of Stripe (with AED settlement), PayTabs, Network International, or CCAvenue for card processing. All support the 3DS 2.0 authentication required by UAE Central Bank rules. For Buy Now Pay Later, Tabby leads in the UAE market with Tamara as a strong secondary option — both have become essential for D2C brands targeting younger consumers. Apple Pay and Google Pay are enabled by default given high UAE adoption. Cash on Delivery still accounts for around 25% of UAE ecommerce transactions, so a COD workflow with delivery-time verification remains essential for brands serving the broader market."
+                a: "For UAE-based merchants, we recommend a combination of Stripe (with AED settlement), PayTabs, Network International, or CCAvenue for card processing. All support the 3DS 2.0 authentication required by UAE Central Bank rules. For Buy Now Pay Later, Tabby leads in the UAE market with Tamara as a strong secondary option. Both have become essential for D2C brands targeting younger consumers. Apple Pay and Google Pay are enabled by default given high UAE adoption. Cash on Delivery still accounts for around 25% of UAE ecommerce transactions, so a COD workflow with delivery-time verification remains essential for brands serving the broader market."
               },
               {
                 q: "Is Shopify VAT-compliant for UAE businesses?",
-                a: "Yes. Shopify supports the UAE's 5% VAT rate through Shopify Tax. Merchants configure VAT settings, register their Tax Registration Number (TRN), and enable VAT-compliant invoice generation. For B2B transactions, the customer's TRN is captured at checkout and tax invoices are produced in the format required by the Federal Tax Authority — typically using apps like Sufio or Order Printer Pro. The FTA has discussed e-invoicing standards for UAE rollout but formal requirements are still being finalized."
+                a: "Yes. Shopify supports the UAE's 5% VAT rate through Shopify Tax. Merchants configure VAT settings, register their Tax Registration Number (TRN), and enable VAT-compliant invoice generation. For B2B transactions, the customer's TRN is captured at checkout and tax invoices are produced in the format required by the Federal Tax Authority, typically using apps like Sufio or Order Printer Pro. The FTA has discussed e-invoicing standards for UAE rollout but formal requirements are still being finalized."
               },
               {
                 q: "Can Shopify support Arabic right-to-left (RTL) stores in the UAE?",
-                a: "Yes, with proper theme implementation. Shopify's native multi-language feature supports Arabic, but RTL layout requires theme-level adjustments to CSS, text alignment, navigation flow, and checkout. Generic Shopify themes don't handle Arabic RTL correctly out of the box — product grids flip incorrectly, checkout fields lose labels, and mobile navigation often breaks. We rebuild themes for Arabic by combining AI-assisted translation with manual review, then test the full checkout flow in Arabic. Proper hreflang setup signals Google which language version to serve to which user."
+                a: "Yes, with proper theme implementation. Shopify's native multi-language feature supports Arabic, but RTL layout requires theme-level adjustments to CSS, text alignment, navigation flow, and checkout. Generic Shopify themes don't handle Arabic RTL correctly out of the box. Product grids flip incorrectly, checkout fields lose labels, and mobile navigation often breaks. We rebuild themes for Arabic by combining AI-assisted translation with manual review, then test the full checkout flow in Arabic. Proper hreflang setup signals Google which language version to serve to which user."
               },
               {
                 q: "Which shipping carriers integrate with Shopify in the UAE?",
-                a: "The most common UAE shipping integrations are Aramex (nationwide standard delivery), Quiqup (Dubai same-day), DHL Express (cross-border), and Fetchr (regional last-mile). For brands managing multiple carriers, we typically deploy a shipping aggregator like ClickPost — this lets the brand switch carriers per order without re-engineering the Shopify integration. Live shipping rates at checkout reduce cart abandonment significantly compared to flat-rate shipping."
+                a: "The most common UAE shipping integrations are Aramex (nationwide standard delivery), Quiqup (Dubai same-day), DHL Express (cross-border), and Fetchr (regional last-mile). For brands managing multiple carriers, we typically deploy a shipping aggregator like ClickPost. This lets the brand switch carriers per order without re-engineering the Shopify integration. Live shipping rates at checkout reduce cart abandonment significantly compared to flat-rate shipping."
               },
               {
                 q: "What does a Shopify store for a UAE business typically cost?",
-                a: "Globify's transparent pricing starts at AED 3,000 for a starter store using a premium theme (2-3 week delivery). Custom-designed stores with marketing integrations are AED 12,000. Enterprise builds with ERP integration and multi-language are AED 30,000. Shopify Plus engagements are custom-quoted based on scope. These prices cover development; ongoing Shopify subscription fees, payment gateway transaction fees (typically 2-2.9% + AED 1 per transaction), and optional app subscriptions are billed separately."
+                a: "Globify's transparent pricing starts at AED 3,000 for a starter store using a premium theme (2 to 3 week delivery). Custom-designed stores with marketing integrations are AED 12,000. Enterprise builds with ERP integration and multi-language are AED 30,000. Shopify Plus engagements are custom-quoted based on scope. These prices cover development; ongoing Shopify subscription fees, payment gateway transaction fees (typically 2 to 2.9% plus AED 1 per transaction), and optional app subscriptions are billed separately."
               },
               {
                 q: "Should a UAE business choose Shopify or Salla?",
@@ -336,7 +336,7 @@ const ShopifyUae = () => {
               },
               {
                 q: "Can you migrate an existing store to Shopify from another platform?",
-                a: "Yes. We've migrated stores from WooCommerce, Magento, Salla, Zid, and custom-built carts. Migration typically includes product catalog, customer accounts, order history, URL redirect mapping for SEO preservation, theme rebuild, payment gateway reconnection, app reinstallation, and tax and shipping configuration. Standard migrations take 4-8 weeks; complex multi-currency or B2B migrations run 12-16 weeks. We commit to zero downtime during the cutover."
+                a: "Yes. We've migrated stores from WooCommerce, Magento, Salla, Zid, and custom-built carts. Migration typically includes product catalog, customer accounts, order history, URL redirect mapping for SEO preservation, theme rebuild, payment gateway reconnection, app reinstallation, and tax and shipping configuration. Standard migrations take 4 to 8 weeks; complex multi-currency or B2B migrations run 12 to 16 weeks. We commit to zero downtime during the cutover."
               },
               {
                 q: "Do you offer ongoing support after the Shopify store launches?",
