@@ -2,7 +2,19 @@ import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
 export async function POST(request: Request) {
-  const resend = new Resend(process.env.RESEND_API_KEY);
+  // Defensive check: fail loudly and helpfully if the API key is missing.
+  // Previously this would crash with a vague 500, losing the lead silently.
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    console.error("CRITICAL: RESEND_API_KEY is not set in environment variables. Form submissions cannot send email.");
+    return NextResponse.json(
+      { error: "Our contact form is temporarily unavailable. Please email us directly at sales@globify.ae and we'll respond within 24 hours." },
+      { status: 503 }
+    );
+  }
+
+  const resend = new Resend(apiKey);
+
   try {
     const formData = await request.formData();
 
@@ -53,8 +65,12 @@ export async function POST(request: Request) {
       </div>
     `;
 
+    // Note: Sending from globify.in temporarily because globify.ae is not yet
+    // verified on Resend. The "to:" addresses still point to globify.ae so
+    // leads land in the right inbox. Revert from-domain to globify.ae once
+    // the domain is verified at https://resend.com/domains.
     const adminEmailPromise = resend.emails.send({
-      from: "Globify Leads <noreply@globify.ae>",
+      from: "Globify Leads <noreply@globify.in>",
       to: "sales@globify.ae",
       subject: subjectLine,
       html: emailHtml,
@@ -72,7 +88,7 @@ export async function POST(request: Request) {
             <h2 style="color: #E8590C; font-size: 20px; margin-top: 0; margin-bottom: 16px;">Thanks for reaching out!</h2>
             <p style="font-size: 16px; line-height: 1.5; margin-bottom: 16px;">Hi ${name ? name.split(' ')[0] : 'there'},</p>
             <p style="font-size: 16px; line-height: 1.5; margin-bottom: 16px; color: #4A4A4A;">We've received your request and our team is currently reviewing it. One of our experts will get back to you within 24 hours.</p>
-            <p style="font-size: 16px; line-height: 1.5; margin-bottom: 24px; color: #4A4A4A;">If you have any immediate questions, feel free to reply directly to Sales@globify.ae</p>
+            <p style="font-size: 16px; line-height: 1.5; margin-bottom: 24px; color: #4A4A4A;">If you have any immediate questions, feel free to reply directly to sales@globify.ae</p>
             <hr style="border: none; border-top: 1px solid #E5E5E5; margin: 24px 0;">
             <p style="font-size: 15px; margin: 0; color: #171717;">Best regards,<br/><strong style="color: #E8590C;">The Globify Team</strong></p>
           </div>
@@ -83,7 +99,7 @@ export async function POST(request: Request) {
       `;
 
       userEmailPromise = resend.emails.send({
-        from: "Globify <noreply@globify.ae>",
+        from: "Globify <noreply@globify.in>",
         to: email,
         subject: "We've received your inquiry - Globify",
         html: userEmailHtml,
@@ -142,7 +158,7 @@ export async function POST(request: Request) {
       crmPromise,
     ]);
 
-    if (adminResult.error) {
+    if (adminResult?.error) {
       console.error("Resend API Error (Admin):", adminResult.error);
       return NextResponse.json({ error: adminResult.error.message }, { status: 400 });
     }
@@ -152,7 +168,7 @@ export async function POST(request: Request) {
       // We still return success if the admin got the lead, but we log the error
     }
 
-    return NextResponse.json({ success: true, responseData: adminResult.data });
+    return NextResponse.json({ success: true, responseData: adminResult?.data });
   } catch (error) {
     console.error("Internal Error sending email:", error);
     return NextResponse.json(
