@@ -10,9 +10,9 @@ jobs:
      - name: SSH Deploy
        uses: appleboy/ssh-action@v1
        with:
-         host: 72.62.231.124 
-         username: admin
-         password: Globify2026?
+         host: ######
+         username: ######
+         password: ######
          script: |
            cd /home/globify
            ./deploy.sh
