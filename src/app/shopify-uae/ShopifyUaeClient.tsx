@@ -327,7 +327,7 @@ const ShopifyUae = () => {
                 a: "The most common UAE shipping integrations are Aramex (nationwide standard delivery), Quiqup (Dubai same-day), DHL Express (cross-border), and Fetchr (regional last-mile). For brands managing multiple carriers, we typically deploy a shipping aggregator like ClickPost — this lets the brand switch carriers per order without re-engineering the Shopify integration. Live shipping rates at checkout reduce cart abandonment significantly compared to flat-rate shipping."
               },
               {
-                q: "What does a Shopify store for a UAE business typically cost?",
+                q: "What do a Shopify store for a UAE business typically cost?",
                 a: "Globify's transparent pricing starts at AED 3,000 for a starter store using a premium theme (2-3 week delivery). Custom-designed stores with marketing integrations are AED 12,000. Enterprise builds with ERP integration and multi-language are AED 30,000. Shopify Plus engagements are custom-quoted based on scope. These prices cover development; ongoing Shopify subscription fees, payment gateway transaction fees (typically 2-2.9% + AED 1 per transaction), and optional app subscriptions are billed separately."
               },
               {
