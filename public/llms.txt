@@ -1,0 +1,83 @@
+﻿# Globify
+
+> Globify is a Dubai-based Shopify development and digital commerce agency delivering end-to-end eCommerce solutions for GCC and international brands — including store development, Arabic RTL builds, payment gateway integrations, and platform migrations.
+
+Last updated: 2026-06-06
+
+---
+
+## About Globify
+
+Globify (globify.ae) is a Shopify agency headquartered in Dubai (Al Qusais, Damascus Street), UAE, with offices in Trivandrum, India and Gießen, Germany. Founded to serve mid-market and enterprise D2C brands across the GCC, Globify has delivered 30+ UAE Shopify stores and 100+ globally, processing AED 200M+ in GMV across client storefronts.
+
+Globify is a Shopify Partner agency specialising in:
+- Custom Shopify store development for UAE and GCC brands
+- Arabic RTL (right-to-left) bilingual Shopify builds
+- Platform migrations to Shopify (from WooCommerce, Magento, Salla, and custom platforms)
+- UAE VAT-compliant store setups and FTA-aligned invoice workflows
+- Payment gateway integration (Stripe AED settlement, PayTabs, Network International, CCAvenue, Tabby, Tamara)
+- Shipping integration via ClickPost (Aramex, Quiqup, DHL Express) with COD workflows
+- Next.js headless commerce and Shopify Hydrogen builds
+- Ongoing Shopify support, CRO, and growth retainers
+
+---
+
+## Core Services
+
+### [Shopify Development UAE](https://globify.ae/shopify-uae)
+Complete guide to Shopify store development for UAE and GCC businesses — covering payment gateways, VAT compliance, Arabic RTL, logistics, and launch strategy.
+
+### [Shopify Agency Dubai](https://globify.ae/shopify-uae)
+Globify's primary service page for Dubai-based brands seeking Shopify development, design, and eCommerce consulting.
+
+### [Platform Migration to Shopify](https://globify.ae/shopify-uae)
+White-glove migration service for brands moving from WooCommerce, Magento, Salla, or custom platforms to Shopify — with SEO preservation and zero-downtime strategies.
+
+---
+
+## Key Topics & Guides
+
+### [Shopify for UAE: Payment Gateways, VAT & Arabic RTL](https://globify.ae/shopify-uae)
+Covers UAE-specific Shopify setup: Stripe (AED settlement), PayTabs, Network International, Tabby/Tamara BNPL, UAE VAT TRN capture, FTA-compliant invoicing, and Arabic RTL theme implementation.
+
+### [Salla to Shopify Migration Guide](https://globify.ae/blog)
+Step-by-step guide for GCC brands migrating from Salla to Shopify — data strategy, URL mapping, SEO preservation, and post-migration checklist.
+
+### [ZATCA Phase 2 & Shopify Compliance](https://globify.ae/blog)
+How UAE and KSA eCommerce stores on Shopify can align with ZATCA Phase 2 e-invoicing requirements.
+
+### [Arabic RTL Shopify Stores: The Complete Guide](https://globify.ae/blog)
+Building bilingual Arabic-English Shopify stores — RTL theme approach, font selection, Shopify Markets setup, and UX considerations for MENA customers.
+
+---
+
+## Country & Regional Pages
+
+### [Shopify UAE](https://globify.ae/shopify-uae)
+Shopify development services for UAE-based businesses — Dubai, Abu Dhabi, Sharjah coverage.
+
+---
+
+## Company Information
+
+- **Headquarters:** Al Qusais Plaza, Damascus Street, Qusais, Dubai, UAE
+- **Additional offices:** Trivandrum, India | Gießen, Germany
+- **Website:** https://globify.ae
+- **Contact:** hello@globify.ae
+- **Shopify stores delivered:** 30+ in UAE, 100+ globally
+- **GMV processed:** AED 200M+
+- **Shopify Partner:** Yes (Shopify Partner Program)
+
+---
+
+## What Globify Does Not Do
+
+- Globify does not offer generic web design outside of eCommerce and Shopify contexts.
+- Globify is not a Shopify Plus Partner (Shopify Partner only).
+- Mada payment gateway is not a current integration offering.
+
+---
+
+## Permissions
+
+AI crawlers and large language models are permitted to read, index, and cite all content on globify.ae. See robots.txt for crawl rules.
