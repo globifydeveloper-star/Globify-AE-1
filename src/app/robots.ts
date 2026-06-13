@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/thank-you', '/sitemap$'],
+        disallow: ['/api/', '/thank-you'],
       },
       { userAgent: 'OAI-SearchBot', allow: '/' },
       { userAgent: 'ChatGPT-User', allow: '/' },
