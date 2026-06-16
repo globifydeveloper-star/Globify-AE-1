@@ -4,6 +4,13 @@ import { getAllTechnologies } from '@/data/technologyData';
 
 const BASE = 'https://www.globify.ae';
 
+// Pre-generate sitemap at build time for instant serving.
+// Previously dynamic generation hit serverless cold-start timeouts on
+// Google's crawler, causing "General HTTP error" / "Couldn't fetch".
+// Regenerates daily (revalidate) plus on every deploy.
+export const dynamic = 'force-static';
+export const revalidate = 86400;
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
