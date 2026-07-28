@@ -14,8 +14,11 @@ import Link from "next/link";
 
 import { useContactDialog } from "@/contexts/ContactDialogContext";
 import { useIsMobile } from "@/hooks/use-mobile";
+import { useHeroGlobeCapability } from "@/hooks/use-webgl-support";
 import NebulaLayer from "./hero-globe/NebulaLayer";
 import HUDGridLayer from "./hero-globe/HUDGridLayer";
+import GlobeErrorBoundary from "./hero-globe/GlobeErrorBoundary";
+import StaticGlobeFallback from "./hero-globe/StaticGlobeFallback";
 
 const StarfieldLayer = lazy(() => import("./hero-globe/StarfieldLayer"));
 const ParticleTrails = lazy(() => import("./hero-globe/ParticleTrails"));
@@ -160,6 +163,10 @@ const HeroSection = () => {
     return () => mq.removeEventListener("change", handler);
   }, []);
 
+  // "checking" (SSR + first client paint) and "static" both render the
+  // lightweight fallback below, so server and client markup always match.
+  const globeCapability = useHeroGlobeCapability(isMobile, prefersReducedMotion);
+
   const handleMouseMove = useCallback(
     (e: React.MouseEvent) => {
       if (prefersReducedMotion || isMobile) return;
@@ -298,9 +305,15 @@ const HeroSection = () => {
             maxHeight: "780px",
           }}
         >
-          <Suspense fallback={null}>
-            <GlobeScene mouseTarget={mouseTarget} isMobile={isMobile} />
-          </Suspense>
+          {globeCapability === "enhanced" ? (
+            <GlobeErrorBoundary fallback={<StaticGlobeFallback />}>
+              <Suspense fallback={<StaticGlobeFallback />}>
+                <GlobeScene mouseTarget={mouseTarget} isMobile={isMobile} />
+              </Suspense>
+            </GlobeErrorBoundary>
+          ) : (
+            <StaticGlobeFallback />
+          )}
         </div>
       </div>
 
@@ -420,4 +433,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
