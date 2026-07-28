@@ -96,7 +96,7 @@ const industries = [
   { icon: Dumbbell, name: "Sports & Fitness" },
 ];
 
-const partners = ["Google Cloud AI Partner", "AWS ML Competency", "Microsoft AI Partner", "Shopify Plus Partner", "Meta Business Partner"];
+const partners = ["Google Cloud AI Partner", "AWS ML Competency", "Microsoft AI Partner", "Shopify Partner", "Meta Business Partner"];
 
 const AboutUs = () => {
   const { openContactDialog } = useContactDialog();

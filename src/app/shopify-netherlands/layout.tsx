@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Shopify Development Agency Netherlands — Shopify Plus Partner",
+title: "Shopify Development Agency Netherlands — Shopify Partner",
   description: "Shopify and Shopify Plus development for brands in the Netherlands. iDEAL and Klarna checkout, PostNL and DHL integration, GDPR-compliant, EU office in Germany. 300+ stores launched, ISO 27001 certified Shopify Partner.",
   keywords: [
     "shopify development Netherlands",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     canonical: "/shopify-netherlands",
   },
   openGraph: {
-    title: "Shopify Development Agency Netherlands | Shopify Plus Partner",
+   title: "Shopify Development Agency Netherlands | Shopify Partner",
     description: "Shopify and Shopify Plus stores for Dutch brands. iDEAL, Klarna, PostNL ready, GDPR-compliant. EU presence in Germany. 300+ stores launched.",
     url: "https://www.globify.ae/shopify-netherlands",
     type: "website",
