@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shopify Development Agency UAE — Dubai-Based Shopify Partner",
+  title: "Shopify Development Agency UAE | Dubai-Based Shopify Partner",
   description: "Shopify and Shopify Plus development for UAE brands in Dubai, Abu Dhabi, and Sharjah. Native integrations with Stripe, PayTabs, Network International, CCAvenue, Tabby, Tamara, Aramex, Quiqup, DHL Express, full UAE VAT compliance (5%), and bilingual Arabic/English RTL storefronts. 30+ UAE stores delivered, 100+ globally. Shopify Partner, ISO 27001 certified.",
   alternates: { canonical: "/shopify-uae" },
   keywords: [

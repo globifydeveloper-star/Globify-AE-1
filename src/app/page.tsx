@@ -63,7 +63,7 @@ export default function Page() {
             telephone: "+971547308673",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "Dubai Silicon Oasis",
+              streetAddress: "Office 310, Al Qusais Plaza Building, Damascus Street, Qusais",
               addressLocality: "Dubai",
               addressRegion: "Dubai",
               addressCountry: "AE",

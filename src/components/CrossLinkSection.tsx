@@ -64,7 +64,7 @@ const CrossLinkSection = ({ currentPage, links, variant = "dark" }: CrossLinkSec
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="mb-10">
           <p className="text-sm font-bold tracking-[0.3em] uppercase text-primary mb-3 font-display">Explore More</p>
           <h2 className={`text-2xl md:text-3xl font-bold font-display ${isDark ? "text-section-dark-foreground" : "text-foreground"}`}>
-            Related AI Transformation Solutions
+            Related Services
           </h2>
         </motion.div>
 
