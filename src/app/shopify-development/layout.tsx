@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import FAQSchema from "@/components/FAQSchema";
 
 export const metadata: Metadata = {
-  title: "Shopify Development Agency UAE & GCC | Globify",
+  title: "Shopify Development Agency UAE & GCC",
   description: "Launch, redesign or migrate your Shopify store with Globify. UAE and GCC Shopify development, Arabic localization, payments, ERP integrations and CRO.",
   keywords: [
     "Shopify development agency UAE",

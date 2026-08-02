@@ -16,13 +16,13 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 
   return {
-    title: "${tech.name} Development Services",
+    title: `${tech.name} Development Services`,
     description: tech.heroDescription || tech.description,
     alternates: {
       canonical: `/technology/${tech.slug}`,
     },
     openGraph: {
-      title: "${tech.name} Development Services",
+      title: `${tech.name} Development Services`,
       description: tech.heroDescription || tech.description,
       type: "website",
       url: `https://www.globify.ae/technology/${tech.slug}`,
