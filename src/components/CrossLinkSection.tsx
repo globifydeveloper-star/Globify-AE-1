@@ -27,7 +27,7 @@ const allLinks: Record<string, CrossLinkItem> = {
   // Core service pages
   "web-dev": { icon: Monitor, title: "Web Development", desc: "Custom websites and Shopify stores built for speed, conversions, and SEO performance.", href: "/web-development", metric: "2.1s Avg Load" },
   "app-dev": { icon: Smartphone, title: "App Development", desc: "Native and cross-platform mobile apps for iOS and Android, from MVP to enterprise scale.", href: "/app-development", metric: "200+ Apps Built" },
-  "ecommerce": { icon: ShoppingCart, title: "E-Commerce Solutions", desc: "End-to-end Shopify, WooCommerce, and custom e-commerce with ERP and marketplace integration.", href: "/ecommerce", metric: "300+ Stores" },
+  "ecommerce": { icon: ShoppingCart, title: "E-Commerce Solutions", desc: "End-to-end Shopify, WooCommerce, and custom e-commerce with ERP and marketplace integration.", href: "/ecommerce", metric: "120+ Stores" },
   "digital-marketing": { icon: Megaphone, title: "Digital Marketing", desc: "SEO, PPC, social media, and CRO strategies that drive measurable revenue growth.", href: "/digital-marketing", metric: "3x Avg ROAS" },
   "ai-automation": { icon: Brain, title: "AI & Automation", desc: "Chatbots, RPA, workflow automation, and machine learning to reduce costs by 40%.", href: "/ai-automation", metric: "40% Cost Savings" },
   "erp": { icon: Layers, title: "ERP Solutions", desc: "Custom ERP for manufacturing, healthcare, and retail. MEDOC HMS and EKASYS platforms.", href: "/erp-solutions", metric: "50% Efficiency Gain" },

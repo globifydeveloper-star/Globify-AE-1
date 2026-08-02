@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Shopify Development Agency UAE | Dubai-Based Shopify Partner",
-  description: "Shopify and Shopify Plus development for UAE brands in Dubai, Abu Dhabi, and Sharjah. Native integrations with Stripe, PayTabs, Network International, CCAvenue, Tabby, Tamara, Aramex, Quiqup, DHL Express, full UAE VAT compliance (5%), and bilingual Arabic/English RTL storefronts. 30+ UAE stores delivered, 100+ globally. Shopify Partner, ISO 27001 certified.",
+  description: "Shopify and Shopify Plus development for UAE brands in Dubai, Abu Dhabi, and Sharjah. Native integrations with Stripe, PayTabs, Network International, CCAvenue, Tabby, Tamara, Aramex, Quiqup, DHL Express, full UAE VAT compliance (5%), and bilingual Arabic/English RTL storefronts. 50+ Shopify stores delivered. Shopify Partner, ISO 27001 certified.",
   alternates: { canonical: "/shopify-uae" },
   keywords: [
     "shopify development agency UAE",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Shopify Development Agency UAE | Dubai Shopify Partner",
-    description: "Shopify and Shopify Plus stores for UAE brands. Stripe, PayTabs, Network International, Tabby, Tamara, Aramex, Quiqup. VAT-compliant, Arabic RTL ready. 30+ UAE stores delivered.",
+    description: "Shopify and Shopify Plus stores for UAE brands. Stripe, PayTabs, Network International, Tabby, Tamara, Aramex, Quiqup. VAT-compliant, Arabic RTL ready. 50+ Shopify stores delivered.",
     url: "https://www.globify.ae/shopify-uae",
     type: "website",
     locale: "en_AE",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Shopify Development Agency UAE | Globify Dubai",
-    description: "Shopify stores for UAE brands. Tabby, Tamara, PayTabs, Aramex, UAE VAT, Arabic RTL. 30+ UAE stores delivered.",
+    description: "Shopify stores for UAE brands. Tabby, Tamara, PayTabs, Aramex, UAE VAT, Arabic RTL. 50+ Shopify stores delivered.",
   },
 };
 

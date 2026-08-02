@@ -165,7 +165,7 @@ const ShopifyNetherlands = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
             {[
-              { val: "120+", label: "Stores Launched" },
+              { val: "50+", label: "Stores Launched" },
               { val: "€20M+", label: "GMV Processed" },
               { val: "Local", label: "Strategy Experts" },
               { val: "4.9/5", label: "Client Rating" },

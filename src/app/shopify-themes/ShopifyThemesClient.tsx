@@ -11,7 +11,7 @@ import CrossLinkSection from "@/components/CrossLinkSection";
 import { useRouter } from "next/navigation";
 
 const stats = [
-  { value: "300+", label: "Stores Designed" },
+  { value: "50+", label: "Stores Designed" },
   { value: "45%", label: "Avg Conversion Lift" },
   { value: "2.1s", label: "Avg Load Time" },
   { value: "98%", label: "Client Satisfaction" },

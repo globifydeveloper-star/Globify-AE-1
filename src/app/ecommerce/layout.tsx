@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "E-Commerce Development Agency — Shopify, WooCommerce, Magento & Custom",
-  description: "End-to-end e-commerce development for brands in UAE, Saudi Arabia, India, UK, Netherlands, Australia, and South Africa. Shopify and Shopify Plus, WooCommerce, Magento, headless commerce, marketplace integration, ERP connectivity, and CRO. 300+ stores launched, 3x average revenue growth, ISO 27001 certified.",
+  description: "End-to-end e-commerce development for brands in UAE, Saudi Arabia, India, UK, Netherlands, Australia, and South Africa. Shopify and Shopify Plus, WooCommerce, Magento, headless commerce, marketplace integration, ERP connectivity, and CRO. 120+ stores launched, 3x average revenue growth, ISO 27001 certified.",
   keywords: [
     "ecommerce development agency UAE",
     "ecommerce development Dubai",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "E-Commerce Development Agency | UAE, India, UK, EU, AU, ZA",
-    description: "Shopify, WooCommerce, Magento, headless commerce, and custom builds for global brands. 300+ stores launched, 3x revenue growth, ISO 27001 certified.",
+    description: "Shopify, WooCommerce, Magento, headless commerce, and custom builds for global brands. 120+ stores launched, 3x revenue growth, ISO 27001 certified.",
     url: "https://www.globify.ae/ecommerce",
     type: "website",
     locale: "en_AE",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "E-Commerce Development Agency | Globify",
-    description: "Shopify, WooCommerce, Magento, headless. 300+ stores launched, 3x revenue growth.",
+    description: "Shopify, WooCommerce, Magento, headless. 120+ stores launched, 3x revenue growth.",
   },
 };
 

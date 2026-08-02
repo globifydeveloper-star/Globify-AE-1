@@ -166,8 +166,7 @@ const ShopifyUae = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
             {[
-              { val: "30+", label: "UAE Stores Delivered" },
-              { val: "100+", label: "Globally" },
+              { val: "50+", label: "Shopify Stores Delivered" },
               { val: "AED 200M+", label: "GMV Processed" },
               { val: "4.9/5", label: "Client Rating" },
               { val: "Shopify", label: "Partner Agency" },

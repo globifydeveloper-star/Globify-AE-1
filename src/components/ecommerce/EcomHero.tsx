@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 const stats = [
   { value: "$200M+", label: "Commerce Revenue Driven" },
-  { value: "300+", label: "Stores & Marketplaces Launched" },
+  { value: "120+", label: "Stores & Marketplaces Launched" },
   { value: "45%", label: "Avg Conversion Lift" },
   { value: "15+", label: "Years of Commerce Expertise" },
 ];

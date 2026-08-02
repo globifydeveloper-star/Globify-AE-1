@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Shopify Development Agency Netherlands — Shopify Partner",
-  description: "Shopify and Shopify Plus development for brands in the Netherlands. iDEAL and Klarna checkout, PostNL and DHL integration, GDPR-compliant, EU office in Germany. 300+ stores launched, ISO 27001 certified Shopify Partner.",
+  description: "Shopify and Shopify Plus development for brands in the Netherlands. iDEAL and Klarna checkout, PostNL and DHL integration, GDPR-compliant, EU office in Germany. 50+ stores launched, ISO 27001 certified Shopify Partner.",
   keywords: [
     "shopify development Netherlands",
     "shopify development Amsterdam",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
   openGraph: {
    title: "Shopify Development Agency Netherlands | Shopify Partner",
-    description: "Shopify and Shopify Plus stores for Dutch brands. iDEAL, Klarna, PostNL ready, GDPR-compliant. EU presence in Germany. 300+ stores launched.",
+    description: "Shopify and Shopify Plus stores for Dutch brands. iDEAL, Klarna, PostNL ready, GDPR-compliant. EU presence in Germany. 50+ stores launched.",
     url: "https://www.globify.ae/shopify-netherlands",
     type: "website",
     locale: "en_GB",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Shopify Development Agency Netherlands | Globify",
-    description: "Shopify and Shopify Plus stores for Dutch brands. iDEAL, PostNL, GDPR-ready. 300+ launched.",
+    description: "Shopify and Shopify Plus stores for Dutch brands. iDEAL, PostNL, GDPR-ready. 50+ launched.",
   },
 };
 
