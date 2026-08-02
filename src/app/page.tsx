@@ -70,8 +70,8 @@ export default function Page() {
             },
             geo: {
               "@type": "GeoCoordinates",
-              latitude: 25.1256,
-              longitude: 55.3854,
+              latitude: 25.2811837,
+              longitude: 55.3878076,
             },
             openingHoursSpecification: {
               "@type": "OpeningHoursSpecification",

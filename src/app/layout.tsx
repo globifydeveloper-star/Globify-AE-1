@@ -148,6 +148,11 @@ export default function RootLayout({
                 addressLocality: "Dubai",
                 addressRegion: "Dubai",
                 addressCountry: "AE"
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: 25.2811837,
+                longitude: 55.3878076,
               }
             }),
           }}
