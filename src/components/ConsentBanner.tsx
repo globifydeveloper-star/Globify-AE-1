@@ -6,6 +6,17 @@ import { Button } from "@/components/ui/button";
 
 const STORAGE_KEY = "globify-cookie-consent";
 
+/**
+ * Dispatched to re-open the banner after a decision has already been made,
+ * so visitors can change their mind without clearing site data.
+ */
+export const CONSENT_SETTINGS_EVENT = "globify:open-consent-settings";
+
+export const openConsentSettings = () => {
+  if (typeof window === "undefined") return;
+  window.dispatchEvent(new Event(CONSENT_SETTINGS_EVENT));
+};
+
 type Decision = "granted" | "denied";
 
 const GRANTED_SIGNALS = {
@@ -54,6 +65,13 @@ const ConsentBanner = () => {
     if (stored === "denied") return;
 
     setVisible(true);
+  }, []);
+
+  // Re-open on demand from anywhere on the site, e.g. the footer link.
+  useEffect(() => {
+    const reopen = () => setVisible(true);
+    window.addEventListener(CONSENT_SETTINGS_EVENT, reopen);
+    return () => window.removeEventListener(CONSENT_SETTINGS_EVENT, reopen);
   }, []);
 
   const record = (decision: Decision) => {

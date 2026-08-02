@@ -1,6 +1,7 @@
 "use client";
 
 import { Mail, Phone, MapPin, ShieldCheck, Award, BadgeCheck, Star } from "lucide-react";
+import { openConsentSettings } from "@/components/ConsentBanner";
 import Link from 'next/link';
 
 import globifyLogo from "@/assets/globify-logo.png";
@@ -170,6 +171,7 @@ const Footer = () => {
           <div className="flex gap-6">
             <Link href="/privacy-policy" className="text-sm text-section-dark-foreground/30 hover:text-primary transition-colors">Privacy Policy</Link>
             <Link href="/terms-of-service" className="text-sm text-section-dark-foreground/30 hover:text-primary transition-colors">Terms of Service</Link>
+            <button type="button" onClick={openConsentSettings} className="text-sm text-section-dark-foreground/30 hover:text-primary transition-colors">Cookie Settings</button>
           </div>
         </div>
       </div>
