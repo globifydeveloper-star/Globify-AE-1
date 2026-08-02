@@ -40,7 +40,9 @@ const PrivacyPolicy = () => {
 
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-3">4. Cookies & Tracking</h2>
-              <p className="leading-relaxed">Our website uses cookies and similar tracking technologies to enhance your browsing experience, analyze site traffic, and understand where our visitors come from. You can control cookie preferences through your browser settings. Essential cookies are required for the website to function properly.</p>
+              <p className="leading-relaxed">Our website uses cookies and similar technologies. Essential cookies are required for the site to function and are always active. We also use analytics and advertising cookies (Google Analytics and Google Ads) to understand site traffic and measure our advertising.</p>
+              <p className="leading-relaxed mt-3">Non-essential cookies are disabled by default. When you first visit, a banner lets you accept or reject analytics and advertising cookies, and no such cookies are set unless you accept. Your choice is stored in your browser and you can change it at any time using the &ldquo;Cookie Settings&rdquo; link in the site footer.</p>
+              <p className="leading-relaxed mt-3">We use Google Consent Mode, so Google&apos;s services are informed of your choice and adjust their data collection accordingly.</p>
             </section>
 
             <section>
