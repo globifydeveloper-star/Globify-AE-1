@@ -94,7 +94,7 @@ const projects = [
     category: "Real Estate Management System",
     description: "Complete real estate management application with property tracking, tenant management, and financial analytics.",
     image: portfolioEkasysRE,
-    stats: { metric: "300+", label: "Properties Managed" },
+    stats: { metric: "30+", label: "Properties Managed" },
     tags: ["UI/UX", "App Dev"],
   },
   {
@@ -102,7 +102,7 @@ const projects = [
     category: "Clinical Chains & Hospitals",
     description: "Comprehensive hospital management system for clinical chains with patient records, scheduling, and real-time analytics.",
     image: portfolioMedoc,
-    stats: { metric: "200+", label: "Hospitals Onboarded" },
+    stats: { metric: "50+", label: "Clinics & Hospitals" },
     tags: ["UI/UX", "App Dev"],
     slug: "medoc-hms",
   },

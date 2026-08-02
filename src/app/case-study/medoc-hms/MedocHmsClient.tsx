@@ -29,8 +29,8 @@ const clinicTypes = ["General Physician", "Specialty Clinics", "Multi-Specialty"
 const techStack = ["React", "Node.js", "PostgreSQL", "REST APIs", "Cloud Infrastructure", "WhatsApp Business API", "SMS Gateway", "Role-Based Access Control"];
 
 const results = [
-  { metric: "2,000+", label: "Clinics & Hospitals" },
-  { metric: "8,000+", label: "Doctors Using Daily" },
+  { metric: "50+", label: "Clinics & Hospitals" },
+  { metric: "350+", label: "Doctors Using Daily" },
   { metric: "10+", label: "Years of Expertise" },
   { metric: "99%", label: "Client Satisfaction" },
 ];
@@ -162,7 +162,7 @@ const CaseStudyMedoc = () => {
         <div className="container mx-auto px-6 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-display">Ready to Digitize Your Clinic?</h2>
-            <p className="text-white/40 max-w-lg mx-auto mb-8">Join 2,000+ clinics running smarter with MEDOC HMS.</p>
+            <p className="text-white/40 max-w-lg mx-auto mb-8">Join 50+ clinics and hospitals running smarter with MEDOC HMS.</p>
             <button onClick={() => openContactDialog()} className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-full font-semibold text-sm hover:bg-primary/90 transition-all hover:gap-3">Book a Free Demo <ArrowRight className="w-4 h-4" /></button>
           </motion.div>
         </div>

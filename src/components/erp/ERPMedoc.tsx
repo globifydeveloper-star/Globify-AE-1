@@ -30,7 +30,7 @@ const ERPMedoc = () => {
             </p>
 
             <div className="grid grid-cols-3 gap-6 mb-8">
-              {[{ value: "50+", label: "Hospitals Onboarded" }, { value: "1M+", label: "Patient Records" }, { value: "99.9%", label: "System Uptime" }].map((stat) => (
+              {[{ value: "50+", label: "Clinics & Hospitals" }, { value: "1M+", label: "Patient Records" }, { value: "99.9%", label: "System Uptime" }].map((stat) => (
                 <div key={stat.label}>
                   <div className="text-2xl font-bold text-primary">{stat.value}</div>
                   <div className="text-xs text-hero-foreground/40 mt-1">{stat.label}</div>

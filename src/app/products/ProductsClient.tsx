@@ -33,7 +33,7 @@ const products = [
       { icon: Shield, title: "Billing & Insurance Claims", desc: "Automated billing, TPA processing, and insurance claim management with compliance." },
     ],
     stats: [
-      { value: "50+", label: "Hospitals Onboarded" },
+      { value: "50+", label: "Clinics & Hospitals" },
       { value: "1M+", label: "Patient Records" },
       { value: "99.9%", label: "System Uptime" },
     ],
@@ -65,7 +65,7 @@ const products = [
       { icon: BarChart3, title: "Analytics & BI Dashboard", desc: "Interactive dashboards with KPIs, custom reports, and data-driven decision support." },
     ],
     stats: [
-      { value: "200+", label: "Businesses Powered" },
+      { value: "30+", label: "Businesses Powered" },
       { value: "₹800Cr+", label: "Revenue Tracked" },
       { value: "60%", label: "Efficiency Gains" },
     ],

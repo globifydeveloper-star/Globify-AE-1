@@ -35,7 +35,7 @@ const ERPEkasys = () => {
             </p>
 
             <div className="grid grid-cols-3 gap-6 mb-8">
-              {[{ value: "200+", label: "Businesses Powered" }, { value: "₹800Cr+", label: "Revenue Tracked" }, { value: "60%", label: "Efficiency Gains" }].map((stat) => (
+              {[{ value: "30+", label: "Businesses Powered" }, { value: "₹800Cr+", label: "Revenue Tracked" }, { value: "60%", label: "Efficiency Gains" }].map((stat) => (
                 <div key={stat.label}>
                   <div className="text-2xl font-bold text-primary">{stat.value}</div>
                   <div className="text-xs text-muted mt-1">{stat.label}</div>

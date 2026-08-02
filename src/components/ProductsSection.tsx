@@ -39,7 +39,7 @@ const products = [
       { icon: BarChart3, title: "Analytics & BI Dashboard", desc: "Interactive dashboards with KPIs, custom reports, and data-driven decision support." },
     ],
     stats: [
-      { value: "200+", label: "Businesses powered" },
+      { value: "30+", label: "Businesses powered" },
       { value: "₹800Cr+", label: "Revenue tracked" },
       { value: "60%", label: "Efficiency gains" },
     ],

@@ -22,8 +22,8 @@ const allCaseStudies = [
   { slug: "kat-maconie", title: "Kat Maconie", category: "E-Commerce", image: portfolioKat, stat: "85% Organic Growth" },
   { slug: "judith-leiber", title: "Judith Leiber", category: "E-Commerce", image: portfolioJudith, stat: "220% Sales Growth" },
   { slug: "instarunway", title: "InstaRunway", category: "E-Commerce", image: portfolioInstaRunway, stat: "3.2x Conversion" },
-  { slug: "medoc-hms", title: "MEDOC HMS", category: "Healthcare", image: portfolioMedoc, stat: "2,000+ Clinics" },
-  { slug: "ekasys-erp", title: "EKASYS ERP", category: "ERP", image: portfolioErp, stat: "200+ Businesses" },
+  { slug: "medoc-hms", title: "MEDOC HMS", category: "Healthcare", image: portfolioMedoc, stat: "50+ Clinics & Hospitals" },
+  { slug: "ekasys-erp", title: "EKASYS ERP", category: "ERP", image: portfolioErp, stat: "30+ Businesses" },
 ];
 
 interface RelatedCaseStudiesProps {

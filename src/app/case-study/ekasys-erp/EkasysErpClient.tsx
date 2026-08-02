@@ -27,7 +27,7 @@ const highlights = ["GST & Tax Compliance", "Multi-Currency Support", "Role-Base
 const techStack = ["React", "Node.js", "PostgreSQL", "REST APIs", "Microservices Architecture", "Cloud Infrastructure", "Redis", "Docker"];
 
 const results = [
-  { metric: "200+", label: "Businesses Powered" },
+  { metric: "30+", label: "Businesses Powered" },
   { metric: "₹800Cr+", label: "Revenue Tracked" },
   { metric: "60%", label: "Efficiency Gains" },
   { metric: "99.9%", label: "Uptime SLA" },
