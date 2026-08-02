@@ -169,7 +169,7 @@ const ProjectsPage = () => {
               </span>
             </h1>
             <p className="text-white/50 text-lg leading-relaxed max-w-xl">
-              Explore our portfolio of 500+ projects across industries — each designed to solve real problems and deliver measurable results.
+              Explore our portfolio of 300+ projects across industries — each designed to solve real problems and deliver measurable results.
             </p>
           </motion.div>
         </div>

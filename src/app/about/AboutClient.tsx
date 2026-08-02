@@ -323,7 +323,7 @@ const AboutUs = () => {
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="p-5 rounded-2xl border border-hero-foreground/[0.06] hover:border-primary/20 transition-all">
-                    <div className="text-2xl font-bold text-primary mb-1">500+</div>
+                    <div className="text-2xl font-bold text-primary mb-1">300+</div>
                     <div className="text-xs font-semibold text-hero-foreground/70">Projects Delivered</div>
                     <div className="text-[11px] text-hero-foreground/30 mt-1">Web, mobile & commerce</div>
                   </div>

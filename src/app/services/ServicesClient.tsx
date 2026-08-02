@@ -151,7 +151,7 @@ const strategies = [
 
 
 const stats = [
-  { value: "500+", label: "Projects Delivered" },
+  { value: "300+", label: "Projects Delivered" },
   { value: "98%", label: "Client Satisfaction" },
   { value: "50M+", label: "Users Impacted" },
   { value: "15+", label: "Years Experience" },
