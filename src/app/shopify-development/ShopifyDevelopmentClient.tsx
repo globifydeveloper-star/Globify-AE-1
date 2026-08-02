@@ -17,9 +17,9 @@ import { Label } from "@/components/ui/label";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { useContactDialog } from "@/contexts/ContactDialogContext";
 import {
-  ArrowRight, CheckCircle, TrendingUp, Zap, ShieldCheck, Clock, Star,
+  ArrowRight, CheckCircle, TrendingUp, Zap, Clock, Star,
   BarChart3, Rocket, RefreshCw, ShoppingCart, Palette, Settings, Layers,
-  Globe, HeadphonesIcon, Award, Users, ChevronRight, MessageCircle, Phone,
+  Globe, Users, ChevronRight, MessageCircle, Phone,
   Target, AlertTriangle, ArrowUpRight, Send, Loader2
 } from "lucide-react";
 import { toast } from "sonner";
@@ -149,19 +149,19 @@ const ShopifyDevelopment = () => {
               {/* badge */}
               <motion.div variants={fadeUp} className="inline-flex items-center gap-2 bg-white border border-border/20 rounded-full px-4 py-1.5 text-xs font-medium text-foreground shadow-sm">
                 <Image src={shopifyLogo} alt="Shopify Partner" className="h-4 w-auto" />
-                Official Shopify Partner
+                Shopify Partner • UAE &amp; GCC Ecommerce Specialists
               </motion.div>
 
               <motion.h1 variants={fadeUp} className="text-4xl md:text-5xl lg:text-[3.4rem] font-extrabold leading-[1.1] text-white">
-                Scale Your E-Commerce Revenue with{" "}
+                Shopify Development Agency for{" "}
                 <span className="bg-gradient-to-r from-[hsl(145,60%,50%)] to-[hsl(165,70%,45%)] bg-clip-text text-transparent">
-                  Shopify Experts
+                  UAE &amp; GCC Brands
                 </span>
               </motion.h1>
 
               <motion.p variants={fadeUp} className="text-lg text-white/70 max-w-xl leading-relaxed">
-                We build high-converting Shopify stores that drive revenue, automate operations, and scale globally.
-                Trusted by 300+ brands across 10+ countries.
+                Launch, redesign or migrate to a high-converting Shopify store built for UAE and GCC
+                customers, including Arabic, regional payments, shipping, marketplaces and ERP integration.
               </motion.p>
 
               {/* Trust row */}
@@ -178,9 +178,25 @@ const ShopifyDevelopment = () => {
                 <InlineLeadForm id="hero" variant="dark" />
               </motion.div>
 
-              {/* Urgency */}
-              <motion.p variants={fadeUp} className="text-xs text-[hsl(145,60%,50%)]/80 flex items-center gap-1.5">
-                <Clock className="w-3.5 h-3.5" /> Limited free audits available for UAE & India brands this month
+              {/* Secondary CTA row */}
+              <motion.div variants={fadeUp} className="flex flex-wrap items-center gap-3">
+                <Button onClick={openContactDialog} className="rounded-full px-6 gap-2">
+                  Get My Free Shopify Audit <ArrowRight className="w-4 h-4" />
+                </Button>
+                <a
+                  href="https://wa.me/971547308673?text=Hi%20Globify%2C%20I%27m%20interested%20in%20Shopify%20development."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-full px-6 py-2.5 bg-[#25D366] text-white text-sm font-semibold hover:bg-[#22c55e] transition-colors"
+                  onClick={() => typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'contact_whatsapp')}
+                >
+                  <MessageCircle className="w-4 h-4" /> WhatsApp a Shopify Expert
+                </a>
+              </motion.div>
+
+              {/* Trust line */}
+              <motion.p variants={fadeUp} className="text-xs text-white/50">
+                Shopify development, migration, CRO and GCC localization from a Dubai-based ecommerce technology partner.
               </motion.p>
             </motion.div>
 
@@ -425,7 +441,7 @@ const ShopifyDevelopment = () => {
             Ready to 3x Your E-Commerce Revenue?
           </h2>
           <p className="text-primary-foreground/80 mb-8 max-w-lg mx-auto">
-            Get a free, no-obligation Shopify growth plan tailored to your business. Limited spots available.
+            Get a free, no-obligation Shopify growth plan tailored to your business.
           </p>
           <div className="flex justify-center">
             <InlineLeadForm id="mid" variant="dark" />
@@ -486,22 +502,33 @@ const ShopifyDevelopment = () => {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="max-w-4xl mx-auto">
             <motion.div variants={fadeUp} className="text-center mb-10">
               <p className="text-sm font-bold tracking-[0.2em] uppercase text-primary mb-3">Zero Risk</p>
-              <h2 className="text-3xl md:text-4xl font-bold text-white">Our Guarantee to You</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-white">Get a Free 7-Point Shopify Growth Audit</h2>
+              <p className="text-white/60 mt-4 max-w-2xl mx-auto leading-relaxed">
+                Receive a practical review of your store&apos;s speed, mobile UX, product pages, conversion
+                friction, checkout, SEO, analytics and GCC readiness.
+              </p>
             </motion.div>
 
-            <motion.div variants={stagger} className="grid md:grid-cols-3 gap-6">
+            <motion.div variants={stagger} className="grid sm:grid-cols-2 gap-3">
               {[
-                { icon: ShieldCheck, title: "Free Store Audit", desc: "Comprehensive analysis of your current store with actionable recommendations. No strings attached." },
-                { icon: HeadphonesIcon, title: "No-Obligation Consultation", desc: "30-minute strategy call with a senior Shopify expert. Get honest advice — even if you don't hire us." },
-                { icon: Award, title: "Performance Roadmap", desc: "Custom growth roadmap with projected ROI. You keep the strategy even if you go with someone else." },
-              ].map((g) => (
-                <motion.div key={g.title} variants={fadeUp} className="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                  <g.icon className="w-10 h-10 text-primary mx-auto mb-4" />
-                  <h3 className="font-bold text-white mb-2">{g.title}</h3>
-                  <p className="text-sm text-white/60 leading-relaxed">{g.desc}</p>
+                "Speed and Core Web Vitals review",
+                "Mobile shopping experience review",
+                "Product and collection-page conversion review",
+                "Cart and checkout-friction review",
+                "SEO and tracking review",
+                "UAE/GCC payment and shipping review",
+                "Prioritized growth recommendations",
+              ].map((item) => (
+                <motion.div key={item} variants={fadeUp} className="flex items-start gap-3 bg-white/5 border border-white/10 rounded-xl p-4">
+                  <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                  <p className="text-sm text-white/80 leading-relaxed">{item}</p>
                 </motion.div>
               ))}
             </motion.div>
+
+            <motion.p variants={fadeUp} className="text-sm text-white/50 text-center mt-8">
+              No obligation. You receive the recommendations even if you do not hire Globify.
+            </motion.p>
           </motion.div>
         </div>
       </section>
