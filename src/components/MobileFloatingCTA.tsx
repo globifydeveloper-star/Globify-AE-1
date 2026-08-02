@@ -6,6 +6,7 @@ import { Phone } from "lucide-react";
 import ContactFormDialog from "@/components/ContactFormDialog";
 import whatsappIcon from "@/assets/whatsapp-icon.png";
 import Image from "next/image";
+import { trackContactClick } from "@/lib/tracking";
 
 const MobileFloatingCTA = () => {
   const [visible, setVisible] = useState(false);
@@ -36,7 +37,7 @@ const MobileFloatingCTA = () => {
                   rel="noopener noreferrer"
                   className="w-11 h-11 sm:w-12 sm:h-12 rounded-full border-2 border-hero-foreground/30 flex items-center justify-center active:bg-hero-foreground/10 transition-colors flex-shrink-0 overflow-hidden"
                   aria-label="Chat on WhatsApp"
-                 onClick={() => typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'contact_whatsapp')}>
+                 onClick={() => trackContactClick("whatsapp", "floating")}>
                   <Image src={whatsappIcon} alt="WhatsApp" className="w-full h-full object-cover" />
                 </a>
                 <button
@@ -50,8 +51,8 @@ const MobileFloatingCTA = () => {
                   className="w-11 h-11 sm:w-12 sm:h-12 rounded-full bg-foreground border-2 border-hero-foreground/30 flex items-center justify-center active:opacity-80 transition-opacity flex-shrink-0"
                   aria-label="Call us"
                  onClick={() => {
+                   trackContactClick("call", "floating");
                    if (typeof window !== "undefined" && (window as any).gtag) {
-                     (window as any).gtag('event', 'contact_call');
                      (window as any).gtag('event', 'conversion', {
                        send_to: 'AW-17163382693/470NCM_1kqEcEKXfkfg_',
                        value: 1.0,

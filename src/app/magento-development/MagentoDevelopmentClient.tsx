@@ -24,6 +24,9 @@ import {
 import { toast } from "sonner";
 import MagentoPricingPackages from "@/components/magento/MagentoPricingPackages";
 import { useRouter } from "next/navigation";
+import { trackLeadSubmitted } from "@/lib/tracking";
+import { trackContactClick } from "@/lib/tracking";
+import { appendAttribution } from "@/lib/attribution";
 
 /* ───────── inline lead form ───────── */
 const InlineLeadForm = ({ id, variant = "dark" }: { id: string; variant?: "dark" | "light" }) => {
@@ -42,13 +45,14 @@ const InlineLeadForm = ({ id, variant = "dark" }: { id: string; variant?: "dark"
     formData.append("source", `Magento Development - ${id}`);
 
     try {
+      appendAttribution(formData);
       const res = await fetch("/api/contact", {
         method: "POST",
         body: formData,
       });
       if (!res.ok) throw new Error();
       setSubmitted(true);
-      typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'generate_lead');
+      trackLeadSubmitted();
       toast.success("Thank you! We'll be in touch within 24 hours!");
     router.push("/thank-you");
     } catch (error) {
@@ -513,7 +517,7 @@ const MagentoDevelopment = () => {
                 href="https://wa.me/971547308673?text=Hi%20Globify%2C%20I%27m%20interested%20in%20Magento%20development."
                 target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full px-6 py-2.5 bg-[#25D366] text-white text-sm font-semibold hover:bg-[#22c55e] transition-colors"
-               onClick={() => typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'contact_whatsapp')}>
+               onClick={() => trackContactClick("whatsapp", "other")}>
                 <MessageCircle className="w-4 h-4" /> WhatsApp Us
               </a>
             </motion.div>

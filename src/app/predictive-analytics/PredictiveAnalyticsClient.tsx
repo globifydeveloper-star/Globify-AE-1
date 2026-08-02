@@ -8,6 +8,8 @@ import Footer from "@/components/Footer";
 import CrossLinkSection from "@/components/CrossLinkSection";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
+import { trackLeadSubmitted } from "@/lib/tracking";
+import { appendAttribution } from "@/lib/attribution";
 
 
 const stats = [
@@ -51,13 +53,14 @@ const PredictiveAnalytics = () => {
     formData.append("source", "Predictive Analytics Strategy");
 
     try {
+      appendAttribution(formData);
       const res = await fetch("/api/contact", {
         method: "POST",
         body: formData,
       });
       if (!res.ok) throw new Error();
       setSubmitted(true);
-      typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'generate_lead');
+      trackLeadSubmitted();
       toast.success("Strategy Requested!", {
         description: "Our data science team will contact you within 24 hours.",
       });

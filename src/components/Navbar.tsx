@@ -12,6 +12,7 @@ import megaMenuIndustries from "@/assets/mega-menu-industries.jpg";
 import megaMenuProducts from "@/assets/mega-menu-products.jpg";
 import { useContactDialog } from "@/contexts/ContactDialogContext";
 import Image from "next/image";
+import { trackContactClick } from "@/lib/tracking";
 
 // Defer mega menu image preloads so they don't compete with critical resources
 if (typeof window !== "undefined") {
@@ -213,7 +214,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="w-9 h-9 rounded-full overflow-hidden flex items-center justify-center flex-shrink-0 hover:opacity-80 transition-opacity"
             aria-label="Chat on WhatsApp"
-           onClick={() => typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'contact_whatsapp')}>
+           onClick={() => trackContactClick("whatsapp", "header")}>
             <Image src={whatsappIcon} alt="WhatsApp" className="w-full h-full object-cover" width={36} height={36} />
           </a>
           <button

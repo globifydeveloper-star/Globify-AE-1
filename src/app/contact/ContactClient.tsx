@@ -7,6 +7,9 @@ import { toast } from "sonner";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useRouter } from "next/navigation";
+import { trackLeadSubmitted } from "@/lib/tracking";
+import { trackContactClick } from "@/lib/tracking";
+import { appendAttribution } from "@/lib/attribution";
 
 const offices = [
   {
@@ -35,12 +38,13 @@ const ContactClient = () => {
     setIsSubmitting(true);
     const formData = new FormData(e.currentTarget);
     try {
+      appendAttribution(formData);
       const res = await fetch("/api/contact", {
         method: "POST",
         body: formData,
       });
       if (!res.ok) throw new Error("Failed to submit");
-      typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'generate_lead');
+      trackLeadSubmitted();
       toast.success("Message Sent!", {
         description: "We'll be in touch within 24 hours.",
       });
@@ -193,7 +197,7 @@ const ContactClient = () => {
                 <div>
                   <h3 className="text-xl font-bold text-hero-foreground mb-6">Direct Contact</h3>
                   <div className="space-y-4">
-                    <a href="mailto:sales@globify.ae" className="flex items-center gap-4 p-4 rounded-xl border border-hero-foreground/[0.06] hover:border-primary/30 hover:bg-hero-foreground/[0.02] transition-all group">
+                    <a href="mailto:sales@globify.ae" onClick={() => trackContactClick("email", "contact_page")} className="flex items-center gap-4 p-4 rounded-xl border border-hero-foreground/[0.06] hover:border-primary/30 hover:bg-hero-foreground/[0.02] transition-all group">
                       <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                         <Mail className="w-4 h-4 text-primary" />
                       </div>
@@ -202,7 +206,7 @@ const ContactClient = () => {
                         <p className="text-sm font-medium text-hero-foreground">sales@globify.ae</p>
                       </div>
                     </a>
-                    <a href="https://wa.me/971547308673?text=Hi%20Globify%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 rounded-xl border border-hero-foreground/[0.06] hover:border-[#25D366]/30 hover:bg-hero-foreground/[0.02] transition-all group" onClick={() => typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'contact_whatsapp')}>
+                    <a href="https://wa.me/971547308673?text=Hi%20Globify%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 rounded-xl border border-hero-foreground/[0.06] hover:border-[#25D366]/30 hover:bg-hero-foreground/[0.02] transition-all group" onClick={() => trackContactClick("whatsapp", "contact_page")}>
                       <div className="w-10 h-10 rounded-full bg-[#25D366]/10 flex items-center justify-center group-hover:bg-[#25D366]/20 transition-colors">
                         <MessageSquareQuote className="w-4 h-4 text-[#25D366]" />
                       </div>
@@ -227,8 +231,8 @@ const ContactClient = () => {
                           {office.address}
                         </p>
                         <a href={`tel:${office.phone.replace(/\s/g, '')}`} className="flex items-center gap-2 text-sm text-hero-foreground/70 hover:text-primary transition-colors" onClick={() => {
+                          trackContactClick("call", "contact_page");
                           if (typeof window !== "undefined" && (window as any).gtag) {
-                            (window as any).gtag('event', 'contact_call');
                           }
                         }}>
                           <Phone className="w-3.5 h-3.5" /> {office.phone}

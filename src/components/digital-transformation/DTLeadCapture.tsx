@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle, Clock, Loader2 } from "lucide-react";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
+import { trackLeadSubmitted } from "@/lib/tracking";
+import { appendAttribution } from "@/lib/attribution";
 
 const DTLeadCapture = () => {
   const router = useRouter();
@@ -15,12 +17,13 @@ const DTLeadCapture = () => {
     setIsSubmitting(true);
     const formData = new FormData(e.currentTarget);
     try {
+      appendAttribution(formData);
       const res = await fetch("/api/contact", {
         method: "POST",
         body: formData,
       });
       if (!res.ok) throw new Error("Failed to submit");
-      typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'generate_lead');
+      trackLeadSubmitted();
       toast.success("Audit Requested!", {
         description: "We'll get back to you within 24 hours.",
       });

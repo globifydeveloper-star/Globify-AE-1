@@ -9,6 +9,8 @@ import { toast } from "sonner";
 
 import CrossLinkSection from "@/components/CrossLinkSection";
 import { useRouter } from "next/navigation";
+import { trackLeadSubmitted } from "@/lib/tracking";
+import { appendAttribution } from "@/lib/attribution";
 
 const stats = [
   { value: "$500M+", label: "GMV Managed" },
@@ -54,13 +56,14 @@ const ShopifyPlus = () => {
     formData.append("source", "Shopify Plus & Headless");
 
     try {
+      appendAttribution(formData);
       const res = await fetch("/api/contact", {
         method: "POST",
         body: formData,
       });
       if (!res.ok) throw new Error();
       setSubmitted(true);
-      typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'generate_lead');
+      trackLeadSubmitted();
       toast.success("Consultation Requested!", {
         description: "An enterprise consultant will reach out within 24 hours.",
       });

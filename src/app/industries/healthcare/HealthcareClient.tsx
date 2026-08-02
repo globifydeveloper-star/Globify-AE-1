@@ -8,6 +8,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
+import { trackLeadSubmitted } from "@/lib/tracking";
+import { appendAttribution } from "@/lib/attribution";
 
 
 const stats = [
@@ -45,13 +47,14 @@ const IndustryHealthcare = () => {
     setIsSubmitting(true);
     const formData = new FormData(e.currentTarget);
     try {
+      appendAttribution(formData);
       const res = await fetch("/api/contact", {
         method: "POST",
         body: formData,
       });
       if (!res.ok) throw new Error("Failed to submit");
       setSubmitted(true);
-      typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'generate_lead');
+      trackLeadSubmitted();
       toast.success("Consultation Requested!", {
         description: "Our healthcare team will respond within 24 hours.",
       });

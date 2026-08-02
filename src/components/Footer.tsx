@@ -6,6 +6,7 @@ import Link from 'next/link';
 
 import globifyLogo from "@/assets/globify-logo.png";
 import Image from "next/image";
+import { trackContactClick } from "@/lib/tracking";
 
 const offices = [
   {
@@ -62,8 +63,8 @@ const Footer = () => {
               </div>
               <p className="text-sm text-section-dark-foreground/40 leading-relaxed mb-3">{office.address}</p>
               <a href={`tel:${office.phone.replace(/\s/g, '')}`} className="flex items-center gap-2 text-sm text-section-dark-foreground/50 hover:text-primary transition-colors" onClick={() => {
+                trackContactClick("call", "footer");
                 if (typeof window !== "undefined" && (window as any).gtag) {
-                  (window as any).gtag('event', 'contact_call');
                   (window as any).gtag('event', 'conversion', {
                     send_to: 'AW-17163382693/470NCM_1kqEcEKXfkfg_',
                     value: 1.0,
@@ -94,7 +95,10 @@ const Footer = () => {
             </p>
             <div className="space-y-3">
               <button
-                onClick={() => window.location.href = ['ma','ilto:','sa','les@','glo','bify','.ae'].join('')}
+                onClick={() => {
+                  trackContactClick("email", "footer");
+                  window.location.href = ['ma','ilto:','sa','les@','glo','bify','.ae'].join('');
+                }}
                 className="flex items-center gap-2 text-sm text-section-dark-foreground/50 hover:text-primary transition-colors cursor-pointer"
               >
                 <Mail className="w-4 h-4" /> <span>sales<span className="hidden">nospam</span>@globify.ae</span>

@@ -23,6 +23,9 @@ import {
 } from "lucide-react";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
+import { trackLeadSubmitted } from "@/lib/tracking";
+import { trackContactClick } from "@/lib/tracking";
+import { appendAttribution } from "@/lib/attribution";
 
 const InlineLeadForm = ({ id, variant = "dark" }: { id: string; variant?: "dark" | "light" }) => {
   const router = useRouter();
@@ -40,13 +43,14 @@ const InlineLeadForm = ({ id, variant = "dark" }: { id: string; variant?: "dark"
     formData.append("source", `Shopware Development - ${id}`);
 
     try {
+      appendAttribution(formData);
       const res = await fetch("/api/contact", {
         method: "POST",
         body: formData,
       });
       if (!res.ok) throw new Error();
       setSubmitted(true);
-      typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'generate_lead');
+      trackLeadSubmitted();
       toast.success("Thank you! We'll be in touch within 24 hours!");
     router.push("/thank-you");
     } catch (error) {
@@ -269,7 +273,7 @@ const ShopwareDevelopment = () => {
             <motion.div variants={fadeUp} className="flex justify-center mb-6"><InlineLeadForm id="final" variant="dark" /></motion.div>
             <motion.div variants={fadeUp} className="flex flex-wrap justify-center gap-4 mt-6">
               <Button onClick={openContactDialog} variant="outline" className="rounded-full px-6 border-primary text-primary hover:bg-primary hover:text-primary-foreground gap-2"><Phone className="w-4 h-4" /> Book Strategy Call</Button>
-              <a href="https://wa.me/971547308673?text=Hi%20Globify%2C%20I%27m%20interested%20in%20Shopware%20development." target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full px-6 py-2.5 bg-[#25D366] text-white text-sm font-semibold hover:bg-[#22c55e] transition-colors" onClick={() => typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'contact_whatsapp')}><MessageCircle className="w-4 h-4" /> WhatsApp Us</a>
+              <a href="https://wa.me/971547308673?text=Hi%20Globify%2C%20I%27m%20interested%20in%20Shopware%20development." target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full px-6 py-2.5 bg-[#25D366] text-white text-sm font-semibold hover:bg-[#22c55e] transition-colors" onClick={() => trackContactClick("whatsapp", "other")}><MessageCircle className="w-4 h-4" /> WhatsApp Us</a>
             </motion.div>
           </motion.div>
         </div>

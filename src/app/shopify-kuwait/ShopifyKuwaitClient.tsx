@@ -24,6 +24,8 @@ import {
 } from "lucide-react";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
+import { trackLeadSubmitted } from "@/lib/tracking";
+import { appendAttribution } from "@/lib/attribution";
 
 const InlineLeadForm = ({ id, variant = "dark" }: { id: string; variant?: "dark" | "light" }) => {
   const router = useRouter();
@@ -41,10 +43,11 @@ const InlineLeadForm = ({ id, variant = "dark" }: { id: string; variant?: "dark"
     formData.append('source', `Shopify Kuwait - ${id}`);
 
     try {
+      appendAttribution(formData);
       const res = await fetch("/api/contact", { method: "POST", body: formData });
       if (!res.ok) throw new Error();
       setSubmitted(true);
-      typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'generate_lead');
+      trackLeadSubmitted();
       toast.success("We'll be in touch within 24 hours!");
     router.push("/thank-you");
     } catch {

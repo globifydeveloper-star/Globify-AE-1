@@ -38,6 +38,33 @@ export async function POST(request: Request) {
       message,
     } = data;
 
+    // First-touch attribution appended client-side by appendAttribution().
+    // Campaign identifiers and click IDs only, never personal data.
+    const ATTRIBUTION_KEYS = [
+      "utm_source",
+      "utm_medium",
+      "utm_campaign",
+      "utm_term",
+      "utm_content",
+      "gclid",
+      "gbraid",
+      "wbraid",
+      "landing_page",
+      "referrer",
+    ] as const;
+
+    const attribution: Record<string, string> = {};
+    for (const key of ATTRIBUTION_KEYS) {
+      if (data[key]) attribution[key] = data[key];
+    }
+
+    const attributionRows = Object.entries(attribution)
+      .map(
+        ([key, value]) =>
+          `<tr><td style="padding: 8px 0; border-bottom: 1px solid #E5E5E5; color: #737373;"><strong>${key}:</strong></td><td style="padding: 8px 0; border-bottom: 1px solid #E5E5E5; font-weight: 500; word-break: break-all;">${value}</td></tr>`
+      )
+      .join("");
+
     // A fallback subject line if not provided
     const subjectLine = "New Lead Submission - Globify.ae";
 
@@ -61,6 +88,11 @@ export async function POST(request: Request) {
           
           <h3 style="margin-top: 32px; margin-bottom: 12px; color: #E8590C; font-size: 16px;">Message:</h3>
           <div style="background-color: #F9F9F9; padding: 16px; border-radius: 6px; border: 1px solid #E5E5E5; white-space: pre-wrap; font-size: 15px; color: #4A4A4A; line-height: 1.5;">${message || "No message provided."}</div>
+
+          ${attributionRows
+            ? `<h3 style="margin-top: 32px; margin-bottom: 12px; color: #E8590C; font-size: 16px;">Attribution:</h3>
+          <table style="width: 100%; border-collapse: collapse; font-size: 14px;">${attributionRows}</table>`
+            : ""}
         </div>
       </div>
     `;
@@ -142,6 +174,10 @@ export async function POST(request: Request) {
         country: crmCountry,
         description: crmDescription,
         service_interest: serviceInterest,
+        // NOTE: the capture-lead function's source is not in this repo, so it
+        // must be updated separately to persist these. Until then they are
+        // accepted here and simply ignored downstream.
+        ...attribution,
       }),
     }).catch(err => {
       console.error("Failed to send lead to CRM:", err);

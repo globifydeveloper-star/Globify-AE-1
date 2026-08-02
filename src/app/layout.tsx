@@ -3,6 +3,7 @@ import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import { ClientProviders } from "@/components/ClientProviders";
 import ConsentBanner from "@/components/ConsentBanner";
+import AnalyticsTracker from "@/components/AnalyticsTracker";
 import Script from "next/script";
 
 const interSans = Inter({
@@ -90,6 +91,29 @@ export default function RootLayout({
             });
           `}
         </Script>
+        {/*
+          GTM container. Loads after the Consent Mode default above so tags
+          inside the container inherit the denied-by-default state. The direct
+          GA4/Ads gtag.js below is intentionally left in place for now; the
+          container is empty, so nothing is double-counted yet.
+        */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-MTV5XP2P"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
+        <Script id="google-tag-manager" strategy="afterInteractive">
+          {`
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-MTV5XP2P');
+          `}
+        </Script>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-1NB1MSL4R6" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
@@ -160,6 +184,7 @@ export default function RootLayout({
         <ClientProviders>
           {children}
         </ClientProviders>
+        <AnalyticsTracker />
         <ConsentBanner />
       </body>
     </html>

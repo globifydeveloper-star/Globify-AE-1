@@ -46,6 +46,8 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import servicesHero from "@/assets/services-hero.jpg";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import { appendAttribution } from "@/lib/attribution";
+import { trackLeadSubmitted } from "@/lib/tracking";
 
 const services = [
   {
@@ -747,8 +749,10 @@ const ServicesPage = () => {
                 const form = e.currentTarget;
                 const formData = new FormData(form);
                 try {
+                  appendAttribution(formData);
                   const res = await fetch("/api/contact", { method: "POST", body: formData });
                   if (!res.ok) throw new Error();
+                  trackLeadSubmitted();
                   toast.success("Request Submitted!", { description: "We'll get back to you within 24 hours." });
     router.push("/thank-you");
                   form.reset();

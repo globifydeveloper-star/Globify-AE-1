@@ -7,6 +7,8 @@ import CrossLinkSection from "@/components/CrossLinkSection";
 import { motion } from "framer-motion";
 import { ArrowRight, Target, Zap, BarChart3, Users, MousePointer, RefreshCw, CheckCircle2 } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { trackLeadSubmitted } from "@/lib/tracking";
+import { appendAttribution } from "@/lib/attribution";
 
 const stats = [
   { value: "4.2x", label: "Average ROAS" },
@@ -132,12 +134,13 @@ const PaidAdvertising = () => {
                 if (btn) btn.disabled = true;
                 const formData = new FormData(e.currentTarget);
                 try {
+                  appendAttribution(formData);
                   const res = await fetch("/api/contact", {
                     method: "POST",
                     body: formData,
                   });
                   if (!res.ok) throw new Error("Failed to submit");
-                  typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'generate_lead');
+                  trackLeadSubmitted();
                   import("sonner").then(({ toast }) => {
                     toast.success("Audit Requested!", {
                       description: "We'll be in touch within 24 hours.",

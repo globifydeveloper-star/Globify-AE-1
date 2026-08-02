@@ -9,6 +9,8 @@ import { toast } from "sonner";
 
 import CrossLinkSection from "@/components/CrossLinkSection";
 import { useRouter } from "next/navigation";
+import { trackLeadSubmitted } from "@/lib/tracking";
+import { appendAttribution } from "@/lib/attribution";
 
 const stats = [
   { value: "80+", label: "Apps Built" },
@@ -48,13 +50,14 @@ const ShopifyAppDev = () => {
     setIsSubmitting(true);
     const formData = new FormData(e.currentTarget);
     try {
+      appendAttribution(formData);
       const res = await fetch("/api/contact", {
         method: "POST",
         body: formData,
       });
       if (!res.ok) throw new Error("Failed to submit");
       setSubmitted(true);
-      typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'generate_lead');
+      trackLeadSubmitted();
       toast.success("Proposal Requested!", {
         description: "Our team will review your requirements and respond within 48 hours.",
       });

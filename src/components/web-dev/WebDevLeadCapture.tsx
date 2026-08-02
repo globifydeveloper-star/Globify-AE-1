@@ -8,6 +8,8 @@ import contactSupportImg from "@/assets/contact-support.png";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import { trackLeadSubmitted } from "@/lib/tracking";
+import { appendAttribution } from "@/lib/attribution";
 
 const WebDevLeadCapture = () => {
   const { openContactDialog } = useContactDialog();
@@ -19,12 +21,13 @@ const WebDevLeadCapture = () => {
     setIsSubmitting(true);
     const formData = new FormData(e.currentTarget);
     try {
+      appendAttribution(formData);
       const res = await fetch("/api/contact", {
         method: "POST",
         body: formData,
       });
       if (!res.ok) throw new Error("Failed to submit");
-      typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'generate_lead');
+      trackLeadSubmitted();
       toast.success("Consultation Requested!", {
         description: "We'll get back to you within 24 hours.",
       });

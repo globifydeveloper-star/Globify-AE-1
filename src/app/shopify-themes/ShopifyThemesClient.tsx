@@ -9,6 +9,8 @@ import { toast } from "sonner";
 
 import CrossLinkSection from "@/components/CrossLinkSection";
 import { useRouter } from "next/navigation";
+import { trackLeadSubmitted } from "@/lib/tracking";
+import { appendAttribution } from "@/lib/attribution";
 
 const stats = [
   { value: "50+", label: "Stores Designed" },
@@ -51,13 +53,14 @@ const ShopifyThemes = () => {
     formData.append("source", "Shopify Custom Themes");
 
     try {
+      appendAttribution(formData);
       const res = await fetch("/api/contact", {
         method: "POST",
         body: formData,
       });
       if (!res.ok) throw new Error();
       setSubmitted(true);
-      typeof window !== "undefined" && (window as any).gtag && (window as any).gtag('event', 'generate_lead');
+      trackLeadSubmitted();
       toast.success("Quote Requested!", {
         description: "Our design team will reach out within 24 hours.",
       });

@@ -43,6 +43,8 @@ import ClientsSection from "@/components/ClientsSection";
 import CrossLinkSection from "@/components/CrossLinkSection";
 import { useContactDialog } from "@/contexts/ContactDialogContext";
 import { useRouter } from "next/navigation";
+import { appendAttribution } from "@/lib/attribution";
+import { trackLeadSubmitted } from "@/lib/tracking";
 
 /* ── Developer Categories (updated per user request) ── */
 const developerTypes = [
@@ -304,11 +306,13 @@ const HireDevelopers = () => {
     setIsSubmitting(true);
     const formData = new FormData(e.currentTarget);
     try {
+      appendAttribution(formData);
       const res = await fetch("/api/contact", {
         method: "POST",
         body: formData,
       });
       if (!res.ok) throw new Error("Failed to submit");
+      trackLeadSubmitted();
       toast.success("Request Submitted!", {
         description:
           "We'll get back to you with developer profiles within 24 hours.",
