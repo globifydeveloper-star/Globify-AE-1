@@ -131,7 +131,7 @@ const technologies: TechnologyData[] = [
       "Massive developer community ensuring long-term support and innovation",
     ],
     whyGlobify: [
-      "100+ WooCommerce stores built and optimized",
+      "70+ WooCommerce stores built and optimized",
       "Custom plugin development for unique business requirements",
       "Performance optimization for high-traffic stores",
       "WooCommerce-to-Shopify migrations and vice versa",

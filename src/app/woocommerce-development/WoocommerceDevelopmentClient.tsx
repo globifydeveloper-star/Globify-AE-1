@@ -157,7 +157,7 @@ const WooCommerceDevelopment = () => {
               </motion.p>
 
               <motion.div variants={fadeUp} className="flex flex-wrap gap-4 text-sm text-white/60">
-                {["200+ WooCommerce Projects", "Full Data Ownership", "Unlimited Customization", "SEO-First Architecture"].map((t) => (
+                {["70+ WooCommerce Projects", "Full Data Ownership", "Unlimited Customization", "SEO-First Architecture"].map((t) => (
                   <span key={t} className="flex items-center gap-1.5">
                     <CheckCircle className="w-4 h-4 text-[hsl(270,60%,60%)]" /> {t}
                   </span>
@@ -175,7 +175,7 @@ const WooCommerceDevelopment = () => {
 
             <motion.div initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.4, duration: 0.7 }} className="hidden lg:grid grid-cols-2 gap-4">
               {[
-                { value: "200+", label: "WooCommerce Stores Built", icon: ShoppingCart },
+                { value: "70+", label: "WooCommerce Stores Built", icon: ShoppingCart },
                 { value: "100%", label: "Data Ownership", icon: Database },
                 { value: "0$", label: "Platform Fees", icon: Zap },
                 { value: "∞", label: "Customization Freedom", icon: Code2 },
@@ -196,7 +196,7 @@ const WooCommerceDevelopment = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
             {[
-              { val: "200+", label: "WooCommerce Stores" },
+              { val: "70+", label: "WooCommerce Stores" },
               { val: "$30M+", label: "Client Revenue Generated" },
               { val: "10+", label: "Countries Served" },
               { val: "4.8/5", label: "Client Rating" },
@@ -564,7 +564,7 @@ const WooCommerceDevelopment = () => {
               Own Your Store. Own Your Growth. Choose WooCommerce.
             </motion.h2>
             <motion.p variants={fadeUp} className="text-white/60 mb-8">
-              Join 200+ brands that chose Globify to build their WooCommerce revenue engine. Get your free growth plan today — no commitment, just results-focused strategy.
+              Join 70+ brands that chose Globify to build their WooCommerce revenue engine. Get your free growth plan today — no commitment, just results-focused strategy.
             </motion.p>
             <motion.div variants={fadeUp} className="flex justify-center mb-6">
               <InlineLeadForm id="final" variant="dark" />

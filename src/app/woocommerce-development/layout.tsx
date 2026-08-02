@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "WooCommerce Development Agency — UAE, India & Global Experts",
-  description: "WooCommerce and WordPress e-commerce development for brands in UAE, Saudi Arabia, India, UK, Netherlands, Australia, and South Africa. Custom plugins, theme development, Shopify-to-WooCommerce migrations, CRO and speed optimization. 300+ stores launched, ISO 27001 certified.",
+  description: "WooCommerce and WordPress e-commerce development for brands in UAE, Saudi Arabia, India, UK, Netherlands, Australia, and South Africa. Custom plugins, theme development, Shopify-to-WooCommerce migrations, CRO and speed optimization. 70+ stores launched, ISO 27001 certified.",
   keywords: [
     "woocommerce development UAE",
     "woocommerce development Dubai",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "WooCommerce Development Agency | UAE, India, UK, EU, AU, ZA",
-    description: "Custom WooCommerce and WordPress e-commerce stores for global brands. Custom plugins, migrations, CRO, speed optimization. 300+ stores launched, ISO 27001 certified.",
+    description: "Custom WooCommerce and WordPress e-commerce stores for global brands. Custom plugins, migrations, CRO, speed optimization. 70+ stores launched, ISO 27001 certified.",
     url: "https://www.globify.ae/woocommerce-development",
     type: "website",
     locale: "en_AE",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "WooCommerce Development Agency | Globify",
-    description: "Custom WooCommerce and WordPress stores for global brands. 300+ launched, ISO 27001 certified.",
+    description: "Custom WooCommerce and WordPress stores for global brands. 70+ launched, ISO 27001 certified.",
   },
 };
 
