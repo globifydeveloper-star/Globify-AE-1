@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import { ClientProviders } from "@/components/ClientProviders";
+import ConsentBanner from "@/components/ConsentBanner";
 import Script from "next/script";
 
 const interSans = Inter({
@@ -70,6 +71,25 @@ export default function RootLayout({
       className={`${interSans.variable} ${robotoMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        {/*
+          Consent Mode v2 defaults. This must run before gtag.js loads and
+          before any gtag('config', ...) call, so it is beforeInteractive.
+          Everything non-essential starts denied and is only granted if the
+          visitor accepts in ConsentBanner.
+        */}
+        <Script id="google-consent-default" strategy="beforeInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('consent', 'default', {
+              ad_storage: 'denied',
+              ad_user_data: 'denied',
+              ad_personalization: 'denied',
+              analytics_storage: 'denied',
+              wait_for_update: 500
+            });
+          `}
+        </Script>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-1NB1MSL4R6" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
@@ -135,6 +155,7 @@ export default function RootLayout({
         <ClientProviders>
           {children}
         </ClientProviders>
+        <ConsentBanner />
       </body>
     </html>
   );
