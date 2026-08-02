@@ -21,7 +21,7 @@ const products = [
       { icon: Shield, title: "Billing & Insurance Claims", desc: "Automated billing, TPA processing, and insurance claim management with compliance." },
     ],
     stats: [
-      { value: "50+", label: "Hospitals onboarded" },
+      { value: "50+", label: "Clinics & Hospitals" },
       { value: "1M+", label: "Patient records managed" },
       { value: "99.9%", label: "System uptime" },
     ],
