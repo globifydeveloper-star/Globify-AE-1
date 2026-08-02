@@ -28,8 +28,8 @@ const techStack = ["React", "Node.js", "PostgreSQL", "REST APIs", "Microservices
 
 const results = [
   { metric: "30+", label: "Businesses Powered" },
-  { metric: "₹800Cr+", label: "Revenue Tracked" },
-  { metric: "60%", label: "Efficiency Gains" },
+  { metric: "₹120Cr+", label: "Revenue Tracked" },
+  { metric: "40%", label: "Efficiency Gains" },
   { metric: "99.9%", label: "Uptime SLA" },
 ];
 

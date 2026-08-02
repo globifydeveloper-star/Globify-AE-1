@@ -66,8 +66,8 @@ const products = [
     ],
     stats: [
       { value: "30+", label: "Businesses Powered" },
-      { value: "₹800Cr+", label: "Revenue Tracked" },
-      { value: "60%", label: "Efficiency Gains" },
+      { value: "₹120Cr+", label: "Revenue Tracked" },
+      { value: "40%", label: "Efficiency Gains" },
     ],
     highlights: [
       "GST & Tax Compliance",

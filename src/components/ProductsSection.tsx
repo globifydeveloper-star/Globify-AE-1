@@ -40,8 +40,8 @@ const products = [
     ],
     stats: [
       { value: "30+", label: "Businesses powered" },
-      { value: "₹800Cr+", label: "Revenue tracked" },
-      { value: "60%", label: "Efficiency gains" },
+      { value: "₹120Cr+", label: "Revenue tracked" },
+      { value: "40%", label: "Efficiency gains" },
     ],
   },
 ];
