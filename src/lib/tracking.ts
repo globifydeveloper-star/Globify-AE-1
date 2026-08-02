@@ -54,18 +54,13 @@ export const trackContactClick = (
   method: ContactMethod,
   linkLocation: LinkLocation = "other"
 ) => {
+  // Exactly one emission per click. Do not add a parallel gtag('event', ...)
+  // call here: the gtag stub is `function gtag(){dataLayer.push(arguments)}`,
+  // so it writes into this same dataLayer and GTM sees the event twice.
   pushDataLayerEvent(CONTACT_EVENT[method], {
     link_location: linkLocation,
     page_path: pagePath(),
   });
-
-  // PHASE 2: delete this block. It keeps the pre-GTM direct GA4 events firing
-  // so reporting does not go dark while the GTM container is still empty.
-  // Once GTM is published these become duplicates and gtag.js is removed.
-  if (typeof window !== "undefined") {
-    const w = window as any;
-    if (typeof w.gtag === "function") w.gtag("event", CONTACT_EVENT[method]);
-  }
 };
 
 /** Route changes only. The initial page load is handled by GTM's own pageview. */
