@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: "Shopify Development Agency Spain — Bizum, Correos, IVA & GDPR Compliant",
   description: "Shopify and Shopify Plus development for Spanish brands and EU-targeting D2C stores. Native integrations with Bizum, Bizum Pay, Correos, SEUR, MRW, IVA handling, multi-language Spanish/Catalan/Galician/Basque storefronts, and full GDPR/LOPDGDD compliance. EU office in Gießen, Germany. Shopify Partner, ISO 27001 certified.",
   alternates: { canonical: "/shopify-spain" },
+  robots: { index: false, follow: true },
   keywords: [
     "Shopify agency Spain",
     "Shopify desarrollo España",

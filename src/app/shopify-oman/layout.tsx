@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: "Shopify Development Agency Oman — OmanNet, ThawaniPay, Aramex, Arabic Storefronts & VAT",
   description: "Shopify and Shopify Plus development for Omani brands in Muscat, Salalah, Sohar, and Sur. Native integrations with OmanNet, ThawaniPay, Tap Payments, PayTabs, Aramex Oman, Oman Post, Asyad Express, OMR currency handling, bilingual Arabic/English RTL storefronts, and full 5% VAT compliance (Oman Tax Authority). Shopify Partner, ISO 27001 certified.",
   alternates: { canonical: "/shopify-oman" },
+  robots: { index: false, follow: true },
   keywords: [
     "Shopify agency Oman",
     "Shopify development Muscat",

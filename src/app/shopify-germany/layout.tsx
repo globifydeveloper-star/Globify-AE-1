@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: "Shopify Development Agency in Germany | E-Commerce Experts",
   description: "Top-rated Shopify development and e-commerce design services in Germany. We build high-converting, scalable Shopify and Shopify Plus stores.",
   alternates: { canonical: "https://www.globify.ae/shopify-germany" },
+  robots: { index: false, follow: true },
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {

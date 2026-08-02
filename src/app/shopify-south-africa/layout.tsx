@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: "Shopify Development Agency South Africa — PayFast, Yoco, Courier Guy & POPIA",
   description: "Shopify and Shopify Plus development for South African brands in Johannesburg, Cape Town, Durban, and Pretoria. Native integrations with PayFast, Yoco, Peach Payments, Ozow, The Courier Guy, Aramex SA, Pargo, ZAR currency handling, multi-language English/Afrikaans storefronts, and full POPIA compliance. Shopify Partner, ISO 27001 certified.",
   alternates: { canonical: "/shopify-south-africa" },
+  robots: { index: false, follow: true },
   keywords: [
     "Shopify agency South Africa",
     "Shopify development Johannesburg",

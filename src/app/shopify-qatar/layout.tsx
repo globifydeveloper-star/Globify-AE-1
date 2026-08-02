@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: "Shopify Development Agency Qatar — QPAY, Aramex, Arabic Storefronts & VAT-Ready",
   description: "Shopify and Shopify Plus development for Qatari brands in Doha, Lusail, Al Rayyan, and Al Wakrah. Native integrations with QPAY, NAPS, CB-QNB, Skip Cash, Aramex Qatar, QPost, AlMana Logistics, QAR currency handling, bilingual Arabic/English RTL storefronts, and VAT-ready architecture for the expected 2026 rollout. Shopify Partner, ISO 27001 certified.",
   alternates: { canonical: "/shopify-qatar" },
+  robots: { index: false, follow: true },
   keywords: [
     "Shopify agency Qatar",
     "Shopify development Doha",

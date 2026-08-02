@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: "Shopify Development Agency Bahrain — BenefitPay, Aramex, Arabic Storefronts & VAT",
   description: "Shopify and Shopify Plus development for Bahraini brands in Manama, Muharraq, Riffa, and Hamad Town. Native integrations with BenefitPay, Benefit Network, Tap Payments, Aramex Bahrain, BPost, DHL Bahrain, BHD currency handling, bilingual Arabic/English RTL storefronts, and full 10% VAT compliance (NBR). Shopify Partner, ISO 27001 certified.",
   alternates: { canonical: "/shopify-bahrain" },
+  robots: { index: false, follow: true },
   keywords: [
     "Shopify agency Bahrain",
     "Shopify development Manama",

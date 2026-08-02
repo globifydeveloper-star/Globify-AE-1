@@ -63,19 +63,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/migration-services', priority: 0.7, changeFrequency: 'monthly' },
 
     // Shopify geo pages
+    // Note: bahrain, kuwait, qatar, oman, south-africa, spain, netherlands and
+    // germany are intentionally omitted here. They are set to noindex in their
+    // layout metadata, and listing a noindex URL in the sitemap is a
+    // contradictory signal to Google.
     { path: '/shopify-uae', priority: 0.8, changeFrequency: 'monthly' },
     { path: '/shopify-ksa', priority: 0.8, changeFrequency: 'monthly' },
-    { path: '/shopify-qatar', priority: 0.7, changeFrequency: 'monthly' },
-    { path: '/shopify-kuwait', priority: 0.7, changeFrequency: 'monthly' },
-    { path: '/shopify-bahrain', priority: 0.7, changeFrequency: 'monthly' },
-    { path: '/shopify-oman', priority: 0.7, changeFrequency: 'monthly' },
     { path: '/shopify-india', priority: 0.7, changeFrequency: 'monthly' },
     { path: '/shopify-france', priority: 0.6, changeFrequency: 'monthly' },
-    { path: '/shopify-germany', priority: 0.6, changeFrequency: 'monthly' },
     { path: '/shopify-italy', priority: 0.6, changeFrequency: 'monthly' },
-    { path: '/shopify-spain', priority: 0.6, changeFrequency: 'monthly' },
-    { path: '/shopify-netherlands', priority: 0.6, changeFrequency: 'monthly' },
-    { path: '/shopify-south-africa', priority: 0.6, changeFrequency: 'monthly' },
 
     // Industries
     { path: '/industries/healthcare', priority: 0.7, changeFrequency: 'monthly' },

@@ -21,6 +21,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/shopify-netherlands",
   },
+  robots: { index: false, follow: true },
   openGraph: {
    title: "Shopify Development Agency Netherlands | Shopify Partner",
     description: "Shopify and Shopify Plus stores for Dutch brands. iDEAL, Klarna, PostNL ready, GDPR-compliant. EU presence in Germany. 300+ stores launched.",

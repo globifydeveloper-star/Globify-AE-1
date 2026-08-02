@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: "Shopify Development Agency Kuwait — KNET, MyFatoorah, Aramex & Arabic Storefronts",
   description: "Shopify and Shopify Plus development for Kuwaiti brands in Kuwait City, Hawalli, Salmiya, and Farwaniya. Native integrations with KNET, MyFatoorah, Tap Payments, UPayments, Aramex Kuwait, Kuwait Post, ATAP Logistics, KWD currency handling (3-decimal), bilingual Arabic/English RTL storefronts, and compliance with Kuwait's e-commerce regulations and 15% Business Profits Tax. Shopify Partner, ISO 27001 certified.",
   alternates: { canonical: "/shopify-kuwait" },
+  robots: { index: false, follow: true },
   keywords: [
     "Shopify agency Kuwait",
     "Shopify development Kuwait City",
