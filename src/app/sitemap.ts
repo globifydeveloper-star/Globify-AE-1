@@ -112,7 +112,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   // Technology pages (~40 entries)
-  const technologies = getAllTechnologies();
+  // 'shopify' is excluded: /technology/shopify 301-redirects to
+  // /shopify-development, and a redirecting URL should not be in the sitemap.
+  const technologies = getAllTechnologies().filter((tech) => tech.slug !== 'shopify');
   const techEntries = technologies.map((tech) => ({
     url: `${BASE}/technology/${tech.slug}`,
     lastModified: now,

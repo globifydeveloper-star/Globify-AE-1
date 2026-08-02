@@ -20,6 +20,7 @@ const nextConfig = {
       { source: '/shop', destination: '/services', permanent: true },
       { source: '/faq', destination: '/', permanent: true },
       { source: '/social-media-brand', destination: '/social-media-marketing', permanent: true },
+      { source: '/technology/shopify', destination: '/shopify-development', permanent: true },
     ];
   },
 };

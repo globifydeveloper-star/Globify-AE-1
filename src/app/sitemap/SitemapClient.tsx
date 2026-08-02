@@ -114,7 +114,7 @@ const sections: SitemapSection[] = [
       {
         heading: "E-Commerce",
         links: [
-          { label: "Shopify", href: "/technology/shopify" },
+          { label: "Shopify", href: "/shopify-development" },
           { label: "Magento", href: "/technology/magento" },
           { label: "WooCommerce", href: "/technology/woocommerce" },
           { label: "BigCommerce", href: "/technology/bigcommerce" },
