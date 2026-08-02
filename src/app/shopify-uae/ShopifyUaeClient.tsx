@@ -127,7 +127,7 @@ const ShopifyUae = () => {
                 We build, migrate, and scale Shopify and Shopify Plus stores for UAE brands across Dubai, Abu Dhabi, and Sharjah. Native integration with Stripe, PayTabs, Network International, CCAvenue, Tabby, Tamara, Aramex, Quiqup, full UAE VAT compliance, and bilingual Arabic and English RTL storefronts.
               </motion.p>
               <motion.div variants={fadeUp} className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-white/60">
-                {["30+ UAE Stores", "Tabby & Tamara Integrated", "Arabic + English RTL", "VAT Compliant", "Aramex & Quiqup"].map((t) => (
+                {["50+ Shopify Stores Delivered", "Tabby & Tamara Integrated", "Arabic + English RTL", "VAT Compliant", "Aramex & Quiqup"].map((t) => (
                   <span key={t} className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-primary" /> {t}</span>
                 ))}
               </motion.div>
