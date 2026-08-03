@@ -14,7 +14,7 @@ import { appendAttribution } from "@/lib/attribution";
 const offices = [
   {
     city: "UAE",
-    address: "Office 310, Al Qusais Plaza Building, Damascus Street, Qusais, Dubai UAE",
+    address: "Tradelance Global DWC-LLC, 3rd Floor, Building A3, Business Park, Dubai South, Dubai, United Arab Emirates",
     phone: "+971-547308673",
   },
   {

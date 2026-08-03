@@ -58,16 +58,21 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Globify",
+            legalName: "Tradelance Global DWC-LLC",
             image: "https://www.globify.ae/logo.png",
             url: "https://www.globify.ae",
             telephone: "+971547308673",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "Office 310, Al Qusais Plaza Building, Damascus Street, Qusais",
+              streetAddress: "3rd Floor, Building A3, Business Park, Dubai South",
               addressLocality: "Dubai",
               addressRegion: "Dubai",
               addressCountry: "AE",
             },
+            // TODO: STALE COORDINATES. These still point at the former Al
+            // Qusais office and must be replaced with the Business Park,
+            // Dubai South lat/long before this is relied on for local SEO.
+            // Deliberately not estimated.
             geo: {
               "@type": "GeoCoordinates",
               latitude: 25.2811837,

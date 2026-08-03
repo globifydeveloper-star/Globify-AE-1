@@ -17,7 +17,7 @@ const TermsOfService = () => {
           <div className="prose prose-sm max-w-none text-foreground/80 space-y-8">
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-3">1. Acceptance of Terms</h2>
-              <p className="leading-relaxed">By accessing and using the Globify website and services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our website or services. These terms apply to all visitors, users, and clients of Globify.</p>
+              <p className="leading-relaxed">By accessing and using the Globify website and services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our website or services. These terms apply to all visitors, users, and clients of Globify. Globify is a trading name of Tradelance Global DWC-LLC, a company registered in Dubai, United Arab Emirates, and references to &ldquo;Globify&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo; or &ldquo;our&rdquo; in these Terms mean that entity.</p>
             </section>
 
             <section>

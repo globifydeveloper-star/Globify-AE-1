@@ -346,7 +346,7 @@ const ShopifyUae = () => {
               },
               {
                 q: "Are you a Shopify Partner in the UAE?",
-                a: "Yes. Globify is a Shopify Partner with offices in Dubai (Al Qusais Plaza), Trivandrum (India), and Gießen (Germany). We're ISO 27001 certified for information security management, a Google Partner, and a Clutch Top Agency. We've built and scaled Shopify and Shopify Plus stores for brands including Wilson Middle East, Salomon GCC, and InstaRunway. Our UAE team handles strategy and project management; our Trivandrum team provides development capacity at competitive rates."
+                a: "Yes. Globify is a Shopify Partner with offices in Dubai (Business Park, Dubai South), Trivandrum (India), and Gießen (Germany). We're ISO 27001 certified for information security management, a Google Partner, and a Clutch Top Agency. We've built and scaled Shopify and Shopify Plus stores for brands including Wilson Middle East, Salomon GCC, and InstaRunway. Our UAE team handles strategy and project management; our Trivandrum team provides development capacity at competitive rates."
               },
             ].map((faq, i) => (
               <AccordionItem key={i} value={`faq-${i}`} className="bg-background border border-border rounded-xl px-6">

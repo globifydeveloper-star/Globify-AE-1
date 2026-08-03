@@ -62,7 +62,7 @@ const PrivacyPolicy = () => {
 
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-3">8. International Data Transfers</h2>
-              <p className="leading-relaxed">As Globify operates from India, UAE, and Germany, your data may be transferred to and processed in these countries. We ensure appropriate safeguards are in place to protect your data in compliance with applicable data protection laws.</p>
+              <p className="leading-relaxed">As Globify, a trading name of Tradelance Global DWC-LLC, operates from India, UAE, and Germany, your data may be transferred to and processed in these countries. We ensure appropriate safeguards are in place to protect your data in compliance with applicable data protection laws.</p>
             </section>
 
             <section>

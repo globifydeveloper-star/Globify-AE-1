@@ -59,7 +59,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               "logo": "https://www.globify.ae/logo.png",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Office 310, Al Qusais Plaza Building, Damascus Street, Qusais",
+                "streetAddress": "3rd Floor, Building A3, Business Park, Dubai South",
                 "addressLocality": "Dubai",
                 "addressRegion": "Dubai",
                 "addressCountry": "AE"

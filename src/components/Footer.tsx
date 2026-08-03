@@ -16,7 +16,7 @@ const offices = [
   },
   {
     city: "UAE",
-    address: "Office 310, Al Qusais Plaza Building, Damascus Street, Qusais, Dubai UAE",
+    address: "Tradelance Global DWC-LLC, 3rd Floor, Building A3, Business Park, Dubai South, Dubai, United Arab Emirates",
     phone: "+971-547308673",
   },
   {
@@ -170,7 +170,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-section-dark-foreground/10 flex flex-col md:flex-row items-center justify-between gap-4 pb-20 lg:pb-0">
           <p className="text-sm text-section-dark-foreground/30">
-            © 2026 Globify. All rights reserved.
+            © 2026 Globify, a trading name of Tradelance Global DWC-LLC. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link href="/privacy-policy" className="text-sm text-section-dark-foreground/30 hover:text-primary transition-colors">Privacy Policy</Link>

@@ -8,7 +8,7 @@ Last updated: 2026-06-06
 
 ## About Globify
 
-Globify (globify.ae) is a Shopify agency headquartered in Dubai (Al Qusais, Damascus Street), UAE, with offices in Trivandrum, India and Gießen, Germany. Founded to serve mid-market and enterprise D2C brands across the GCC, Globify has delivered 30+ UAE Shopify stores and 100+ globally, processing AED 200M+ in GMV across client storefronts.
+Globify (globify.ae) is a Shopify agency headquartered in Dubai (Business Park, Dubai South), UAE, with offices in Trivandrum, India and Gießen, Germany. Founded to serve mid-market and enterprise D2C brands across the GCC, Globify has delivered 50+ Shopify stores, processing AED 200M+ in GMV across client storefronts.
 
 Globify is a Shopify Partner agency specialising in:
 - Custom Shopify store development for UAE and GCC brands
@@ -60,11 +60,12 @@ Shopify development services for UAE-based businesses — Dubai, Abu Dhabi, Shar
 
 ## Company Information
 
-- **Headquarters:** Al Qusais Plaza, Damascus Street, Qusais, Dubai, UAE
+- **Headquarters:** 3rd Floor, Building A3, Business Park, Dubai South, Dubai, UAE
+- **Registered entity:** Tradelance Global DWC-LLC (Globify is a trading name)
 - **Additional offices:** Trivandrum, India | Gießen, Germany
 - **Website:** https://globify.ae
 - **Contact:** hello@globify.ae
-- **Shopify stores delivered:** 30+ in UAE, 100+ globally
+- **Shopify stores delivered:** 50+
 - **GMV processed:** AED 200M+
 - **Shopify Partner:** Yes (Shopify Partner Program)
 
