@@ -50,16 +50,7 @@ const MobileFloatingCTA = () => {
                   href="tel:+971547308673"
                   className="w-11 h-11 sm:w-12 sm:h-12 rounded-full bg-foreground border-2 border-hero-foreground/30 flex items-center justify-center active:opacity-80 transition-opacity flex-shrink-0"
                   aria-label="Call us"
-                 onClick={() => {
-                   trackContactClick("call", "floating");
-                   if (typeof window !== "undefined" && (window as any).gtag) {
-                     (window as any).gtag('event', 'conversion', {
-                       send_to: 'AW-17163382693/470NCM_1kqEcEKXfkfg_',
-                       value: 1.0,
-                       currency: 'AED'
-                     });
-                   }
-                 }}>
+                 onClick={() => trackContactClick("call", "floating")}>
                   <Phone className="w-5 h-5 text-background" />
                 </a>
               </div>

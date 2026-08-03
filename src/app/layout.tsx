@@ -114,16 +114,6 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','GTM-MTV5XP2P');
           `}
         </Script>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-1NB1MSL4R6" strategy="afterInteractive" />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-1NB1MSL4R6');
-            gtag('config', 'AW-17163382693');
-          `}
-        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
