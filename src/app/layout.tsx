@@ -173,6 +173,18 @@ export default function RootLayout({
                 "@type": "GeoCoordinates",
                 latitude: 25.2811837,
                 longitude: 55.3878076,
+              },
+              openingHoursSpecification: {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                ],
+                opens: "09:00",
+                closes: "18:00",
               }
             }),
           }}

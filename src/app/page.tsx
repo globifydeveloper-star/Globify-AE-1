@@ -50,50 +50,9 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            name: "Globify",
-            legalName: "Tradelance Global DWC-LLC",
-            image: "https://www.globify.ae/logo.png",
-            url: "https://www.globify.ae",
-            telephone: "+971547308673",
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: "3rd Floor, Building A3, Business Park, Dubai South",
-              addressLocality: "Dubai",
-              addressRegion: "Dubai",
-              addressCountry: "AE",
-            },
-            // TODO: STALE COORDINATES. These still point at the former Al
-            // Qusais office and must be replaced with the Business Park,
-            // Dubai South lat/long before this is relied on for local SEO.
-            // Deliberately not estimated.
-            geo: {
-              "@type": "GeoCoordinates",
-              latitude: 25.2811837,
-              longitude: 55.3878076,
-            },
-            openingHoursSpecification: {
-              "@type": "OpeningHoursSpecification",
-              dayOfWeek: [
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-              ],
-              opens: "09:00",
-              closes: "18:00",
-            },
-          }),
-        }}
-      />
-      <HomeClient />
-    </>
+    // The LocalBusiness schema lives in the root layout so it is emitted once
+    // per page sitewide. It used to be declared here as well, which meant the
+    // homepage shipped two LocalBusiness blocks for the same business.
+    <HomeClient />
   );
 }
