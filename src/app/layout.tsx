@@ -165,14 +165,10 @@ export default function RootLayout({
                 addressRegion: "Dubai",
                 addressCountry: "AE"
               },
-              // TODO: STALE COORDINATES. These still point at the former Al
-              // Qusais office and must be replaced with the Business Park,
-              // Dubai South lat/long before this is relied on for local SEO.
-              // Deliberately not estimated.
               geo: {
                 "@type": "GeoCoordinates",
-                latitude: 25.2811837,
-                longitude: 55.3878076,
+                latitude: 24.8929,
+                longitude: 55.1140,
               },
               openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
