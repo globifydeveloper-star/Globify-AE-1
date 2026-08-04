@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/shopify-plus" },
   keywords: [
     "Shopify Plus agency UAE",
-    "Shopify Plus partner Dubai",
+    "Shopify partner Dubai",
     "Shopify Plus India",
     "Shopify Plus UK",
     "Shopify Plus Netherlands",

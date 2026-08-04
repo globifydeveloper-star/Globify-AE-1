@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "shopify development Amsterdam",
     "shopify agency Netherlands",
     "shopify agency Amsterdam",
-    "shopify plus partner Netherlands",
+    "shopify partner Netherlands",
     "shopify development Rotterdam",
     "shopify development Utrecht",
     "shopify experts Netherlands",

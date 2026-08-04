@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords: [
     "web development agency UAE",
     "shopify development agency",
-    "shopify plus partner",
+    "shopify partner",
     "ecommerce agency Dubai",
     "AI automation agency",
     "ERP solutions UAE",
