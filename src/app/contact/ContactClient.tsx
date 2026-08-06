@@ -44,7 +44,7 @@ const ContactClient = () => {
         body: formData,
       });
       if (!res.ok) throw new Error("Failed to submit");
-      trackLeadSubmitted();
+      trackLeadSubmitted({ service: formData.get("interest")?.toString() });
       toast.success("Message Sent!", {
         description: "We'll be in touch within 24 hours.",
       });

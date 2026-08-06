@@ -1,5 +1,6 @@
 import { pushDataLayerEvent } from "@/lib/dataLayer";
 import { getAttribution } from "@/lib/attribution";
+import { resolveServiceRequested } from "@/lib/serviceMapping";
 
 /**
  * Domain-level tracking helpers.
@@ -30,17 +31,30 @@ const newLeadId = (): string => {
 const pagePath = (): string =>
   typeof window === "undefined" ? "" : window.location.pathname;
 
+type LeadOptions = {
+  /**
+   * The raw service label the visitor selected, where the form collects one.
+   * It is normalized before it reaches the dataLayer and never pushed as-is,
+   * so an unrecognised or free-text value becomes "other" rather than leaking.
+   */
+  service?: string | null;
+};
+
 /**
  * Fires only after /api/contact has returned a confirmed success. Must not be
  * called on click, on validation failure, on API failure, or on a thank-you
- * page load.
+ * page load. Exactly one generate_lead per completed form.
+ *
+ * Pushes no personal data. lead_id is random, page_path and landing_page are
+ * URLs, and service_requested is one of four fixed values.
  */
-export const trackLeadSubmitted = (parameters: Record<string, unknown> = {}) => {
+export const trackLeadSubmitted = ({ service }: LeadOptions = {}) => {
+  const path = pagePath();
   pushDataLayerEvent("generate_lead", {
     lead_id: newLeadId(),
-    page_path: pagePath(),
+    page_path: path,
     ...getAttribution(),
-    ...parameters,
+    service_requested: resolveServiceRequested(path, service),
   });
 };
 
