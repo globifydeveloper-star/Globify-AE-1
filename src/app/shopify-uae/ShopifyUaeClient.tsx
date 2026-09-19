@@ -26,6 +26,7 @@ import { toast } from "sonner";
 import { useRouter } from "next/navigation";
 import { trackLeadSubmitted } from "@/lib/tracking";
 import { appendAttribution } from "@/lib/attribution";
+import ShopifyClientProof from "@/components/shopify/ShopifyClientProof";
 
 const InlineLeadForm = ({ id, variant = "dark" }: { id: string; variant?: "dark" | "light" }) => {
   const router = useRouter();
@@ -127,7 +128,7 @@ const ShopifyUae = () => {
                 We build, migrate, and scale Shopify and Shopify Plus stores for UAE brands across Dubai, Abu Dhabi, and Sharjah. Native integration with Stripe, PayTabs, Network International, CCAvenue, Tabby, Tamara, Aramex, Quiqup, full UAE VAT compliance, and bilingual Arabic and English RTL storefronts.
               </motion.p>
               <motion.div variants={fadeUp} className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-white/60">
-                {["50+ Shopify Stores Delivered", "Tabby & Tamara Integrated", "Arabic + English RTL", "VAT Compliant", "Aramex & Quiqup"].map((t) => (
+                {["30+ Shopify Stores Delivered", "Tabby & Tamara Integrated", "Arabic + English RTL", "VAT Compliant", "Aramex & Quiqup"].map((t) => (
                   <span key={t} className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-primary" /> {t}</span>
                 ))}
               </motion.div>
@@ -169,7 +170,7 @@ const ShopifyUae = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
             {[
-              { val: "50+", label: "Shopify Stores Delivered" },
+              { val: "30+", label: "Shopify Stores Delivered" },
               { val: "AED 200M+", label: "GMV Processed" },
               { val: "4.9/5", label: "Client Rating" },
               { val: "Shopify", label: "Partner Agency" },
@@ -182,6 +183,8 @@ const ShopifyUae = () => {
           </div>
         </div>
       </section>
+
+      <ShopifyClientProof />
 
       <CaseStudiesSection />
       <WebDevClients />

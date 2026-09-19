@@ -47,7 +47,7 @@ const technologies: TechnologyData[] = [
       "99.99% uptime guaranteed with Shopify's cloud infrastructure",
     ],
     whyGlobify: [
-      "Certified Shopify Partner with 50+ stores launched",
+      "Certified Shopify Partner with 30+ stores launched",
       "Custom theme development matching your exact brand vision",
       "App development and third-party integration expertise",
       "Migration support from WooCommerce, Magento, or legacy platforms",

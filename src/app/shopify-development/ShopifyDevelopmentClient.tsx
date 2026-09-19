@@ -171,7 +171,7 @@ const ShopifyDevelopment = () => {
 
               {/* Trust row */}
               <motion.div variants={fadeUp} className="flex flex-wrap gap-4 text-sm text-white/60">
-                {["50+ Projects Delivered", "3x Avg Revenue Growth", "ISO 27001 Certified", "Google & Shopify Partner"].map((t) => (
+                {["30+ Shopify Projects Delivered", "3x Avg Revenue Growth", "ISO 27001 Certified", "Google & Shopify Partner"].map((t) => (
                   <span key={t} className="flex items-center gap-1.5">
                     <CheckCircle className="w-4 h-4 text-[hsl(145,60%,50%)]" /> {t}
                   </span>
@@ -229,7 +229,7 @@ const ShopifyDevelopment = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
             {[
-              { val: "50+", label: "Stores Launched" },
+              { val: "30+", label: "Stores Launched" },
               { val: "$50M+", label: "Client Revenue Generated" },
               { val: "10+", label: "Countries Served" },
               { val: "4.9/5", label: "Client Rating" },

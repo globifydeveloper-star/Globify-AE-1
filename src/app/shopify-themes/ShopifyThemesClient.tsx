@@ -13,7 +13,7 @@ import { trackLeadSubmitted } from "@/lib/tracking";
 import { appendAttribution } from "@/lib/attribution";
 
 const stats = [
-  { value: "50+", label: "Stores Designed" },
+  { value: "30+", label: "Stores Designed" },
   { value: "45%", label: "Avg Conversion Lift" },
   { value: "2.1s", label: "Avg Load Time" },
   { value: "98%", label: "Client Satisfaction" },
