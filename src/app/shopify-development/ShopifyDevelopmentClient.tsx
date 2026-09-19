@@ -30,6 +30,7 @@ import Image from "next/image";
 import { trackLeadSubmitted } from "@/lib/tracking";
 import { trackContactClick } from "@/lib/tracking";
 import { appendAttribution } from "@/lib/attribution";
+import ShopifyClientProof from "@/components/shopify/ShopifyClientProof";
 
 /* ───────── inline lead form ───────── */
 const InlineLeadForm = ({ id, variant = "dark" }: { id: string; variant?: "dark" | "light" }) => {
@@ -404,39 +405,8 @@ const ShopifyDevelopment = () => {
         </div>
       </section>
 
-      {/* ══════════ TESTIMONIALS / CASE STUDIES ══════════ */}
-      <section className="py-16 md:py-24 bg-background">
-        <div className="container mx-auto px-6">
-          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="text-center max-w-3xl mx-auto mb-14">
-            <motion.p variants={fadeUp} className="text-sm font-bold tracking-[0.2em] uppercase text-primary mb-3">Client Success</motion.p>
-            <motion.h2 variants={fadeUp} className="text-3xl md:text-4xl font-bold text-foreground">
-              What Our Clients Say
-            </motion.h2>
-          </motion.div>
-
-          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="grid md:grid-cols-3 gap-6">
-            {[
-              { quote: "Globify rebuilt our Shopify store and revenue tripled in 6 months. The ROI was undeniable — they paid for themselves in the first quarter.", name: "Sarah Al-Rashid", role: "CEO, Dubai Fashion Brand", result: "3x Revenue in 6 Months" },
-              { quote: "We migrated from WooCommerce with zero downtime. Our conversion rate jumped from 1.8% to 4.2% with the new Shopify Plus store.", name: "Rajesh Kumar", role: "CTO, Indian D2C Brand", result: "133% Conversion Increase" },
-              { quote: "The automation alone saved us 50 hours per week. We scaled from UAE to 3 new markets without adding a single operations hire.", name: "Ahmed Hassan", role: "Founder, E-Commerce Group", result: "50 hrs/week Saved" },
-            ].map((t) => (
-              <motion.div key={t.name} variants={fadeUp} className="bg-card border border-border rounded-xl p-6 flex flex-col">
-                <div className="flex gap-0.5 mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-primary text-primary" />
-                  ))}
-                </div>
-                <blockquote className="text-sm text-muted-foreground leading-relaxed flex-1">"{t.quote}"</blockquote>
-                <div className="mt-4 pt-4 border-t border-border">
-                  <p className="font-semibold text-foreground text-sm">{t.name}</p>
-                  <p className="text-xs text-muted">{t.role}</p>
-                  <p className="text-xs font-bold text-primary mt-1">{t.result}</p>
-                </div>
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
-      </section>
+      {/* ══════════ CLIENT PROOF (verified brands + Clutch reviews) ══════════ */}
+      <ShopifyClientProof />
 
       {/* ══════════ MID-PAGE CTA ══════════ */}
       <section className="py-14 md:py-20 bg-gradient-to-r from-primary to-[hsl(30,90%,45%)]">
