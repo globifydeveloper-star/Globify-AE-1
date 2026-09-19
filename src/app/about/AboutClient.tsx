@@ -52,7 +52,7 @@ const aiCredentials = [
 const teamExpertise = [
   { metric: "45+", label: "AI/ML Engineers", desc: "Specialized in TensorFlow, PyTorch, and cloud-native AI" },
   { metric: "12+", label: "Data Scientists", desc: "PhD-level expertise in statistical modeling & NLP" },
-  { metric: "8+", label: "Years in AI", desc: "Building production ML systems since 2018" },
+  { metric: "5+", label: "Years in AI", desc: "Building production ML systems since 2020" },
   { metric: "150+", label: "AI Models Deployed", desc: "Across healthcare, fintech, retail & manufacturing" },
 ];
 

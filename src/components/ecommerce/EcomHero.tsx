@@ -7,7 +7,7 @@ const stats = [
   { value: "$200M+", label: "Commerce Revenue Driven" },
   { value: "120+", label: "Stores & Marketplaces Launched" },
   { value: "45%", label: "Avg Conversion Lift" },
-  { value: "15+", label: "Years of Commerce Expertise" },
+  { value: "5+", label: "Years of Commerce Expertise" },
 ];
 
 const EcomHero = () => (

@@ -324,7 +324,7 @@ const SeoAeo = () => {
             {[
               { metric: "300+", label: "Projects Delivered" },
               { metric: "18+", label: "SEO Checks Per Audit" },
-              { metric: "12+", label: "Years of SEO Excellence" },
+              { metric: "5+", label: "Years of SEO Excellence" },
               { metric: "120+", label: "Countries Served" },
             ].map((s) => (
               <div key={s.label} className="text-center bg-white/5 border border-white/10 rounded-xl py-6 px-4">

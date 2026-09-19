@@ -31,7 +31,7 @@ const techStack = ["React", "Node.js", "PostgreSQL", "REST APIs", "Cloud Infrast
 const results = [
   { metric: "50+", label: "Clinics & Hospitals" },
   { metric: "350+", label: "Doctors Using Daily" },
-  { metric: "10+", label: "Years of Expertise" },
+  { metric: "5+", label: "Years of Expertise" },
   { metric: "99%", label: "Client Satisfaction" },
 ];
 
@@ -89,7 +89,7 @@ const CaseStudyMedoc = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 font-display">Why MEDOC HMS?</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">MEDOC HMS is India's #1 clinic management software designed for busy clinics. Staff learn the system quickly, reduce errors, and work faster without constant training. The platform maintains complete digital patient records including history, prescriptions, lab results, and treatment plans — accessible instantly during consultations.</p>
             <p className="text-muted-foreground leading-relaxed mb-4">With secure cloud-based architecture, clinics access data anytime, from anywhere. Information stays secure, backed up, and available even during power or system failures. The system provides powerful clinic management features without expensive hardware or high upfront costs — ideal for solo clinics and multi-specialty centers alike.</p>
-            <p className="text-muted-foreground leading-relaxed">With 10+ years of experience building clinic management software for real-world Indian healthcare workflows, MEDOC is designed to reduce daily operational load and improve patient care.</p>
+            <p className="text-muted-foreground leading-relaxed">With experience since 2020 building clinic management software for real-world Indian healthcare workflows, MEDOC is designed to reduce daily operational load and improve patient care.</p>
           </motion.div>
         </div></div>
       </section>
