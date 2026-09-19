@@ -14,7 +14,7 @@ import { appendAttribution } from "@/lib/attribution";
 
 const stats = [
   { value: "300+", label: "AI-Powered Retail Projects" },
-  { value: "$200M+", label: "Revenue Engineered" },
+  { value: "$175M+", label: "Revenue Engineered" },
   { value: "3.2x", label: "Avg Conversion Lift" },
   { value: "45%", label: "Customer Retention Gain" },
 ];

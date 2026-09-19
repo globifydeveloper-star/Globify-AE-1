@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: {
     absolute: "Web Development, Shopify & AI Agency UAE, India & Global | Globify",
   },
-  description: "Globify is a 360° digital agency for global brands. Web development, Shopify and Shopify Plus, AI automation, ERP, and performance marketing. Offices in Dubai, Kerala, and Germany. 300+ projects, 3x average revenue growth, ISO 27001 certified.",
+  description: "Globify is a 360° digital agency for global brands. Web development, Shopify and Shopify Plus, AI automation, ERP, and performance marketing. Offices in Dubai, Kerala, and Germany. 170+ projects, 3x average revenue growth, ISO 27001 certified.",
   keywords: [
     "web development agency UAE",
     "shopify development agency",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Globify — Web, Shopify & AI Agency for Global Brands",
-    description: "360° digital agency for brands in UAE, India, UK, Netherlands, Australia, and beyond. Web development, Shopify Plus, AI automation, ERP. 300+ projects launched, ISO 27001 certified.",
+    description: "360° digital agency for brands in UAE, India, UK, Netherlands, Australia, and beyond. Web development, Shopify Plus, AI automation, ERP. 170+ projects launched, ISO 27001 certified.",
     url: "https://www.globify.ae",
     type: "website",
     locale: "en_AE",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Globify — Web, Shopify & AI Agency",
-    description: "360° digital agency for global brands. Web, Shopify Plus, AI, ERP. 300+ projects, 3x revenue growth.",
+    description: "360° digital agency for global brands. Web, Shopify Plus, AI, ERP. 170+ projects, 3x revenue growth.",
   },
   icons: {
     icon: [

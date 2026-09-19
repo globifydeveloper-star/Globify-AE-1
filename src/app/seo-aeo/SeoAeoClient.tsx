@@ -322,7 +322,7 @@ const SeoAeo = () => {
  
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="grid md:grid-cols-4 gap-6 mb-14">
             {[
-              { metric: "300+", label: "Projects Delivered" },
+              { metric: "170+", label: "Projects Delivered" },
               { metric: "18+", label: "SEO Checks Per Audit" },
               { metric: "5+", label: "Years of SEO Excellence" },
               { metric: "120+", label: "Countries Served" },

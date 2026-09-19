@@ -11,9 +11,9 @@ import agencyImg from "@/assets/agency-services.jpg";
 import Image from "next/image";
 
 const stats = [
-  { value: "300+", label: "AI-Powered Transformations" },
+  { value: "170+", label: "AI-Powered Transformations" },
   { value: "60%", label: "Avg Cost Reduction" },
-  { value: "$200M+", label: "Revenue Engineered" },
+  { value: "$175M+", label: "Revenue Engineered" },
   { value: "10+", label: "Countries Served" },
 ];
 
@@ -122,7 +122,7 @@ const AboutUs = () => {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-orange-300">Digital Transformation</span>
               </h1>
               <p className="text-hero-foreground/50 text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
-                Globify is an AI-first technology company that combines machine learning, automation, and strategic consulting to deliver measurable business outcomes. 300+ transformations. $200M+ revenue engineered. 10+ countries.
+                Globify is an AI-first technology company that combines machine learning, automation, and strategic consulting to deliver measurable business outcomes. 170+ transformations. $175M+ revenue engineered. 10+ countries.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button onClick={() => openContactDialog()} className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-full font-semibold text-sm hover:bg-primary/90 transition-all hover:gap-3">
@@ -323,7 +323,7 @@ const AboutUs = () => {
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="p-5 rounded-2xl border border-hero-foreground/[0.06] hover:border-primary/20 transition-all">
-                    <div className="text-2xl font-bold text-primary mb-1">300+</div>
+                    <div className="text-2xl font-bold text-primary mb-1">170+</div>
                     <div className="text-xs font-semibold text-hero-foreground/70">Projects Delivered</div>
                     <div className="text-[11px] text-hero-foreground/30 mt-1">Web, mobile & commerce</div>
                   </div>

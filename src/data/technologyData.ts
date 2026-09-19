@@ -303,7 +303,7 @@ const technologies: TechnologyData[] = [
       "No vendor lock-in, complete ownership of your content and data",
     ],
     whyGlobify: [
-      "200+ WordPress projects delivered across industries",
+      "57 WordPress projects delivered across industries",
       "Custom theme and plugin development",
       "Headless WordPress with React/Next.js frontends",
       "Performance optimization achieving 95+ PageSpeed scores",

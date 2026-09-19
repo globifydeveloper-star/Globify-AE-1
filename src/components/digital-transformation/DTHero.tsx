@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle2, Shield, Award, Star } from "lucide-react";
 
 const stats = [
-  { value: "300+", label: "Transformations Delivered" },
+  { value: "170+", label: "Transformations Delivered" },
   { value: "10+", label: "Countries Served" },
   { value: "45%", label: "Avg Efficiency Gain" },
   { value: "98%", label: "Client Satisfaction" },

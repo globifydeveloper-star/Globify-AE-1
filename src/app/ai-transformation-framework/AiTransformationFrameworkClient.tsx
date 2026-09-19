@@ -76,7 +76,7 @@ const faq = [
   { question: "What industries benefit most from AI transformation?", answer: "Healthcare, fintech, retail, manufacturing, supply chain, and SaaS companies see the highest ROI. However, any mid-size or enterprise business with manual processes, data silos, or growth ambitions benefits significantly from AI-driven transformation." },
   { question: "How much does digital transformation cost?", answer: "Investment varies by scope, from focused AI automation projects starting at $25K to enterprise-wide transformation programs. Every engagement starts with a free digital maturity audit that includes a clear ROI projection, so you can see the expected return before committing." },
   { question: "Do we need to replace our existing systems?", answer: "No. Our approach is integration-first, not rip-and-replace. We connect AI capabilities with your existing ERP, CRM, and legacy systems through APIs and middleware, maximizing the value of your current technology investments." },
-  { question: "What makes Globify different from consulting firms?", answer: "Unlike traditional consultants who deliver slide decks, we execute end-to-end, from strategy through implementation to ongoing optimization. We're an ISO-certified, Google/Microsoft/Shopify partner with proprietary platforms (EKASYS, MEDOC) and 300+ successful transformations." },
+  { question: "What makes Globify different from consulting firms?", answer: "Unlike traditional consultants who deliver slide decks, we execute end-to-end, from strategy through implementation to ongoing optimization. We're an ISO-certified, Google/Microsoft/Shopify partner with proprietary platforms (EKASYS, MEDOC) and 170+ successful transformations." },
 ];
 
 const AITransformationFramework = () => {
@@ -103,7 +103,7 @@ const AITransformationFramework = () => {
                 With AI
               </h1>
               <p className="text-hero-foreground/50 text-base sm:text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
-                Our 5-phase AI transformation methodology has delivered 300+ successful transformations, reducing costs by 60%, automating 80% of manual work, and engineering measurable revenue growth for enterprises across the UAE and globally.
+                Our 5-phase AI transformation methodology has delivered 170+ successful transformations, reducing costs by 60%, automating 80% of manual work, and engineering measurable revenue growth for enterprises across the UAE and globally.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
                 <button onClick={openContactDialog} className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-full font-semibold text-sm hover:bg-primary/90 transition-all hover:gap-3">
@@ -114,7 +114,7 @@ const AITransformationFramework = () => {
                 </Link>
               </div>
               <div className="flex flex-wrap gap-6 justify-center">
-                {[{ icon: Shield, label: "ISO 9001 Certified" }, { icon: Award, label: "Google & Microsoft Partner" }, { icon: Star, label: "300+ Transformations" }].map((b) => (
+                {[{ icon: Shield, label: "ISO 9001 Certified" }, { icon: Award, label: "Google & Microsoft Partner" }, { icon: Star, label: "170+ Transformations" }].map((b) => (
                   <span key={b.label} className="flex items-center gap-2 text-xs text-hero-foreground/40">
                     <b.icon className="w-4 h-4 text-primary" /> {b.label}
                   </span>

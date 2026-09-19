@@ -165,7 +165,7 @@ const MagentoDevelopment = () => {
 
             <motion.div initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.4, duration: 0.7 }} className="hidden lg:grid grid-cols-2 gap-4">
               {[
-                { value: "100+", label: "Magento Projects Delivered", icon: ShoppingCart },
+                { value: "7", label: "Magento Projects Delivered", icon: ShoppingCart },
                 { value: "10M+", label: "Products Managed", icon: Database },
                 { value: "99.9%", label: "Uptime Guarantee", icon: Server },
                 { value: "B2B+B2C", label: "Full Commerce Coverage", icon: Users },
@@ -186,7 +186,7 @@ const MagentoDevelopment = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
             {[
-              { val: "100+", label: "Magento Stores" },
+              { val: "7", label: "Magento Stores" },
               { val: "$80M+", label: "Client Revenue Processed" },
               { val: "10M+", label: "Products Managed" },
               { val: "4.9/5", label: "Client Rating" },

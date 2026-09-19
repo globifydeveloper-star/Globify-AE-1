@@ -155,7 +155,7 @@ const WixEcommerce = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
             {[
-              { val: "120+", label: "Wix Projects Delivered" },
+              { val: "23", label: "Wix Projects Delivered" },
               { val: "$10M+", label: "Client Revenue Generated" },
               { val: "15+", label: "Countries Served" },
               { val: "4.7/5", label: "Client Rating" },

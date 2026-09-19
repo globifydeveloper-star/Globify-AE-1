@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "About Globify — AI Transformation & Digital Commerce Leaders",
-  description: "Globify delivers AI-powered digital transformation, ML engineering, and revenue optimization. 300+ transformations, $200M+ revenue engineered across 10+ countries.",
+  description: "Globify delivers AI-powered digital transformation, ML engineering, and revenue optimization. 170+ transformations, $175M+ revenue engineered across 10+ countries.",
   alternates: { canonical: "https://www.globify.ae/about" },
 };
 

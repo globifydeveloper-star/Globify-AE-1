@@ -4,13 +4,13 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
 const stats = [
-  { value: 300, suffix: "+", label: "Transformations Delivered", desc: "Across AI, ERP, commerce & cloud" },
+  { value: 170, suffix: "+", label: "Transformations Delivered", desc: "Across AI, ERP, commerce & cloud" },
   { value: 50, suffix: "+", label: "Enterprise Clients", desc: "UAE, India & global markets" },
   { value: 60, suffix: "%", label: "Avg Cost Reduction", desc: "Through AI & automation" },
-  { value: 200, suffix: "M+", label: "Revenue Engineered", desc: "For clients via digital platforms" },
+  { value: 175, prefix: "$", suffix: "M+", label: "Revenue Engineered", desc: "For clients via digital platforms" },
 ];
 
-const Counter = ({ value, suffix }: { value: number; suffix: string }) => {
+const Counter = ({ value, prefix = "", suffix }: { value: number; prefix?: string; suffix: string }) => {
   const [count, setCount] = useState(value); // Initialize with final value for SEO
   const ref = useRef<HTMLDivElement>(null);
   const hasAnimated = useRef(false);
@@ -43,7 +43,7 @@ const Counter = ({ value, suffix }: { value: number; suffix: string }) => {
 
   return (
     <span ref={ref} className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-foreground">
-      {count}{suffix}
+      {prefix}{count}{suffix}
     </span>
   );
 };
@@ -79,7 +79,7 @@ const StatsSection = () => {
               {/* Hover glow */}
               <div className="absolute -inset-4 bg-primary/5 rounded-2xl opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-500" />
               <div className="relative">
-                <Counter value={stat.value} suffix={stat.suffix} />
+                <Counter value={stat.value} prefix={stat.prefix} suffix={stat.suffix} />
                 <h3 className="font-semibold text-base mt-3 mb-1">{stat.label}</h3>
                 <p className="text-sm text-muted-foreground">{stat.desc}</p>
               </div>

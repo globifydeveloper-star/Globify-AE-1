@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 const stats = [
-  { value: "500+", label: "Digital Platforms Delivered" },
+  { value: "170+", label: "Digital Platforms Delivered" },
   { value: "40+", label: "Countries Served" },
   { value: "98%", label: "Client Retention" },
   { value: "3.2x", label: "Avg Conversion Improvement" },

@@ -159,7 +159,7 @@ const Resources = () => {
               <span className="text-hero-foreground/30">Transformation</span>
             </h1>
             <p className="text-lg text-hero-foreground/60 max-w-xl leading-relaxed">
-              Data-backed strategies, frameworks, and real-world results from 300+ digital transformations across AI, automation, commerce, and enterprise tech.
+              Data-backed strategies, frameworks, and real-world results from 170+ digital transformations across AI, automation, commerce, and enterprise tech.
             </p>
           </motion.div>
 

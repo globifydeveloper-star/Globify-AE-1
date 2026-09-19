@@ -296,7 +296,7 @@ const SEOContentStrategy = () => {
               { metric: "Free", label: "Instant Scan" },
               { metric: "150+", label: "SEO Checks" },
               { metric: "AEO", label: "Readiness Included" },
-              { metric: "300+", label: "Projects Delivered" },
+              { metric: "170+", label: "Projects Delivered" },
             ].map((s) => (
               <div key={s.label} className="text-center bg-white/5 border border-white/10 rounded-xl py-6 px-4">
                 <p className="text-2xl font-bold text-primary mb-1">{s.metric}</p>
