@@ -16,7 +16,7 @@ const clients = [
   { name: "Salomon", logo: salomonLogo },
   { name: "Wilson", logo: wilsonLogo },
   { name: "InstaRunway", logo: instarunwayLogo },
-  { name: "ISRO", logo: isroLogo },
+  { name: "VSSC (ISRO)", logo: isroLogo },
   { name: "Moher", logo: moherLogo },
   { name: "Moto Avenue", logo: motoavenueLogo },
   { name: "MR START", logo: mrStartLogo },

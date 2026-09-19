@@ -16,7 +16,7 @@ const clients = [
   { name: "Salomon", logo: salomonLogo },
   { name: "Wilson", logo: wilsonLogo },
   { name: "InstaRunway", logo: instarunwayLogo },
-  { name: "ISRO", logo: isroLogo },
+  { name: "VSSC (ISRO)", logo: isroLogo },
   { name: "Moher", logo: moherLogo },
   { name: "Moto Avenue", logo: motoavenueLogo },
   { name: "MR START", logo: mrStartLogo },
@@ -31,6 +31,9 @@ const ClientsSection = () => {
       <div className="container mx-auto px-6 mb-8">
         <p className="text-center text-base font-bold tracking-widest uppercase text-muted-foreground">
           Trusted by Leading Brands Worldwide
+        </p>
+        <p className="text-center text-xs text-muted-foreground/70 mt-3">
+          Space sector work delivered for Vikram Sarabhai Space Centre (VSSC), an ISRO establishment.
         </p>
       </div>
       {/* Mobile: static grid */}
