@@ -11,6 +11,7 @@ import WebDevClients from "@/components/web-dev/WebDevClients";
 import { motion } from "framer-motion";
 import { ArrowRight, Search, FileText, Link2, MapPin, TrendingUp, BarChart3, CheckCircle2, Bot, MessageSquare, Zap, Globe, BrainCircuit, Layers, ExternalLink, Rocket, Target, Star, Settings, Brain } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { COMPANY_STATS } from "@/data/companyStats";
 
 const stats = [
   { value: "300%", label: "Avg Organic Traffic Increase" },
@@ -296,7 +297,7 @@ const SEOContentStrategy = () => {
               { metric: "Free", label: "Instant Scan" },
               { metric: "150+", label: "SEO Checks" },
               { metric: "AEO", label: "Readiness Included" },
-              { metric: "170+", label: "Projects Delivered" },
+              { metric: COMPANY_STATS.projectsDelivered.value, label: COMPANY_STATS.projectsDelivered.label },
             ].map((s) => (
               <div key={s.label} className="text-center bg-white/5 border border-white/10 rounded-xl py-6 px-4">
                 <p className="text-2xl font-bold text-primary mb-1">{s.metric}</p>

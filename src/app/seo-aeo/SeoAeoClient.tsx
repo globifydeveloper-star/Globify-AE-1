@@ -25,6 +25,7 @@ import { toast } from "sonner";
 import { useRouter } from "next/navigation";
 import { trackLeadSubmitted } from "@/lib/tracking";
 import { appendAttribution } from "@/lib/attribution";
+import { COMPANY_STATS } from "@/data/companyStats";
 
 const fadeUp = { hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6 } } };
 const stagger = { visible: { transition: { staggerChildren: 0.1 } } };
@@ -322,7 +323,7 @@ const SeoAeo = () => {
  
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="grid md:grid-cols-4 gap-6 mb-14">
             {[
-              { metric: "170+", label: "Projects Delivered" },
+              { metric: COMPANY_STATS.projectsDelivered.value, label: COMPANY_STATS.projectsDelivered.label },
               { metric: "18+", label: "SEO Checks Per Audit" },
               { metric: "5+", label: "Years of SEO Excellence" },
               { metric: "120+", label: "Countries Served" },

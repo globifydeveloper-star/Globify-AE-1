@@ -48,6 +48,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { appendAttribution } from "@/lib/attribution";
 import { trackLeadSubmitted } from "@/lib/tracking";
+import { COMPANY_STATS } from "@/data/companyStats";
 
 const services = [
   {
@@ -153,10 +154,10 @@ const strategies = [
 
 
 const stats = [
-  { value: "170+", label: "Projects Delivered" },
-  { value: "98%", label: "Client Satisfaction" },
+  COMPANY_STATS.projectsDelivered,
+  COMPANY_STATS.clientSatisfaction,
   { value: "50M+", label: "Users Impacted" },
-  { value: "5+", label: "Years Experience" },
+  COMPANY_STATS.yearsOperating,
 ];
 
 const faqs = [

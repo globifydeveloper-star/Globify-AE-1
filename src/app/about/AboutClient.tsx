@@ -9,12 +9,13 @@ import Link from 'next/link';
 import CrossLinkSection from "@/components/CrossLinkSection";
 import agencyImg from "@/assets/agency-services.jpg";
 import Image from "next/image";
+import { COMPANY_STATS } from "@/data/companyStats";
 
 const stats = [
   { value: "170+", label: "AI-Powered Transformations" },
   { value: "60%", label: "Avg Cost Reduction" },
   { value: "$175M+", label: "Revenue Engineered" },
-  { value: "10+", label: "Countries Served" },
+  COMPANY_STATS.countriesServed,
 ];
 
 const aiServices = [
