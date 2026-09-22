@@ -50,6 +50,7 @@ import { appendAttribution } from "@/lib/attribution";
 import { trackLeadSubmitted } from "@/lib/tracking";
 import { COMPANY_STATS } from "@/data/companyStats";
 
+import ClutchProof from "@/components/ClutchProof";
 const services = [
   {
     icon: Globe,
@@ -657,26 +658,9 @@ const ServicesPage = () => {
               viewport={{ once: true }}
               className="relative"
             >
-              <div className="p-8 rounded-2xl bg-white/[0.04] border border-white/[0.08] relative">
-                <MessageSquareQuote className="w-10 h-10 text-primary/30 mb-6" />
-                <p className="text-white/70 text-lg leading-relaxed mb-8 italic">
-                  "Globify transformed our entire digital presence. Our e-commerce revenue increased by 340% within 6 months, and the custom ERP system reduced our operational costs by 45%."
-                </p>
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
-                    RK
-                  </div>
-                  <div>
-                    <p className="text-white font-semibold text-sm">Rajesh Kumar</p>
-                    <p className="text-white/40 text-xs">CTO, InstaRunway</p>
-                  </div>
-                  <div className="ml-auto flex gap-0.5">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-primary text-primary" />
-                    ))}
-                  </div>
-                </div>
-              </div>
+              {/* Previously a testimonial attributed to "Rajesh Kumar, CTO, InstaRunway", which
+                  was not a real person. Replaced with the verified Clutch profile. */}
+              <ClutchProof variant="dark" />
               {/* Background decoration */}
               <div className="absolute -top-4 -right-4 w-full h-full rounded-2xl border border-primary/10 -z-10" />
             </motion.div>

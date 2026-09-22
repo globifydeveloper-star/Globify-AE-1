@@ -145,17 +145,12 @@ const CaseStudyMedoc = () => {
         </div>
       </section>
 
-      {/* Testimonial */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-6">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="max-w-2xl mx-auto text-center">
-            <div className="flex justify-center gap-1 mb-4">{[...Array(5)].map((_, i) => <Star key={i} className="w-5 h-5 fill-primary text-primary" />)}</div>
-            <p className="text-lg text-foreground/80 leading-relaxed italic mb-6">"MEDOC HMS transformed how we run our multi-specialty clinic. From appointment booking to billing and lab reports — everything is paperless now. Our staff efficiency improved dramatically and patient wait times dropped by 40%."</p>
-            <p className="font-semibold text-foreground">Dr. Rajesh Kumar</p>
-            <p className="text-sm text-muted-foreground">Medical Director, Multi-Specialty Clinic</p>
-          </motion.div>
-        </div>
-      </section>
+      {/* TODO: CLIENT TESTIMONIAL PENDING.
+          The previous testimonial was attributed to "Dr. Rajesh Kumar, Medical
+          Director, Multi-Specialty Clinic", who is not a real, identifiable client.
+          Removed rather than replaced: the verified Clutch reviewers are retail and
+          fashion clients, so quoting them on a healthcare case study would be
+          misleading. Awaiting a real MEDOC client quote. */}
 
       {/* CTA */}
       <section className="py-20 bg-[#0a0a1a]">
