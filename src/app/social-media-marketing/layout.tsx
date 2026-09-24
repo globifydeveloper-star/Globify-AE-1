@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Social Media Marketing Agency | UAE, India, UK, EU, AU, ZA",
-    description: "Full-service social media: content, community, influencer, paid social. ROI-driven campaigns on Instagram, TikTok, LinkedIn, Meta. 300+ brands served.",
+    description: "Full-service social media: content, community, influencer, paid social. ROI-driven campaigns on Instagram, TikTok, LinkedIn, Meta. 100+ brands served.",
     url: "https://www.globify.ae/social-media-marketing",
     type: "website",
     locale: "en_AE",

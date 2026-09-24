@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Mobile App Development Agency — iOS, Android, React Native & Flutter",
-  description: "Custom mobile app development for brands in UAE, Saudi Arabia, India, UK, Netherlands, Australia, and South Africa. Native iOS and Android, cross-platform React Native and Flutter, enterprise mobility, and MVP-to-scale builds. 300+ apps launched, ISO 27001 certified.",
+  description: "Custom mobile app development for brands in UAE, Saudi Arabia, India, UK, Netherlands, Australia, and South Africa. Native iOS and Android, cross-platform React Native and Flutter, enterprise mobility, and MVP-to-scale builds. 170+ apps launched, ISO 27001 certified.",
   keywords: [
     "mobile app development agency UAE",
     "app development Dubai",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Mobile App Development Agency | UAE, India, UK, EU, AU, ZA",
-    description: "Custom iOS, Android, React Native, and Flutter app development for global brands. Enterprise mobility, MVP-to-scale builds. 300+ apps launched, ISO 27001 certified.",
+    description: "Custom iOS, Android, React Native, and Flutter app development for global brands. Enterprise mobility, MVP-to-scale builds. 170+ apps launched, ISO 27001 certified.",
     url: "https://www.globify.ae/app-development",
     type: "website",
     locale: "en_AE",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Mobile App Development Agency | Globify",
-    description: "Custom iOS, Android, React Native, Flutter apps for global brands. 300+ launched, ISO 27001 certified.",
+    description: "Custom iOS, Android, React Native, Flutter apps for global brands. 170+ launched, ISO 27001 certified.",
   },
 };
 

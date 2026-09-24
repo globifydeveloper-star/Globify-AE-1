@@ -76,7 +76,7 @@ const CTASection = () => {
                 and outperform?
               </h2>
               <p className="text-white/50 max-w-lg text-base sm:text-lg font-light">
-                Join 300+ enterprises that have transformed operations, cut costs by 60%, and engineered predictable revenue growth with Globify's AI-powered solutions.
+                Join 100+ enterprises that have transformed operations, cut costs by 60%, and engineered predictable revenue growth with Globify's AI-powered solutions.
               </p>
             </div>
             <button onClick={openContactDialog}>

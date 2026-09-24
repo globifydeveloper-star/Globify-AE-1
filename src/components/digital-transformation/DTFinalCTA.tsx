@@ -14,7 +14,7 @@ const DTFinalCTA = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-orange-300">Your Business?</span>
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-10 max-w-xl mx-auto">
-            Join 300+ businesses that have partnered with Globify to modernize operations, automate workflows, and accelerate growth.
+            Join 100+ businesses that have partnered with Globify to modernize operations, automate workflows, and accelerate growth.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#lead-capture" className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-full font-semibold text-sm hover:bg-primary/90 transition-all hover:gap-3">
