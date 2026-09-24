@@ -13,8 +13,7 @@ import { appendAttribution } from "@/lib/attribution";
 
 
 const stats = [
-  { value: "300+", label: "AI-Powered Retail Projects" },
-  { value: "$175M+", label: "Revenue Engineered" },
+  { value: "170+", label: "AI-Powered Retail Projects" },
   { value: "3.2x", label: "Avg Conversion Lift" },
   { value: "45%", label: "Customer Retention Gain" },
 ];
@@ -30,7 +29,7 @@ const solutions = [
 
 const whyGlobify = [
   { icon: TrendingUp, title: "Revenue Engineering Mindset", desc: "Every AI model and automation is optimized for revenue impact, conversion lift, AOV increase, and customer lifetime value growth." },
-  { icon: Brain, title: "Retail AI at Scale", desc: "We've deployed AI personalization, demand forecasting, and dynamic pricing across 300+ retail brands with proven ROI." },
+  { icon: Brain, title: "Retail AI at Scale", desc: "We've deployed AI personalization, demand forecasting, and dynamic pricing across 170+ retail brands with proven ROI." },
   { icon: Users, title: "AI-Enhanced Shopper UX", desc: "Intelligent interfaces that predict what shoppers want before they search — visual search, smart filters, and conversational commerce." },
   { icon: Zap, title: "Rapid AI Deployment", desc: "Launch AI-powered features in weeks with pre-trained retail models, proven recommendation engines, and battle-tested architectures." },
   { icon: BarChart3, title: "Predictive Analytics Dashboard", desc: "Real-time revenue intelligence, AI-powered demand sensing, and predictive inventory alerts that prevent stockouts and overstock." },

@@ -3,11 +3,12 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
-const stats = [
+type Stat = { value: number; prefix?: string; suffix: string; label: string; desc: string };
+
+const stats: Stat[] = [
   { value: 170, suffix: "+", label: "Transformations Delivered", desc: "Across AI, ERP, commerce & cloud" },
-  { value: 50, suffix: "+", label: "Enterprise Clients", desc: "UAE, India & global markets" },
+  { value: 100, suffix: "+", label: "Enterprise Clients", desc: "UAE, India & global markets" },
   { value: 60, suffix: "%", label: "Avg Cost Reduction", desc: "Through AI & automation" },
-  { value: 175, prefix: "$", suffix: "M+", label: "Revenue Engineered", desc: "For clients via digital platforms" },
 ];
 
 const Counter = ({ value, prefix = "", suffix }: { value: number; prefix?: string; suffix: string }) => {

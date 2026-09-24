@@ -169,7 +169,6 @@ const ShopifySouthAfrica = () => {
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
             {[
               { val: "30+", label: "Stores Launched" },
-              { val: "ZAR 100M+", label: "GMV Processed" },
               { val: "Local", label: "Strategy Experts" },
               { val: "4.9/5", label: "Client Rating" },
               { val: "Shopify", label: "Partner Agency" },

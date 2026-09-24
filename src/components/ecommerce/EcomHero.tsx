@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 const stats = [
-  { value: "$200M+", label: "Commerce Revenue Driven" },
+  { value: "AED 20M+", label: "GMV across managed GCC stores" },
   { value: "120+", label: "Stores & Marketplaces Launched" },
   { value: "45%", label: "Avg Conversion Lift" },
   { value: "5+", label: "Years of Commerce Expertise" },

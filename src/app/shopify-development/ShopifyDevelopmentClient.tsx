@@ -230,7 +230,7 @@ const ShopifyDevelopment = () => {
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
             {[
               { val: "30+", label: "Stores Launched" },
-              { val: "$50M+", label: "Client Revenue Generated" },
+              { val: "AED 20M+", label: "GMV across managed GCC stores" },
               { val: "10+", label: "Countries Served" },
               { val: "4.9/5", label: "Client Rating" },
               { val: "98%", label: "Client Retention" },

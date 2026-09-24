@@ -14,7 +14,6 @@ import { COMPANY_STATS } from "@/data/companyStats";
 const stats = [
   { value: "170+", label: "AI-Powered Transformations" },
   { value: "60%", label: "Avg Cost Reduction" },
-  { value: "$175M+", label: "Revenue Engineered" },
   COMPANY_STATS.countriesServed,
 ];
 
@@ -67,7 +66,7 @@ const transformationMetrics = [
 ];
 
 const whyTrust = [
-  { icon: Award, title: "AI-First Track Record", desc: "300+ AI-powered transformations across healthcare, fintech, retail, and manufacturing — with measurable ROI on every engagement." },
+  { icon: Award, title: "AI-First Track Record", desc: "170+ AI-powered transformations across healthcare, fintech, retail, and manufacturing — with measurable ROI on every engagement." },
   { icon: Shield, title: "Enterprise-Grade Security", desc: "ISO 27001 certified, SOC 2 compliant — ensuring data protection, model governance, and responsible AI deployment." },
   { icon: Brain, title: "Deep AI Expertise", desc: "45+ ML engineers and data scientists with expertise in LLMs, computer vision, predictive analytics, and intelligent automation." },
   { icon: Handshake, title: "Strategic AI Partnerships", desc: "Google Cloud AI Partner, AWS ML Competency, Microsoft AI Partner — access to cutting-edge models and infrastructure." },
@@ -123,7 +122,7 @@ const AboutUs = () => {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-orange-300">Digital Transformation</span>
               </h1>
               <p className="text-hero-foreground/50 text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
-                Globify is an AI-first technology company that combines machine learning, automation, and strategic consulting to deliver measurable business outcomes. 170+ transformations. $175M+ revenue engineered. 10+ countries.
+                Globify is an AI-first technology company that combines machine learning, automation, and strategic consulting to deliver measurable business outcomes. 170+ transformations. 10+ countries.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button onClick={() => openContactDialog()} className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-full font-semibold text-sm hover:bg-primary/90 transition-all hover:gap-3">

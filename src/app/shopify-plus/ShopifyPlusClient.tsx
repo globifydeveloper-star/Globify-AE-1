@@ -13,7 +13,7 @@ import { trackLeadSubmitted } from "@/lib/tracking";
 import { appendAttribution } from "@/lib/attribution";
 
 const stats = [
-  { value: "$500M+", label: "GMV Managed" },
+  { value: "AED 20M+", label: "GMV across managed GCC stores" },
   { value: "40+", label: "Plus Stores" },
   { value: "99.99%", label: "Uptime" },
   { value: "< 200ms", label: "API Response" },

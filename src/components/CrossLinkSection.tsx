@@ -35,7 +35,7 @@ const allLinks: Record<string, CrossLinkItem> = {
   // Shopify sub-pages
   "shopify-dev": { icon: ShoppingCart, title: "Shopify Development", desc: "Conversion-focused Shopify stores with CRO, automation, and omnichannel growth strategies.", href: "/shopify-development", metric: "3x Revenue Growth" },
   "shopify-themes": { icon: Palette, title: "Shopify Themes", desc: "Bespoke Shopify storefronts designed for conversions, mobile-first, brand-aligned, sub-2s load.", href: "/shopify-themes", metric: "45% Conversion Lift" },
-  "shopify-plus": { icon: Rocket, title: "Shopify Plus", desc: "Enterprise Shopify Plus and headless commerce for high-growth brands doing $1M+ annually.", href: "/shopify-plus", metric: "$500M+ GMV" },
+  "shopify-plus": { icon: Rocket, title: "Shopify Plus", desc: "Enterprise Shopify Plus and headless commerce for high-growth brands doing $1M+ annually.", href: "/shopify-plus", metric: "AED 20M+ GMV" },
   "shopify-apps": { icon: Code2, title: "Shopify App Development", desc: "Custom Shopify apps and integrations, inventory, analytics, loyalty, and checkout extensions.", href: "/shopify-app-development", metric: "80+ Apps Built" },
   // Sub-service pages
   "ai-chatbots": { icon: MessageSquare, title: "AI Chatbots", desc: "Intelligent conversational AI for customer support, sales, and lead qualification.", href: "/ai-chatbots", metric: "82% Auto-Resolution" },
